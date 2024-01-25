@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Final Amount</title>
+		<link rel="SHORTCUT ICON" href="assets/images/favicon.ico">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge ">
+		<meta name="description" content="Your page description goes here">
+		<meta name="keywords" content="keywords">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+		<link rel="stylesheet" href="assets/css/bootstrap.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+
+		<script src="assets/js/jquery.js"></script>
+	</head>
+	<body class="inside">  
+		<!--.master-->
+		<!-- Start masthead-->
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2 col-sm-2"> 
+						<h1><a href="#"><img src="assets/images/logo.png" alt="BOI AXA" title="BOI AXA"></a></h1>
+					</div>
+					<div class="col-md-10 col-sm-10">
+						<div class="rightTop">
+							<ul class="innerLink"> 
+								<li> <a>Our Story</a></li>
+								<li><a>Our Products</a></li>
+								<li><a>New to Mutual Funds</a></li>
+								<li><a>Investor Corner</a></li>
+							</ul>
+							<ul class="toplink">
+								<li> <span class="icon-call-icon"></span></li>
+								<li> <span>(Toll Free) 1800-103-2263 /</span></li>
+								<li><span>&nbsp;1800-266-2676</span></li>
+							</ul>
+							<div class="headerSearch">
+								<button type="button" class="searchBtn searchIco icon-bluesearchicon"></button>
+								<div class="searcontainer">
+									<input type="text" placeholder="search here">
+								</div>
+							</div>
+						</div>
+						<div class="rightBottom"> 
+							<div class="navigation">
+								<ul>
+									<li><a href="javascript:void(0)">Equity Funds<span class="icon icon-equityicon"></span></a>
+										<ul class="submenu"><span class="menuClose icon-closebtn"></span>
+											<li><a href="#">BOI AXA Equity Fund</a></li>
+											<li><a href="#">BOI AXA Tax Advantage Fund</a></li>
+											<li><a href="#">BOI AXA Manufacturing and Infrastructure Fund</a></li>
+										</ul>
+									</li>
+									<li><a href="javascript:void(0)">Hybrid Funds<span class="icon icon-hybridicon"></span></a>
+										<ul class="submenu"><span class="menuClose icon-closebtn"></span>
+											<li><a href="#">BOI AXA Regular Return Fund</a></li>
+											<li><a href="#">BOI AXA Equity Debt Rebalancer Fund</a></li>
+											<li><a href="#">BOI AXA MID CAP Equity and Debt Fund</a></li>
+										</ul>
+									</li>
+									<li><a href="javascript:void(0)">Debt Funds<span class="icon icon-debticon"></span></a>
+										<ul class="submenu"><span class="menuClose icon-closebtn"></span>
+											<li><a href="#">BOI AXA Treasury advantage fund</a></li>
+											<li><a href="#">BOI AXA liquid fund</a></li>
+											<li><a href="#">BOI AXA short term income fund</a></li>
+											<li><a href="#">BOI AXA corporate credit spectrum fund</a></li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+							<div class="transact"><a href="#">Invest Now </a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="loader"></div>
+		<div class="menu">
+			<div class="nav-icon2"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+		</div>
+		<div class="overlay"></div>
+		<div class="overlay2"></div>
+		<div class="mobileMenuSec">
+			<ul>
+				<li><a href="#">Our Story<span class="icon icon-ourstoryicon"></span></a>
+					<ul class="mobiSubmenu">
+						<li><a href="#"></a></li>
+					</ul>
+				</li>
+				<li><a href="#">Our Products<span class="icon icon-ourproducticon"></span></a>
+					<ul class="mobiSubmenu">
+						<li><a href="#"></a></li>
+					</ul>
+				</li>
+				<li><a href="#">New to Mutual FUnds<span class="icon icon-mficon"></span></a>
+					<ul class="mobiSubmenu">
+						<li><a href="#"></a></li>
+					</ul>
+				</li>
+				<li><a href="#">Investor Cornor<span class="icon icon-investorcornor"></span></a>
+				</li>
+				<li><a href="#">1800-103-2263 / 1800-266-2676<span class="icon icon-call-icon"></span></a>
+				</li>
+				<li><a href="#">Branch Locator<span class="icon icon-branchicon"></span></a>
+				</li>
+				<li><a href="#">Invest Now<span class="icon icon-investor"></span></a>
+				</li>
+			</ul>
+		</div>
+		<!-- End masthead-->
+		<div class="wrapper-content"> 
+			<div class="container">
+				<ul class="breadcrumb">
+					<li><a href="#">Home </a></li>
+					<li><a href="#">Final Amount</a></li>
+				</ul>
+			</div>
+			<div class="finalAmtWrap">
+				<div class="innerBanner"> <img src="assets/images/finalAmt-banner.jpg" alt="finalAmt-banner"></div>
+				<div class="sipCalcWrap">
+					<div class="container">
+						<h2 class="headerTitle">Calculate your SIP</h2>
+						<div class="sipTabWrapper">
+							<ul class="tabLink">
+								<li><a href="#" rel="1" class="active">Future Value Calculator </a></li>
+								<li><a href="#" rel="2">Monthly SIP Amount Calculator </a></li>
+							</ul>
+							<div class="sipTabContentWrap">
+								<div class="tabContent">
+									<div class="maturityBlock">
+										<form name="emiForm" class="emicalc">
+											<div class="row">
+												<div class="calcList clearfix">
+													<div class="col-sm-4">
+														<label>Monthly SIP Amount</label>
+														<div class="textBlock"><span class="rupee">`</span>
+															<input type="tel" name="sipam" maxlength="11" placeholder="Enter Amount" value="10,000" class="inputText required numbersField Mamount1">
+															<div class="error">Please enter value.</div>
+														</div>
+													</div>
+													<div class="col-sm-4">
+														<label>Tenure for which you would like to invest</label>
+														<div class="textBlock">
+															<select class="selectText Mamount2">
+																<option>Select Year</option>
+																<option value="1">1 year</option>
+																<option value="2">2 year</option>
+																<option value="3">3 year</option>
+																<option value="4">4 year</option>
+																<option value="5" selected>5 year</option>
+																<option value="6">6 year</option>
+																<option value="7">7 year</option>
+																<option value="8">8 year</option>
+																<option value="9">9 year</option>
+																<option value="10">10 year</option>
+																<option value="11">11 year</option>
+																<option value="12">12 year</option>
+																<option value="13">13 year</option>
+																<option value="14">14 year</option>
+																<option value="15">15 year</option>
+																<option value="16">16 year</option>
+																<option value="17">17 year</option>
+																<option value="18">18 year</option>
+																<option value="19">19 year</option>
+																<option value="20">20 year</option>
+																<option value="21">21 year</option>
+																<option value="22">22 year</option>
+																<option value="23">23 year</option>
+																<option value="24">24 year</option>
+																<option value="25">25 year</option>
+																<option value="26">26 year</option>
+																<option value="27">27 year</option>
+																<option value="28">28 year</option>
+																<option value="29">29 year</option>
+																<option value="30">30 year</option>
+															</select>
+															<div class="error">Please enter value.</div>
+														</div>
+													</div>
+													<div class="col-sm-4">
+														<label>Expected Rate of Return</label>
+														<div class="textBlock">
+															<select class="selectText Mamount3">
+																<option>Select interest rate</option>
+																<option value="1">1 %</option>
+																<option value="2">2 %</option>
+																<option value="3">3 %</option>
+																<option value="4">4 %</option>
+																<option value="5">5 %</option>
+																<option value="6">6 %</option>
+																<option value="7">7 %</option>
+																<option value="8">8 %</option>
+																<option value="9">9 %</option>
+																<option value="10">10 %</option>
+																<option value="11">11 %</option>
+																<option value="12" selected>12 %</option>
+																<option value="13">13 %</option>
+																<option value="14">14 %</option>
+																<option value="15">15 %</option>
+																<option value="16">16 %</option>
+																<option value="17">17 %</option>
+																<option value="18">18 %</option>
+																<option value="19">19 %</option>
+																<option value="20">20 %</option>
+																<option value="21">21 %</option>
+																<option value="22">22 %</option>
+																<option value="23">23 %</option>
+																<option value="24">24 %</option>
+																<option value="25">25 %</option>
+															</select>
+															<div class="error">Please enter value.</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-12">
+													<div class="amtBlock clearfix">
+														<div class="firstDiv">
+															<p class="Result">Your Total invested amount</p>
+															<div class="amt"><span class="rupee">`</span><span class="inputValue"> 10,000</span></div>
+														</div>
+														<div class="secondDiv">
+															<p class="Result">Future Value of your Investments</p>
+															<div class="amt"><span class="rupee">`</span><span class="finalamt maturitAmnt"> 1,00,000</span></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+								<div class="tabContent">
+									<div class="emiBlock">
+										<form name="emiForm" class="emicalc">
+											<div class="row calcList">
+												<div class="col-sm-4">
+													<label>Your Target Amount (<span class="rupee">`</span>)</label>
+													<div class="textBlock"><span class="rupee">`</span>
+														<input type="tel" name="sipam" placeholder="Enter Amount" maxlength="11" value="50,00,000" class="inputText numberOnly amount1">
+														<div class="error">Please enter value.</div>
+													</div>
+												</div>
+												<div class="col-sm-4">
+													<label>Your SIP Duration: </label>
+													<div class="textBlock">
+														<select class="selectText amount2">
+															<option>Select year</option>
+															<option value="1">1 year</option>
+															<option value="2">2 year</option>
+															<option value="3">3 year</option>
+															<option value="4">4 year</option>
+															<option value="5" selected>5 year</option>
+															<option value="6">6 year</option>
+															<option value="7">7 year</option>
+															<option value="8">8 year</option>
+															<option value="9">9 year</option>
+															<option value="10">10 year</option>
+															<option value="11">11 year</option>
+															<option value="12">12 year</option>
+															<option value="13">13 year</option>
+															<option value="14">14 year</option>
+															<option value="15">15 year</option>
+															<option value="16">16 year</option>
+															<option value="17">17 year</option>
+															<option value="18">18 year</option>
+															<option value="19">19 year</option>
+															<option value="20">20 year</option>
+															<option value="21">21 year</option>
+															<option value="22">22 year</option>
+															<option value="23">23 year</option>
+															<option value="24">24 year</option>
+															<option value="25">25 year</option>
+															<option value="26">26 year</option>
+															<option value="27">27 year</option>
+															<option value="28">28 year</option>
+															<option value="29">29 year</option>
+															<option value="30">30 year</option>
+														</select>
+														<div class="error">Please enter value.</div>
+													</div>
+												</div>
+												<div class="col-sm-4">
+													<label>Expected Rate of Return (%)</label>
+													<div class="textBlock">
+														<select class="selectText amount3">
+															<option>Select interest rate</option>
+															<option value="1">1 %</option>
+															<option value="2">2 %</option>
+															<option value="3">3 %</option>
+															<option value="4">4 %</option>
+															<option value="5">5 %</option>
+															<option value="6">6 %</option>
+															<option value="7">7 %</option>
+															<option value="8">8 %</option>
+															<option value="9">9 %</option>
+															<option value="10">10 %</option>
+															<option value="11">11 %</option>
+															<option value="12">12 %</option>
+															<option value="13">13 %</option>
+															<option value="14">14 %</option>
+															<option value="15" selected>15 %</option>
+															<option value="16">16 %</option>
+															<option value="17">17 %</option>
+															<option value="18">18 %</option>
+															<option value="19">19 %</option>
+															<option value="20">20 %</option>
+															<option value="21">21 %</option>
+															<option value="22">22 %</option>
+															<option value="23">23 %</option>
+															<option value="24">24 %</option>
+															<option value="25">25 %</option>
+														</select>
+														<div class="error">Please enter value.</div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-12">
+													<div class="amtBlock clearfix">
+														<div class="firstDiv">
+															<p class="Result">To reach the target amount of  </p>
+															<div class="amt"><span class="rupee">`</span><span class="mValue"> 10,000</span></div>
+														</div>
+														<div class="secondDiv">
+															<p class="Result">You need to invest (per month)</p>
+															<div class="amt"><span class="rupee">`</span><span class="emiAmnt"> </span></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="benfitWrap">
+					<div class="container">
+						<h2 class="headerTitle">Benefits of SIP</h2>
+						<div class="row">
+							<div class="col-sm-6 col-xs-12">
+								<div class="block">
+									<div class="iconContent affordableIcon">
+										<h2>Affordable</h2>
+										<ul>
+											<li>You decide how much to invest.</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-xs-12">
+								<div class="block">
+									<div class="iconContent convenientIcon">
+										<h2>Convenient</h2>
+										<ul>
+											<li>You can simply provide a one-time instruction to your bank to invest a pre-determined amount of money regularly towards your SIP contribution.</li>
+											<li>Multiple payment options:Auto Debit, NACH, PDC.</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-xs-12">
+								<div class="block">
+									<div class="iconContent powerIcon">
+										<h2>Power of compounding</h2>
+										<ul>
+											<li>Early and regular investing over a long time horizon helps to create wealth through compounding of returns.</li>
+											<li>You can start with a small sum as the key is not the size of the initial investment but the duration of investment.</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-xs-12">
+								<div class="block">
+									<div class="iconContent averageIcon"> 
+										<h2>Rupee cost averaging</h2>
+										<ul>
+											<li>It essentially helps you buy less when the markets are expensive and buy more when the markets are cheap.</li>
+											<li>Rupee cost averaging works out best in choppy markets.					</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12"><a href="https://boiaxamf.com/sip-shield" target="_blank"><img src="assets/images/banner-sml.jpg" alt="banner-sml"></a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Start footer-->
+		<footer>
+			<div class="footerContainer">
+				<div class="container">
+					<div class="row">
+						<div class="footerinner clearfix">
+							<div class="col-md-6">
+								<div class="mobileFooterMenu mobileMenu">Menu</div>
+								<div class="footerCol">
+									<ul>
+										<li> <a href="#">Careers</a></li>
+										<li><a href="#">Sitemap</a></li>
+										<li><a href="#"> NAV History</a></li>
+										<li><a href="#">Risk Factors</a></li>
+										<li><a href="#">Privacy Policy</a></li>
+										<li><a href="#">T&C</a></li>
+										<li><a href="#">Disclaimer</a></li>
+										<li><a href="#" class="feedback">Feedback</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="mailService">
+									<h5>BOI AXA Helpline :</h5>
+									<p> <span>1800 - 103 - 2263 (Toll Free) / </span><span>020 - 40112300 / </span><a href="mailto:service@boiaxa-im.com">service@boiaxa-im.com</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="footerinner clearfix">
+							<div class="col-md-5">
+								<div class="mailService">
+									<h3><a href="">Mail-Back Services</a></h3>
+								</div>
+							</div>
+							<div class="col-md-7">
+								<div class="mobileFooterMenu mobileMenu">Visit our Group Sites :</div>
+								<div class="footerCol">
+									<h3>Visit our Group Sites :</h3>
+									<ul>
+										<li> <a href="http://www.bankofindia.co.in/english/home.aspx" target="_blank">Bank of India</a></li>
+										<li><a href="https://www.axa-im.com/en/" target="_blank">AXA IM</a></li>
+										<li><a href="https://www.axa.com/" target="_blank">AXA Group</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="copyrightText txt2">
+							<p>MUTUAL FUND INVESTMENTS ARE SUBJECT TO MARKET RISKS, READ ALL SCHEME RELATED DOCUMENTS CAREFULLY.</p>
+						</div>
+					</div>
+					<div class="row footerbottom clearfix">
+						<div class="col-md-12">
+							<div class="copyrightText">
+								<p>© Copyright BOI AXA Investment Managers Private Limited, 2012. All Rights Reserved. Compliance with KYC norms is mandatory for investing in Mutual Funds.E-mail:<a href="mailto:service@boiaxa-im.com">service@boiaxa-im.com</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</footer><a href="http://boiaxa.idealake.com/" class="investnow">invest now     </a>
+		<!-- End footer-->
+		<!-- Start footer-->
+		<script src="assets/js/vendor.js"></script>
+		<script src="assets/js/final-amount.js"></script>
+		
+		<script src="assets/js/custom.js"></script>
+		<script>Modernizr.Detectizr.detect({detectScreen: true})</script>
+		<!-- End footer-->
+	</body>
+</html>

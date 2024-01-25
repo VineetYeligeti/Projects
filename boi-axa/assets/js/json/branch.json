@@ -1,0 +1,40 @@
+[{
+     "city": "Mumbai",
+     "title": "Mumbai Branch 1",
+     "address": "Address Mumbai 1",
+     "phone": "+022 1122 1212",
+     "lat": 19.0362001,
+     "lng": 72.787828
+ },
+ {
+     "city": "Kolkata",
+     "title": "BOI AXA Investment Managers Branches",
+     "address": "Cabin 06, Block - A, 8th Floor, Apeejay House, 15 Park Street, Kolkata - 700 016.",
+     "phone": "033 6509 0990.",
+     "lat": 22.593202,
+     "lng": 87.360055
+ },
+ {
+     "city": "Kolkata",
+     "title": "Karvy Computer Share Private Limited Branches",
+     "address": "Apeejay House ( Beside Park Hotel ), 15 Park Street , C Block , 3rd Floor , Kolkata-700016 , West Bengal , India.",
+     "phone": "033 6509 0991.",
+     "lat": 22.841454,
+     "lng": 88.756579
+},
+ {
+     "city": "Delhi",
+     "title": "Delhi Branch 1",
+     "address": "Address Delhi 1",
+     "phone": "+022 5555 1211",
+     "lat": 28.621240,
+     "lng": 77.222163
+},
+ {
+     "city": "Hyderabad",
+     "title": "Hyderabad Branch 1",
+     "address": "Address Hyderabad 1",
+     "phone": "+022 8888 1211",
+     "lat": 17.841454,
+     "lng": 77.956579
+}]
