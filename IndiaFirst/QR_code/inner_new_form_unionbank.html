@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>QR Code - iflwebportal - Indiafirstlife</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge ">
+    <meta name="description"
+        content="Online Term Plan - Buy Term Insurance Plan Online from IndiaFirst Life &amp; Protect your family financially with a 50 Lakh cover at Rs.8/day. Buy now!">
+    <meta name="keywords" content="keywords">
+    <meta name="viewport" content="width=device-width, height=device-height,initial-scale=1.0,maximum-scale=1.0">
+    <link rel="icon" href="images/favicon.ico" type="image/gif">
+    <link rel="stylesheet" href="css/style_new.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<body>
+    <section id="content">
+        <div class="interactionWrap" id="indiafirst-FormDetails">
+            <div class="pageWrapper">
+                <header class="page-header">
+                    <div class="container"> <img src="images/indiafirst-logo-banofbaroda.png" alt="BOB logo" width="323px">
+                    </div>
+                </header>
+                <section class="qr-form">
+                    <form name="qrForm" id="qrForm" modelAttribute="callback" action="#" method="post"></form>
+                    <div class="container">
+                        <p class="form-title">Share the following details to help us serve you better!</p>
+                        <div class="form-wrap">
+                            <div class="form-inner-wrap">
+                                <div class="form-control">
+                                    <img src="images/security.svg" class="field-icon"> <select class="selectDefault gpp"
+                                        name="_com_ifl_qrcode_iflQrCodePortlet_INSTANCE_DdzkPK8chYn4_gpp" id="gpp"
+                                        required="required" onChange=removeOptions()>
+                                        <option value="" selected style="display: none">Choose Your Life Goal*</option>
+                                        <option value="Plan Your Childs Future">Plan Your Childs Future</option>
+                                        <option value="Plan Your Retirement">Plan Your Retirement</option>
+                                        <option value="Plan For Protection">Plan For Protection</option>
+                                        <option value="Plan To Save Tax">Plan To Save Tax</option>
+                                        <option value="Plan For Savings">Plan For Savings</option>
+                                    </select>
+                                    <div class="ifl-error"></div>
+                                </div>
+                                <div class="form-inner-wrap selectSalutewrapp">
+                                    <div class="form-control"><img src="images/mr.svg" class="field-icon">
+                                        <select class="selectDefault suffix"
+                                            name="_com_ifl_qrcode_iflQrCodePortlet_INSTANCE_DdzkPK8chYn4_SalutationName"
+                                            id="SalutationName" required="required">
+                                            <option value="" selected style="display: none">Salutation*</option>
+                                            <option value="Mr">Mr.</option>
+                                            <option value="Mrs">Mrs.</option>
+                                            <option value="Ms">Ms.</option>
+                                            <option value="DR">DR.</option>
+                                            <option value="Mx">Mx.</option>
+                                        </select>
+                                        <div class="ifl-error"></div>
+                                    </div><br>
+                                    <div class="form-control"><img src="images/name.svg" class="field-icon"> <input
+                                            type="text"
+                                            name="_com_ifl_qrcode_iflQrCodePortlet_INSTANCE_DdzkPK8chYn4_FirstName"
+                                            id="FirstName" data-validation="require" value="" maxlength="30"
+                                            placeholder="First Name*" class="inputDefault firstname">
+                                        <div class="ifl-error"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-inner-wrap">
+                                <div class="form-control">
+                                    <img src="images/name.svg" class="field-icon">
+                                    <input type="text"
+                                        name="_com_ifl_qrcode_iflQrCodePortlet_INSTANCE_DdzkPK8chYn4_LastName"
+                                        id="LastName" data-validation="require" value="" maxlength="30"
+                                        placeholder="Last Name*" class="inputDefault lastname">
+                                    <div class="ifl-error"></div>
+                                </div>
+                                <div class="form-control no-pr"><img src="images/mobile.svg" class="field-icon">
+                                    <input type="text"
+                                        name="_com_ifl_qrcode_iflQrCodePortlet_INSTANCE_DdzkPK8chYn4_MobileNo"
+                                        id="MobileNo" data-validation="require" value="" placeholder="Mobile Number*"
+                                        maxlength="10" class="inputDefault mobile">
+                                    <div class="ifl-error"></div>
+                                </div>
+                            </div>
+                            <div class="form-inner-wrap">
+                                <div class="form-control">
+                                    <img src="images/email.svg" class="field-icon">
+                                    <input type="email"
+                                        name="_com_ifl_qrcode_iflQrCodePortlet_INSTANCE_DdzkPK8chYn4_Email" id="Email"
+                                        data-validation="require" value="" placeholder="Email Address*"
+                                        class="inputDefault email">
+                                    <div class="ifl-error"></div>
+                                </div>
+                                <div class="form-control no-pr"><img src="images/ifsc.svg" class="field-icon">
+
+                                    <!-- QR CODE PHASE 2 -->
+
+                                    <input type="text"
+                                        name="_com_ifl_qrcode_iflQrCodePortlet_INSTANCE_DdzkPK8chYn4_IFSC" id="IFSC"
+                                        onchange="getBranchCode()" data-validation="require" value=""
+                                        placeholder="Branch IFSC Code*" class="inputDefault ifsc"><a
+                                        href="javascript:void(0)" class="tooltip-link ifsc-info"><img
+                                            src="images/tooltip.svg" class="tooltip"><span class="tooltiptext">IFSC code
+                                            is the Indian Financial
+                                            System Code of the branch you have visited. Request you to reach out to the
+                                            respective branch employee, in case of any further assistance.</span></a>
+                                    <div class="ifl-error ifsc-error"></div>
+
+
+
+                                </div>
+                            </div>
+                            <!-- Sonita Ann Koshy-part2 changes -->
+                            <div class="form-inner-wrap" id="dummyHide">
+                                <div class="form-control">
+                                    <img src="images/name.svg" class="field-icon">
+                                    <select class="selectDefault lgname"
+                                        name="_com_ifl_qrcode_iflQrCodePortlet_INSTANCE_DdzkPK8chYn4_LGName" id="LGName"
+                                        required="required" onChange="update_lgsp()"
+                                        style="white-space: nowrap; text-overflow: ellipsis;">
+                                        <option value="" selected style="display: none">Branch Representative's Name*
+                                        </option>
+                                    </select>
+                                    <div class="ifl-error"></div>
+                                </div>
+                                <!-- Sonita Ann Koshy-part2 changes -->
+                                <div class="form-control no-pr"><img src="images/security.svg" class="field-icon">
+                                    <select class="selectDefault p"
+                                        name="_com_ifl_qrcode_iflQrCodePortlet_INSTANCE_DdzkPK8chYn4_ProductName"
+                                        id="ProductName" onclick="get_product()"
+                                        placeholder="Select Product( Optional )">
+                                        <option value="" selected style="display: none">Select Product(Optional)
+                                        </option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-inner-wrap" style="display:none">
+                                <div class="form-control">
+                                    <img src="images/security.svg" class="field-icon">
+                                    <input type="text"
+                                        name="_com_ifl_qrcode_iflQrCodePortlet_INSTANCE_DdzkPK8chYn4_LGCode" id="LGCode"
+                                        data-validation="require" value="" placeholder="LG Code" Code"
+                                        class="inputDefault LGCode" readonly>
+                                    <div class="ifl-error"></div>
+                                </div>
+                                <div class="form-control no-pr"><img src="images/name.svg" class="field-icon">
+                                    <div class="form-control-inner-wrap">
+                                        <div class="form-control less-width">
+                                            <input type="text"
+                                                name="_com_ifl_qrcode_iflQrCodePortlet_INSTANCE_DdzkPK8chYn4_SPName"
+                                                id="SPName" data-validation="require" value="" placeholder="SP Name"
+                                                class="inputDefault SPName" readonly>
+                                            <div class="ifl-error"></div>
+                                        </div>
+                                        <div class="form-control"><img src="images/security.svg" class="field-icon">
+                                            <input type="text"
+                                                name="_com_ifl_qrcode_iflQrCodePortlet_INSTANCE_DdzkPK8chYn4_SPCode"
+                                                id="SPCode" data-validation="require" value="" placeholder="SP Code"
+                                                class="inputDefault SPCode" readonly>
+                                            <div class="ifl-error"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="display:none">
+                                <div class="form-control">
+                                    <img src="images/name.svg" class="field-icon">
+                                    <input type="text" class="inputDefault BranchCode"
+                                        name="_com_ifl_qrcode_iflQrCodePortlet_INSTANCE_DdzkPK8chYn4_BranchCode"
+                                        placeholder="Branch Code" id="BranchCode" value="" readonly></input>
+                                    <div class="ifl-error"></div>
+                                </div>
+                            </div>
+                            <input style="display:none" type="text"
+                                name="_com_ifl_qrcode_iflQrCodePortlet_INSTANCE_DdzkPK8chYn4_ChannelCode"
+                                id="ChannelCode" data-validation="require" value="" placeholder="ChannelCode"
+                                class="inputDefault ChannelCode" readonly>
+                            <input style="display:none" type="text"
+                                name="_com_ifl_qrcode_iflQrCodePortlet_INSTANCE_DdzkPK8chYn4_CreatedBy" id="CreatedBy"
+                                data-validation="require" value="" placeholder="CreatedBy"
+                                class="inputDefault CreatedBy" readonly>
+                            <input style="display:none" type="text"
+                                name="_com_ifl_qrcode_iflQrCodePortlet_INSTANCE_DdzkPK8chYn4_LGNameOnly" id="LGNameOnly"
+                                data-validation="require" value="" placeholder="LGNameOnly"
+                                class="inputDefault LGNameOnly" readonly>
+
+                            <div class="CheckBoxfield">
+                                <p class="checkBox">
+                                    <input id="authorize" type="checkbox" autocomplete="off" name="authorize">
+                                    <label for="authorize">I authorize IndiaFirst Life to
+                                        contact me overriding my registry on NDNC.</label>
+                                <p class="authorizeError" id="autherror"
+                                    style="display: none; font-size: 12px; color: #D9251C; margin-top: 0; position: relative; padding-left: 22px;">
+                                    * This is a mandatory field</p>
+                                </p>
+                            </div>
+                            <div class="btnWrap">
+                                <button class="btn btn-primary submit-btn openModal" onclick="sendData()">Submit<img
+                                        src="images/arrow.svg"></button>
+                            </div>
+                            <div class="pdfWrapp">
+                                <a class="productpdf" href="javascript:;"> <span>Download the </span>Product PDF <img src="images/download_pdf.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <input name="selected" type="hidden" value=""
+                        id="_com_ifl_qrcode_iflQrCodePortlet_INSTANCE_DdzkPK8chYn4_selected" /> </form>
+                </section>
+                <section class="disclaimer bg-color innerpageQR-des">
+                    <div class="container">
+                        <p>Disclaimer :</p>
+                        <ul class="disclaimer-list">
+                            <li class="list-item">IndiaFirst Life Insurance Company Limited. All rights reserved.</li>
+                            <li class="list-item">Reg. Off: 12th and 13th Floor, North [C] wing, Tower 4, Nesco IT Park,
+                                Nesco
+                                Center, Western Express Highway, Goregaon (East), Mumbai 400063.</li>
+                            <li class="list-item">IRDAI Regd. No. 143 | CIN:
+                                U66010MH2008PLC183679</li>
+                            <li class="list-item">Trade logo displayed above belongs to our promoters M/s Bank of Baroda
+                                and
+                                are
+                                used by IndiaFirst Life Insurance Co. Ltd under License.</li>
+                            <li class="list-item">For more details on risk factors, associated terms and conditions and
+                                exclusions please read the product brochure before concluding a sale.</li>
+                            <li class="list-item">BEWARE OF SPURIOUS/FRAUD PHONE CALLS</li>
+                            <li class="list-item">IRDAI is not involved in activities like selling insurance policies,
+                                announcing bonus or investment of premiums. Public receiving such phone calls are
+                                requested
+                                to
+                                lodge a police complaint.
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!-- <div class="alert alert-info">Node: ifl-prd-portal-gce-lin-app1:8090</div> -->
+    </section>
+
+ <script src="js/custom.js"></script>
+
+</body>
+
+</html>

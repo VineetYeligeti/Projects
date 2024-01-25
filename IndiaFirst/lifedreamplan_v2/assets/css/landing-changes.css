@@ -1,0 +1,65 @@
+.cp-tab.type2 .nav-item:nth-child(1) {
+    left: -80px;
+    top: 30px;
+}
+
+.cp-tab.type2 .nav-item:nth-child(1) .icon {
+    position: absolute;
+    top: 55px;
+    left: 45px;
+}
+.cp-tab.type2 .nav-item:nth-child(2) {
+    right: -94px;
+    top: 355px;
+}
+.eligibilityWrap .cp-tab .nav-tabs { width: 100%; padding: 0 5rem 1rem;}
+.yourLovedOneSec .LHs {
+    width: 60%;
+    /* padding-left: 13%; */
+}
+.yourLovedOneSec .RHs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    max-width: 690px;
+    position: absolute;
+    right: -20%;
+}
+.keyfeatureWrap .short-desc { padding-right: 17px;}
+.buyOnlineWrap .list-item .list-titile {  padding-top: 3rem; }
+.yourPerferredWrap .leftBlock .imgPosition { width: 100%;    z-index: 9;}
+.yourPerferredWrap .mCustomScrollbar .mCSB_scrollTools {
+    right: 30%
+}
+.yourPerferredWrap .rightBlock .preferedChoiceList li {    width: 43rem; }
+.BenefitWrap {
+     position: relative;
+}
+.yourLovedOneSec .RHs {  right: 0;}
+.yourLovedOneSec { /* width: 100vw; */}
+
+.articleCard .cardMiddle h3 {
+
+    /* min-height: 40px; */
+  
+}
+.buyOnlineWrap .list-item .icon {   padding-top: 4rem} line 5238
+.cp-tab .nav-item {  /* width: 33%; */}
+
+@media only screen and (max-width: 991px){
+.yourLovedOneSec .RHs {
+    width: 100%;
+    position: relative;
+    max-width: 100%;
+    right: 0;
+    flex-direction: column;
+}
+.yourPerferredWrap .rightBlock { position: relative;}
+}
+@media only screen and (max-width: 767px){
+    .eligibilityWrap .tablewrap {
+        overflow: auto;
+    }
+.eligibilityWrap .cp-tab {padding: 0; }
+}

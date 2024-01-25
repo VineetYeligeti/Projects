@@ -1,0 +1,97 @@
+.luxuryHomes {
+    width: 100vw;
+    height: 100vh;
+    background-color: #7d1543;
+    border-bottom: 10px solid #b8a478;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    transition: all .5s ease-in-out;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.luxuryHomes.scaleIn{
+    transition: all 1s ease-in-out;
+    transform: scale(1);
+    opacity: 1;
+}
+.luxuryContainer{
+    width: 840px;
+    min-height: 530px;
+    margin: 0 auto;
+}
+.imgWrap{
+    display:flex;
+    position: relative;
+    margin-top: 40px;
+}
+.area{
+    height: 299px;    opacity: 0.3;
+}
+.art{
+height: 530px;
+}
+.pillar{
+    position: relative;
+    top: -29px;
+    z-index: 0;
+    left: -18px;
+}
+.face{
+    height: 200px;
+    position: absolute;
+    right: -65px;
+    bottom: 120px;
+}
+.luxuryTxt{
+    height: 251px;
+    position: absolute;
+    left: -156px;
+    bottom: 100px;    z-index: 99;
+}
+.homes2{
+    height: 56px;
+    position: absolute;
+    left: 130px;
+    bottom: 80px;
+}
+.lpicCoin{
+    position: absolute;
+    left: -166px;
+    top: 65px;
+    height: 99px;
+}
+.imgWrap ul{
+    margin-top: 44px;
+}
+
+.imgWrap ul li{
+    color: #ad9b75;
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: arial;
+    line-height: 30px;
+}
+.statuee{
+    height: 357px;
+    position: absolute;
+    z-index: 9;
+    left: 45%;
+    top: 12%;
+}
+.txttt{
+    height: 171px;
+    position: absolute;
+    right: -21%;
+    top: 8%;
+}
+.picBldg{
+    position: absolute;
+    left: 25%;
+    top: 22%;
+}

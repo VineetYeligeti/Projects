@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'LinotypeVAGRoundedStdBold_0';
+    src: url('fonts/LinotypeVAGRoundedStdBold_0.eot');
+    src: url('fonts/LinotypeVAGRoundedStdBold_0.eot') format('embedded-opentype'),
+         url('fonts/LinotypeVAGRoundedStdBold_0.woff2') format('woff2'),
+         url('fonts/LinotypeVAGRoundedStdBold_0.woff') format('woff'),
+         url('fonts/LinotypeVAGRoundedStdBold_0.ttf') format('truetype'),
+         url('fonts/LinotypeVAGRoundedStdBold_0.svg#LinotypeVAGRoundedStdBold_0') format('svg');
+}
+
+@font-face {
+    font-family: 'LinotypeVAGRoundedStdLight';
+    src: url('fonts/LinotypeVAGRoundedStdLight.eot');
+    src: url('fonts/LinotypeVAGRoundedStdLight.eot') format('embedded-opentype'),
+         url('fonts/LinotypeVAGRoundedStdLight.woff2') format('woff2'),
+         url('fonts/LinotypeVAGRoundedStdLight.woff') format('woff'),
+         url('fonts/LinotypeVAGRoundedStdLight.ttf') format('truetype'),
+         url('fonts/LinotypeVAGRoundedStdLight.svg#LinotypeVAGRoundedStdLight') format('svg');
+}
+@font-face {
+    font-family: 'Whitney-book';
+    src: url('fonts/whitneybook.eot');
+    src: url('fonts/whitneybook.eot') format('embedded-opentype'),
+         url('fonts/whitneybook.woff2') format('woff2'),
+         url('fonts/whitneybook.woff') format('woff'),
+         url('fonts/whitneybook.ttf') format('truetype'),
+         url('fonts/whitneybook.svg#whitneybook') format('svg');
+}
+@font-face {
+    font-family: 'Whitney-bold';
+    src: url('fonts/whitneybold.eot');
+    src: url('fonts/whitneybold.eot') format('embedded-opentype'),
+         url('fonts/whitneybold.woff2') format('woff2'),
+         url('fonts/whitneybold.woff') format('woff'),
+         url('fonts/whitneybold.ttf') format('truetype'),
+         url('fonts/whitneybold.svg#whitneybold') format('svg');
+}

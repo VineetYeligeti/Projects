@@ -1,0 +1,16 @@
+<div class="dobWrap">
+    <h6>Date of Birth</h6>
+    <ul class="dobList clearfix">
+        <li>
+            <input type="tel" ng-model="birthdate" placeholder="DD" maxlength="2" name="bdate" numbers-only ng-keyup="checkDate($event)" ng-blur="roundDate('birthdate');checkDate($event)" min="1" max="31" class="birthDay"><span hidden class="errorTxt">Please, enter days  between 1 to 31</span>
+        </li>
+        <li>
+            <input type="tel" ng-model="birthmonth" placeholder="MM" maxlength="2" name="bmonth" numbers-only ng-keyup="checkDate($event)" ng-blur="roundDate('birthmonth');checkDate($event)" min="1" max="12" class="birthMonth"><span hidden class="errorTxt">Please, enter months in between 1 to 12</span>
+        </li>
+        <li>
+            <input type="tel" ng-model="birthyear" numbers-only ng-keyup="checkDate($event)" placeholder="YYYY" maxlength="4" name="byear" min="{{maxAge}}" max="{{minAge}}" class="birthYear" ng-blur="checkDate($event)">
+            <span hidden class="errorTxt ng-binding">Please, enter years in between {{maxAge}} to {{minAge}} </span>
+        </li>
+    </ul><span ng-show="!validDate" class="finalError">{{invalidmsg}}</span>
+    <p ng-show="validAge" class="finalAge">{{agemsg}}</p>
+</div>

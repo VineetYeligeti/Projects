@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?l40ci0');
+  src:  url('fonts/icomoon.eot?l40ci0#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?l40ci0') format('truetype'),
+    url('fonts/icomoon.woff?l40ci0') format('woff'),
+    url('fonts/icomoon.svg?l40ci0#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-5-million-live-insured:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-Apply-now-arrow:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon-Gender-Female:before {
+  content: "\e902";
+  color: #6f767b;
+}
+.icon-Gender-Male:before {
+  content: "\e903";
+  color: #fff;
+}
+.icon-Gender-Others:before {
+  content: "\e904";
+  color: #6f767b;
+}
+.icon-Get-Quote-arrow:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-Get-Quote:before {
+  content: "\e906";
+}
+.icon-Hear-from-our-customers-left-arrow:before {
+  content: "\e907";
+  color: #b2b2b2;
+}
+.icon-Hear-from-our-customers-right-arrow:before {
+  content: "\e908";
+  color: #154d83;
+}
+.icon-Play-button:before {
+  content: "\e909";
+  color: #fff;
+}
+.icon-Play1:before {
+  content: "\e90a";
+  color: #fff;
+}
+.icon-Quts:before {
+  content: "\e90b";
+  color: #2aace3;
+}
+.icon-Quts-1:before {
+  content: "\e90c";
+  color: #2aace3;
+}
+.icon-Scrolldwn .path1:before {
+  content: "\e90d";
+  color: rgb(0, 174, 239);
+}
+.icon-Scrolldwn .path2:before {
+  content: "\e90e";
+  margin-left: -0.548828125em;
+  color: rgb(0, 66, 126);
+}
+.icon-Scrolldwn .path3:before {
+  content: "\e90f";
+  margin-left: -0.548828125em;
+  color: none;
+}
+.icon-Smoking-habits-No:before {
+  content: "\e910";
+  color: #fff;
+}
+.icon-Smoking-habits-yes:before {
+  content: "\e911";
+}
+.icon-top-arrow:before {
+  content: "\e912";
+  color: #003869;
+}

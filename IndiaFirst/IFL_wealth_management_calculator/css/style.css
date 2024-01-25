@@ -1,0 +1,1489 @@
+@import url(https://fonts.googleapis.com/css?family=Handlee);
+@font-face {
+    font-family: 'LinotypeVAGRoundedStdBold_0';
+    src: url('fonts/LinotypeVAGRoundedStdBold_0.eot');
+    src: url('fonts/LinotypeVAGRoundedStdBold_0.eot') format('embedded-opentype'),
+         url('fonts/LinotypeVAGRoundedStdBold_0.woff2') format('woff2'),
+         url('fonts/LinotypeVAGRoundedStdBold_0.woff') format('woff'),
+         url('fonts/LinotypeVAGRoundedStdBold_0.ttf') format('truetype'),
+         url('fonts/LinotypeVAGRoundedStdBold_0.svg#LinotypeVAGRoundedStdBold_0') format('svg');
+}
+
+@font-face {
+    font-family: 'LinotypeVAGRoundedStdLight';
+    src: url('fonts/LinotypeVAGRoundedStdLight.eot');
+    src: url('fonts/LinotypeVAGRoundedStdLight.eot') format('embedded-opentype'),
+         url('fonts/LinotypeVAGRoundedStdLight.woff2') format('woff2'),
+         url('fonts/LinotypeVAGRoundedStdLight.woff') format('woff'),
+         url('fonts/LinotypeVAGRoundedStdLight.ttf') format('truetype'),
+         url('fonts/LinotypeVAGRoundedStdLight.svg#LinotypeVAGRoundedStdLight') format('svg');
+}
+@font-face {
+    font-family:'whitney-book';
+    src: url('fonts/whitney-book.eot');
+    src: url('fonts/whitney-book.eot') format('embedded-opentype'),
+         url('fonts/whitney-book.woff2') format('woff2'),
+         url('fonts/whitney-book.woff') format('woff'),
+         url('fonts/whitney-book.ttf') format('truetype'),
+         url('fonts/whitney-book.svg#whitney-book') format('svg');
+}
+@font-face {
+    font-family:'whitneybook';
+    src: url('../fonts/whitneybook.eot');
+    src: url('../fonts/whitneybook.eot') format('embedded-opentype'),
+         url('../fonts/whitneybook.woff2') format('woff2'),
+         url('../fonts/whitneybook.woff') format('woff'),
+         url('../fonts/whitneybook.ttf') format('truetype'),
+         url('../fonts/whitneybook.svg#whitneybook') format('svg');
+}
+@font-face {
+    font-family:'whitney-bold';
+    src: url('fonts/whitney-bold.eot');
+    src: url('fonts/whitney-bold.eot') format('embedded-opentype'),
+         url('fonts/whitney-bold.woff2') format('woff2'),
+         url('fonts/whitney-bold.woff') format('woff'),
+         url('fonts/whitney-bold.ttf') format('truetype'),
+         url('fonts/whitney-bold.svg#whitney-bold') format('svg');
+}
+
+
+/***************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wealth-calculator .FC-banner p.bldTxt{font-family: 'Whitney-bold' ;}
+.download-body-model .row.row1 label{font-family: 'Whitney-bold' ; font-weight:normal !important}
+.tooltip-box ul li {
+  margin: 0;
+  padding: 0 !important;
+  list-style-type: disc; text-align:left;
+}
+.blueTxt,.blueTxt li,.blueTxt ul{ color:#0f437a !important}
+.blueTxt.tooltip{ border-color:#0f437a !important}
+
+.oragneTxt,.oragneTxt li,.oragneTxt ul{ color:#e52929 !important}
+.oragneTxt.tooltip{ border-color:#e52929 !important}
+
+.oragneTxtt,.oragneTxtt li,.oragneTxtt ul{ color:#ed6913 !important}
+.oragneTxtt.tooltip{ border-color:#ed6913 !important}
+
+
+.profile-wrap {
+    margin: 50px 0;
+}
+
+.profile-info {
+    /* border: 1px solid #3d6f9c; */
+    padding: 20px 60px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.profile-list {
+    width: 100%;
+    border-color: #00adee;
+}
+
+.profile-list li {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ageinfo li {
+    width: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.ageinfo li .input-ico.right{
+    right: 5px;
+}
+
+
+
+.profile-list li h3,
+.ageinfo li h3 {
+    font-size: 24px;
+    line-height: 26px;
+    color: #f46800;
+    font-family:'Whitney-bold',"Arial";
+    font-weight: normal !important;
+}
+
+.profile-list li input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #318fce;
+}
+
+.ageinfo li input[type=text] {
+    width: 150px;
+    padding: 12px 20px;
+    border: 1px solid #318fce;
+    margin-left: 42px;
+}
+
+.ageinfo li input[type=text].age {
+    width: 100px;
+}
+
+.ageinfo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0 0 0 !important;
+}
+
+.indigo-ui h3 {
+    font-size: 3.5rem;
+    color:#003f7a;
+    font-family: "Whitney-book", Arial;
+}
+
+.child-calculator .form-block-ttl h3 {
+    font-size: 2.5rem;
+    font-family: "Whitney-bold", Arial; font-weight:normal !important;
+}
+
+.indigo-ui .ifl-btn:after {
+    display: none;
+}
+
+.child-calculator .calci-tabs-data1 .ifl-btn.ifl-btn2.next.invest,
+.child-calculator .calci-tabs-data2 .ifl-btn.ifl-btn2.next,
+.child-calculator .calci-tabs-data3 .ifl-btn.ifl-btn2.next {
+    margin: 10px 10px;
+    font-size: 18px;
+    width: auto;
+}
+
+.child-calculator .calci-tabs-data1 .ifl-btn.ifl-btn2.next.report {
+    background-color: #00427e !important;
+    font-size: 18px;
+}
+
+ .child-calculator .calci-form-label,
+.child-calculator .calci-form-label {
+    font-family: "Whitney-book", Arial;
+    color: #00adee;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.ageinfo li input[type=text]::placeholder {
+    color: #d4d4d4;
+}
+
+.articlesForYouWrap {
+    padding: 6rem 0;
+    position: relative;
+    background: url(../images/bg_article.png) no-repeat center center;
+    background-size: cover;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.knowlege-wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 80px 0;
+}
+
+.articleCard {
+    position: relative;
+    border-radius: 12px;
+    -webkit-filter: drop-shadow(0px 0 8px rgba(0, 0, 0, .15));
+    filter: drop-shadow(0px 0 8px rgba(0, 0, 0, .15));
+    background: #fff;
+    margin: 2rem;
+    padding: 3rem;
+    display: inline-block;
+}
+
+.articleCard .cardTop {
+    margin-top: -7rem;
+}
+
+.articleCard .cardTop img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.articleCard .cardMiddle {
+    padding: 1rem 0;
+}
+
+.cardMiddle {
+    margin: 0px 0;
+}
+
+.articleCard .cardMiddle h3 {
+    font-family: "Whitney-book", Arial;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    text-transform: capitalize;
+    color: #003869;
+    margin-bottom: 1rem;
+    font-family: "Whitney-book", Arial;
+    font-weight: bold;
+    min-height: 90px;
+}
+
+.articleCard .cardMiddle .contentBlock {
+    position: relative;
+}
+
+.articleCard .cardMiddle .tags {
+    border-radius: 11px;
+    background: #fbb74c;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #2a2a2a;
+    padding: 0.2rem 1rem;
+    display: none;
+}
+
+.articleCard .cardMiddle p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #2a2a2a;
+    margin: 1rem 0 1.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    min-height: 50px;
+}
+
+.articleCard .cardBottom .date {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #2a2a2a;
+    display: none;
+}
+
+.articlesForYouWrap .blueLink {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #154d83;
+    font-family: "Whitney-book", Arial;
+    text-decoration: none;
+    float: right;
+    padding-right: 1.5rem;
+    position: relative;
+    font-weight: 500;
+}
+
+.articlesForYouWrap .blueLink:after {
+    transition: all .3s ease-in;
+    position: absolute;
+    content: "\e91f";
+    font-family: icomoon!important;
+    right: 3px;
+    color: #154d83;
+    font-size: 9px;
+    top: 2px;
+    -webkit-transform: rotate(91deg);
+    -ms-transform: rotate(91deg);
+    transform: rotate(91deg);
+}
+
+.indigo-ui a,
+.indigo-ui a:hover {
+    text-decoration: none;
+    outline: none;
+    color: #003f7a;
+}
+
+.indigo-ui h2 {
+    font-size: 3.2rem;
+    font-weight: normal;
+    color: #f46800;
+    font-family: "Whitney-book", Arial;
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+
+.indigo-ui .fieldbox label {
+    font-family: 'Whitney-book', Arial;
+}
+
+.indigo-ui .ifl-lightBox .ifl-close {
+    color: #D9251C;
+    top: -12px;
+}
+
+.EMI-title {
+    width: 100%;
+    text-align: center;
+    text-transform: unset !important;
+    color: #003f7a !important;
+    margin: 20px 0;
+}
+
+.indigo-ui .fieldbox input[type="text"],
+.indigo-ui .fieldbox input[type="number"] {
+    border-radius: unset;
+}
+
+.FC-banner .custom-it-header {
+    margin: 0 0 15px;
+    color: #003f7a;
+    font-size: 42px;
+}
+
+.FC-banner p {
+    max-width: 465px;
+}
+
+.knowledge-invest {
+    width: 33.33%;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.download-report-label {
+    font-size: 14px !important;
+    line-height: 50px;
+    font-weight: bolder;
+    text-align: left;
+    font-family: 'Whitney-book', Arial ;
+    color: #0096d8;
+    text-transform: uppercase;
+}
+
+.download-report-input {
+    font-size: 18px !important;
+    font-weight: 700;
+    text-align: left;
+    font-family: 'Whitney-book', Arial;
+    border-radius: 0px;
+    padding: 10px;
+    height: 50px;
+    width: 100%;
+    border: 1px solid #0096d8;
+    background-color: #ffffff !important;
+}
+
+.close-wrap {
+    position: absolute;
+    right: 0;
+    top: 0px;
+    width: 40px;
+    font-size: 30px;
+    line-height: 34px;
+    height: 40px;
+    background-color: red;
+    color: #ffffff;
+    z-index: 99999999999999999999999999999999;
+    opacity: 100%;
+}
+
+.row1 {
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+.download-report-label.name {
+    color: #0096d8 !important;
+}
+
+.download-report-input.name-row {
+    border: 1px solid #0096d8;
+}
+
+.download-report-label.email {
+    color: #f46805 !important;
+}
+
+.download-report-input.email-row {
+    color: #f46805 !important;
+    border: 1px solid #f46805;
+}
+
+.download-report-label.phone {
+    color: #00427e !important;
+}
+
+.download-report-input.phone-row {
+    border: 1px solid #00427e;
+}
+
+.authorize {
+    padding: 5px;
+    text-align: center;
+}
+
+.btn-submit {
+    background: #003869 !important;
+    padding: 10px 30px 10px 30px !important;
+    color: #fff !important;
+    font-size: 1.4rem !important;
+    float: left;
+    clear: both;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 1;
+    border-radius: 0 !important;
+    text-align: center !important;
+}
+
+.download-report-btn {
+    float: unset;
+}
+
+.text-submit {
+    margin: 0 auto;
+}
+
+.content-wrap .FAQ .img-box{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.content-wrap .FAQ .img-box img {
+    width: 80%;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.indigo-ui .ifl-btn:before {
+    display: none;
+}
+
+button.ifl-btn.ifl-btn2.next.personal-info-btn-next.invest.now {
+    background-color: #0093de  !important;
+}
+button.ifl-btn.ifl-btn2.next.personal-info-btn-next.invest.now a, 
+.child-calculator .calci-tabs-data2 .ifl-btn.ifl-btn2.next a{
+    font-family: "Whitney-book", Arial;
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+button.ifl-btn.ifl-btn2.next.personal-info-btn-next.invest.now a:focus,
+
+.child-calculator .calci-tabs-data2 .ifl-btn.ifl-btn2.next a:focus{
+    outline: none;
+}
+.calci-tabs-data2 button.ifl-btn.ifl-btn2.next.personal-info-btn-next.invest.now {
+    background-color: #ED1C24 !important;
+}
+
+.child-calculator .calci-tabs-data3 .ifl-btn.ifl-btn2.next.invest.now{
+    background-color: #0093de !important;
+}
+
+.cta.banner-cta.explore-btn a:hover,
+.cta.banner-cta.explore-btn a {
+    border-radius: 100px;
+    font-family: "Whitney-book", Arial;
+    color: #ffffff;
+}
+
+.modal {
+    text-align: center;
+    padding: 0!important;
+}
+
+.modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+
+.modal-body {
+    padding: 18px;
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.indigo-ui .FAC-lp .ifl-btn {
+    font-size: 1.5rem;
+}
+
+.child-calculator .calci-tabs-data3 .calci-form-label.large.amt-goal {
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.col-md-4.lit-child {
+    border-right: 1px solid #336797;
+}
+
+.indigo-ui .all-plans .card .w-100 img {
+    border: 1px solid #336797;
+}
+
+.indigo-ui .all-plans .card-title.tax-plan-card-title {
+    font-size: 2.0rem;
+    line-height: 2.5rem;
+}
+
+
+/* ----css added by sunil------- */
+
+.investment-wrap .invest-box-wrap,
+.blog-wrap .invest-box-wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.investment-wrap .invest-box-wrap li,
+.blog-wrap .invest-box-wrap li {
+    width: 33.33%;
+    text-align: center;
+}
+
+.mr-50 {
+    margin-right: 50px;
+}
+.mr-30 {
+    margin-right: 30px;
+}
+
+.investment-wrap .invest-box-wrap li .img-box {
+    width: 100%;
+    outline: none;
+    box-shadow: 0 0 8px rgb(0 0 0 / 40%);
+}
+
+.blog-wrap .invest-box-wrap li .img-box{
+    width: 100%;
+    outline: none;
+}
+.investment-wrap .invest-box-wrap li .img-box img,
+.blog-wrap .invest-box-wrap li .img-box img {
+    width: 100%;
+}
+
+.investment-wrap .invest-box-wrap li .img-box .content,
+.blog-wrap .invest-box-wrap li .img-box .content {
+    width: 100%;
+}
+
+.investment-wrap .invest-box-wrap li .img-box .content .data,
+.blog-wrap .invest-box-wrap li .img-box .content .data {
+    width: 100%;
+    float: left;
+}
+
+.investment-wrap .invest-box-wrap li .content .data h3 span {
+    display: block;
+    font-weight: 400;
+    font-family: "Whitney-book", Arial;
+}
+
+.investment-wrap .title {
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.investment-wrap .title h2 {
+    font-size: 26px;
+    font-family: "Whitney-book", Arial;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 12px;
+    /* color: #328dcc; */
+    font-weight: normal;
+}
+
+.investment-wrap .title span {
+    font-family: "Whitney-book", Arial ;
+    color: #f46800;
+}
+
+.investment-wrap .invest-box-wrap li .content .data h3 {
+    font-size: 20px;
+    line-height: 24px;
+    color: #2a2a2a;
+    text-transform: uppercase;
+    font-family: "Whitney-book", Arial;
+}
+
+.investment-wrap .invest-box-wrap li .content .buy-online-btn {
+    background: #003869;
+    padding: 7px 30px 7px 30px;
+    color: #fff;
+    font-size: 1.4rem;
+    clear: both;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 1;
+    text-align: center;
+}
+
+.investment-wrap .invest-box-wrap li .content .data .fs-18.text-decoration-none {
+    font-size: 20px !important;
+    line-height: 24px;
+    color: #003869;
+    min-height: 40px;
+    display: inline-block;
+    height: auto;
+}
+
+.investment-wrap .know-more-btn {
+    margin: 30px 0 69px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.blog-wrap .know-more-btn {
+    margin: 30px 0 69px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.blog-wrap .know-more-btn a {
+    background: #003869;
+    padding: 10px 30px 10px 30px;
+    color: #fff;
+    font-size: 18px;
+    float: left;
+    clear: both;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 1;
+}
+.blog-wrap .know-more-btn a:after {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 10px;
+    background: url("../images/right-arrow.png") no-repeat;
+    background-size: 100%;
+    vertical-align: middle;
+    z-index: 99;
+}
+
+.blog-wrap .invest-box-wrap li .content .data h3 {
+    font-size: 20px;
+    line-height: 24px;
+    color: #003f7a;
+    margin-bottom: 0;
+}
+
+.blog-wrap .invest-box-wrap li .content p {
+    font-size: 14px;
+    line-height: normal;
+    color: #003f7a;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.blog-wrap .invest-box-wrap {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.blog-wrap .title h2 {
+    color: #f46800;
+    font-family: "Whitney-book", Arial;
+    font-size: 33px;
+}
+.blog-wrap .know-more-btn .ifl-btn:after {
+    content: "";
+    position: static;
+    display: inline-block;
+    width: 16px;
+    height: 10px;
+    margin-left: 4px;
+    background: url(../images/right-arrow.svg) no-repeat;
+    background-size: 100%;
+    vertical-align: middle;
+    transform: translateY(0%);
+}
+
+.child-calculator .form-control.clr-white[readonly] {
+    background-color: #ffffff;
+}
+
+.profile-wrap {
+    margin-bottom: 0;
+}
+
+.indigo-ui .ifl-container {
+    max-width: 1140px;
+    padding: 0 10px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form-block-ttl h3 .for-pdf-view {
+    font-size: 2.5rem;
+    color: #ED1C24;
+    font-family: "Whitney-book", Arial;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.red-wrap.text-center {
+    width: 100%;
+    padding: 18px 10px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ed6913;
+    /* border-radius: 10px; */
+}
+
+.red-wrap.text-center .calci-form-input.p-start {
+    margin: 0 auto;
+}
+
+.red-wrap.text-center label {
+    color: #fff !important;
+}
+
+.child-calculator .steps{
+    z-index: -1 !important;
+}
+.child-calculator .calci-tabs-data1 .form-block-ttl h3 span{font-size: 20px;line-height: 24px;font-weight: normal;font-family: "Whitney-book", Arial;}
+.child-calculator .calci-tabs-data3 .calci-form-label.large.amt-goal {
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: bold;
+    font-family: "Whitney-book", Arial;
+}
+.child-calculator .calci-tabs-data1 .form-block-ttl h3 span a{display: inline-block;text-decoration: underline;font-size: 20px;color: #ED1C24;
+    line-height: 35px;
+    font-weight: normal;}
+.child-calculator .calci-tabs-data3 .calci-form-label.large.amt-goal span{
+    font-weight: bold;
+}
+/* 13-1-23 */
+.calci-tabs-data.calci-tabs-data2 .form-block-ttl span{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: normal;
+    font-family: "Whitney-book", Arial;
+}
+.calci-tabs-data.calci-tabs-data2 .form-block-ttl span a{
+    display: inline-block;
+    text-decoration: underline;
+    font-size: 20px;
+    color: #318dcc;
+    line-height: 35px;
+    font-weight: normal;
+}
+/* .smr-text{
+    font-size: 24px !important;
+} */
+.indigo-ui p, .indigo-ui input, .indigo-ui h2{
+    font-family: "Whitney-book", Arial;
+}
+.content-wrap .data h2 {
+    font-size: 26px;
+    font-family: "whitney-book", Arial;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 12px;
+    color: #f46800;
+    font-weight: normal;
+}
+/* -----------wealth-management-calculator------- */
+
+.ageinfo li input[type="text"]{border-radius: 0; width: 170px;}
+
+
+
+.wealth-calculator .FC-banner p{
+    font-family: "Whitney-book", Arial;
+    color: #414042;
+}
+div.FC-banner .custom-it-header{font-family: "whitney-bold", Arial; font-weight:normal}
+.wealth-calculator .FC-banner p {
+      
+    color: #2a2a2a;
+    line-height: 1.2;
+    font-family: "Whitney-book", Arial;
+}
+.wealth-calculator  .banner-border{
+    border: 3px solid #0093de;
+    padding: 0 30px;
+}
+.calci-form-group .text-wrap{
+    width: 100%;
+    text-align: center;
+    padding: 10px 20px;
+}
+.wealth-calculator .banner-button a{
+    background-color: #003f7a;
+    text-transform: capitalize;
+    font-size: 25px;
+    padding: 10px 20px;
+} 
+.wealth-calculator .calci-tabs li.car-tab a{
+    color: #ed6913;
+}
+
+.wealth-calculator .fund-calculator .calci-tabs li a, .wealth-calculator .full-calculator .calci-tabs li a {
+    font-size: 20px;
+    text-decoration: none;
+}
+.child-calculator .calci-form-group .text-wrap label{
+    width: 80%;
+    padding: 10px 40px;
+    border:1px solid #ED1C24;
+    height: auto;
+    color: #ED1C24;
+    font-family: "Whitney-book", Arial;
+    line-height: 28px;
+    font-weight: 500;
+
+}
+.indigo-ui .FAC-lp .ifl-btn{
+    font-family: "Whitney-book", Arial;
+}
+.child-calculator .calci-tabs-data2 .calci-form-group .text-wrap label{
+    border: 1px solid #00427E;
+    color: #00427E;
+}
+.child-calculator .calci-tabs-data3 .calci-form-group .text-wrap label{
+    border: 1px solid #00adee;
+    color: #00adee;
+}
+ .content-wrap .data p {
+    font-size: 1.6rem !important;
+    line-height: 1.2 !important;
+    font-family: "Whitney-book";
+    color: #777777;
+} 
+.content-wrap .data .data-content.list-style-num li{
+    list-style-type:decimal;
+    font-size:20px;
+    font-family: "Whitney-book", Arial;
+    font-weight: normal;
+
+}
+ .blog-wrap .data {
+    width: 100%;
+    text-align: left;
+    margin: 16px 0;
+    min-height: 45px;
+}
+ .blog-wrap .data a{
+    line-height: normal;
+    font-family: "Whitney-bold";
+}
+.content-wrap .data h3 {
+    margin-bottom: 10px !important;
+    font-size: 24px;
+    font-family: "Whitney-book", Arial;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 12px;
+    color: #01437e;
+    font-weight: normal;
+}
+.calci-tabs li.home-tab a:after {
+    content: "";
+    display: inline-block;
+    background: url("../images/down-arrow-1.png") no-repeat;
+    background-size: 100%;
+}
+.calci-tabs li.personal-tab a:after {
+    content: "";
+    display: inline-block;
+    background: url("../images/down-arrow-2.png") no-repeat;
+    background-size: 100%;
+}
+.calci-tabs li.car-tab a:after {
+    content: "";
+    display: inline-block;
+    background: url("../images/down-arrow-3.png") no-repeat;
+    background-size: 100%;
+}
+.fund-calculator .calci-tabs li a:after, .full-calculator .calci-tabs li a:after {
+    margin-left: 15px;
+}
+
+.child-calculator .calci-tabs-data2 .calci-form-input .form-control{
+    border-color: #00427E;
+}
+.child-calculator .calci-tabs-data3 .calci-form-input .form-control {
+    border-color: #00adee;
+}
+.calci-form-group .input-ico.right{right: 5px; left: auto; }
+
+.calci-form-group .input-ico{left: auto; top: 1px;}
+.calci-form-group .input-ico.start{left: 0;}
+.calci-tabs-data3 .form-block-ttl h3 {
+    color: #ED1C24;
+}
+.child-calculator .calci-tabs-data3 .calci-form-label {
+    color: #00adee;
+}
+.child-calculator .calci-tabs-data3 .cta .down-rp {
+    background-color: #0f437a;
+}
+.child-calculator .calci-tabs-data3 .cta .chk-inv {
+    background-color: #318dcc;
+}
+.child-calculator .calci-tabs-data3 .rng-slider {
+    background-color: #ed6913;
+}
+.child-calculator .calci-tabs-data1 .calci-form-input .form-control{
+    border-color: #ED1C24;
+}
+.child-calculator .calci-tabs-data1 .calci-form-input .form-control,
+.child-calculator .calci-tabs-data2 .calci-form-input .form-control,
+.child-calculator .calci-tabs-data3 .calci-form-input .form-control {
+    font-weight: normal;
+    font-family: "Whitney-book", Arial;
+    color: #58595B;
+}
+.calci-form-label{
+    height: auto;
+}
+.ageinfo .dob-wrap h3{
+    width: 165px;
+}
+.FAQ .data .data-content li p {
+    margin: 0px 0px 30px -18px;
+}
+.wealth-calculator .ifl-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+}
+.wealth-calculator .ifl-row .img-box{
+    width: 100%;
+    text-align: center;
+}
+/* .content-wrap .data h3{
+    font-size: 21px;
+} */
+.child-calculator .data .text-auto {
+    text-transform: none;
+   
+}
+.child-calculator .data ul.grey li h3{
+    color: #777777;
+    font-size: 18px;
+}
+.child-calculator .data ul.grey li {
+    color: #777777;
+}
+/* ----------css added on 8-2-23---------- */
+.calci-tabs-data1 .form-block-ttl h3{
+    color: #00adee;
+}
+.calci-tabs-data1 .calci-form-label {
+    color: #ED1C24;
+}
+
+.full-calculator .center-box .form-list li{
+    padding: 0 0 5px;
+}
+.indigo-ui .FAC-lp .ifl-btn{
+    padding: 10px 20px;
+}
+.calci-tabs-data2 .form-block-ttl h3{
+    color: #f46800;
+}
+.child-calculator .calci-tabs-data2 .calci-form-label{
+    color:#00427E;
+}
+.child-calculator .calci-tabs-data1 .rng-slider{
+    background: #00adee;
+}
+.child-calculator .calci-tabs-data2 .rng-slider{
+    background: #f46800;
+}
+.child-calculator .calci-tabs-data3 .rng-slider{
+    background: #ED1C24;
+}
+.calci-tabs-data2 button.down-rp{
+    background-color: #00adee;
+} 
+
+/* -------------tooptip css----------- */
+.calci-tabs-data2 .calci-form-label .tooltip{
+    color: #00427E;
+    border: 1px solid #00427E ;
+}
+.calci-tabs-data3 .calci-form-label .tooltip{
+    color: #00adee;
+    border: 1px solid #00adee ;
+}
+.calci-form-label .tooltip {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #ED1C24;
+    color: #ED1C24;
+    opacity: unset;
+    padding: 1px 5px;
+    font-size: 10px;
+    border-radius: 100%;
+    line-height: normal;
+    bottom: 5px;
+    font-family: "Whitney-book", Arial;
+    z-index: 2;
+  }
+  .tooltip-box {
+    width: 440px;
+    display: flex;
+    justify-content: center;
+    bottom: -8px;
+    border: 1px solid #ED1C24;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    background-color: #ffffff;
+}
+  
+  .calci-form-label .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 470px;
+    
+    font-size: 14px;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 6px;
+    padding-left: 17px;
+  }
+  
+  .calci-form-label .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  .calci-tabs-data2 .calci-form-label .tooltip .tooltip-box{
+    border: 1px solid #00427E;
+    color: #00427E;
+  }
+  .calci-tabs-data3 .calci-form-label .tooltip .tooltip-box{
+    border: 1px solid #00adee;
+    color: #00adee;
+  }
+  /* .ifl-container .title .text-wrap::after{
+    width: 80%;
+    clear: both;
+    height: 2px;
+    content: "";
+    display: inline-block;
+    background: #f46800;
+    text-align: center;
+  } */
+  .ifl-container .title .text-wrap{
+    -webkit-box-shadow: 0px 7px 10px -4px rgb(0 0 0 / 30%);
+-moz-box-shadow: 0px 7px 10px -4px rgb(0 0 0 / 30%);
+box-shadow: 0px 7px 10px -4px rgb(0 0 0 / 30%);
+padding-bottom: 20px;
+  }
+  .ifl-container .title .text-wrap .calci-form-label {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Whitney-book', Arial;
+    line-height: normal;
+    color: #f46800;
+    margin-right: 0;
+    padding: 0 10px;
+}
+  .main-cal-lbl .cta{
+    display: inline-block;
+    width: auto;
+    margin-top: 40px;
+  }
+  .main-cal-lbl {
+    width: 100%;
+    text-align: center;
+  }
+  .main-cal-lbl .cta a{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: "Whitney-book", Arial;
+    text-decoration: none;
+  }
+  .main-cal-lbl .cta a:focus{
+    outline: none;
+  }
+  .f-w-bold{
+    /* font-weight: normal !important; */
+    font-family: "Whitney-bold", Arial !important;
+  }
+  .f-24{
+    font-size: 24px !important;
+  }
+   .blog-wrap .invest-box-wrap li{
+    box-shadow: 10px 13px 10px rgb(136 136 136 / 40%);
+    padding: 20px;
+    min-height: 340px;
+  }
+  ul.calci-tabs li a{
+    font-family: "Whitney-book", Arial ;
+  }
+  .indigo-ui body{
+    font-family: "Whitney-book", Arial ;
+  }
+  .morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+}
+
+
+ .invest-box-info span{
+    overflow: hidden;
+text-overflow: ellipsis;
+-webkit-line-clamp: 2;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+}
+.invest-box-info  a:focus{
+    outline: unset ;
+    text-decoration: none ;
+}
+.invest-box-info a, .invest-box-info a:hover{
+    text-decoration: underline;
+}
+
+
+/* download the report popup design */
+.download-body-model .row.row1{
+    justify-content: space-between;
+    align-items: center;
+}
+.download-body-model .row1{
+    margin-top: 30px; 
+}
+.download-body-model .row.row1 label{
+    line-height: normal;
+}
+.modal-dialog .close-wrap span{
+    font-family: sans-serif;
+}
+
+
+.blog-wrap .title-2 h2{color: #0093de;font-family: "Whitney-Book", Arial;float: left;line-height: 1; font-weight: normal;}
+.blog-wrap .title-2 h2 span{color: #e66f13;font-family: "Whitney",Arial; display: inline-block; font-weight: bold;}
+
+/* ====================responsive css=================== */
+@media only screen and (max-width: 1700px) {
+    .articleCard .cardMiddle h3 {
+        font-size: 2.0rem;
+        line-height: 2.5rem;
+    }
+    .indigo-ui h1 {
+        font-size: 4.4rem;
+    }
+}
+@media only screen and (max-width: 1023px) {
+    .articleCard .cardMiddle h3 {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+        min-height: 100px;
+    }
+    .ifl-column-40 {
+        width: 100%;
+    }
+    .child-calculator .calci-tabs-data3 .calci-form-label.large.amt-goal {
+        color: #ed6913;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .calci-form-label {
+        line-height: 24px;
+    }
+    .articleCard .cardMiddle {
+        padding: 0;
+    }
+    .articleCard {
+        margin: 1rem;
+    }
+    .indigo-ui h2 {
+        font-size: 2.5rem;
+    }
+    .indigo-ui .all-plans .card-title.tax-plan-card-title {
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+    }
+    ul.calci-tabs li{
+        display: inline-flex;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .child-calculator .data ul.grey li h3{
+        font-size: 16px;
+    }
+    
+    .calci-form-group .text-wrap{
+        padding: 0;
+    }
+    .child-calculator .calci-form-group .text-wrap label{
+        width: 100%;
+        line-height: normal;
+        margin-bottom: 0;
+        padding: 10px 10px;
+    }
+    .ageinfo li .input-ico.right{
+        top: 9px;
+    }
+    .tooltiptext{
+        width: 374px;
+        bottom: 12px;
+        right: -215px;
+    }
+    .tooltiptext.inf-rate {
+        right: -340px;
+    }
+    .calci-form-label .tooltip .tooltip-box{
+        width: 360px;
+        background: #fff;
+    }
+    .main-cal-lbl .cta a{
+        padding: 5px 20px;
+         font-size: 15px;
+    }
+    .ifl-container .title .text-wrap .calci-form-label{
+        font-size: 24px;
+    }
+    
+    .blog-wrap .know-more-btn a{
+        padding: 7px 20px 7px 20px; 
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+    .content-wrap .data h3{
+        font-size: 18px;
+    }
+    section.content-wrap{
+        padding: 0;
+    }
+    .EMI-title{margin: 0;}
+    .profile-wrap{
+        margin-top: 0;
+    }
+    .child-calculator .calci-form-label, .child-calculator .calci-form-label{
+        font-size: 16px;
+    }
+    .wealth-calculator .banner-button a{
+        font-size: 20px;
+    }
+    .FC-banner .custom-it-header{
+        margin: 15px 0 15px;
+        font-size: 3rem;
+    }
+   
+    .calci-form-group .text-wrap{
+        padding: 0;
+    }
+    .ageinfo .dob-wrap h3{
+        width: 110px;
+    }
+    .content-wrap .data p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .blog-wrap .know-more-btn{
+        margin: 0;
+    }
+    .smr-text {
+        font-size: 16px !important;
+    }
+    .knowlege-wrap {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .knowledge-invest {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .indigo-ui h2 {
+        font-size: 2.5rem;
+    }
+    .indigo-ui h3 {
+        font-size: 2.0rem;
+    }
+    .child-calculator .form-block-ttl h3 {
+        font-size: 1.8rem;
+    }
+    .ageinfo li input[type=text] {
+        width: 180px;
+        padding: 12px 20px;
+        border: 1px solid #318fce;
+        margin-left: 20px;
+    }
+    .profile-list li {
+        justify-content: flex-start;
+    }
+    .profile-list li input[type=text] {
+        width: 60%;
+    }
+    .ageinfo {
+        flex-wrap: wrap;
+        margin: 5px 0 0 0 !important;
+    }
+    .ageinfo li input[type=text].age {
+        width: 100px;
+        margin-top: 15px;
+    }
+    .profile-list li h3,
+    .ageinfo li h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .profile-info {
+        padding: 20px 40px;
+        margin-bottom: 40px !important;
+    }
+    .indigo-ui img {
+        width: 100%;
+    }
+    .profile-list li h3,
+    .ageinfo li h3 {
+        font-size: 16px;
+        line-height: 20px;
+        width: 110px;
+    }
+    .ageinfo li input[type=text] {
+        margin-left: 0px;
+    }
+    .ifl-btn.ifl-btn2.invest.now,
+    .child-calculator .calci-tabs-data1 .ifl-btn.ifl-btn2.next.invest.now,
+    .child-calculator .calci-tabs-data.calci-tabs-data2 .ifl-btn.ifl-btn2.next.invest.now {
+        padding: 5px 20px !important;
+        margin: 15px 0;
+    }
+    .calci-form-label {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .child-calculator .calci-tabs-data3 .calci-form-label.large.amt-goal {
+        margin-bottom: 30px;
+    }
+    .articleCard .cardMiddle h3 {
+        font-size: 2.0rem;
+        line-height: 3rem;
+    }
+    .articleCard {
+        margin: 3rem;
+    }
+    .EMI-calculator.full-calculator {
+        margin-top: 0px;
+    }
+    .investment-wrap .title h2 {
+        font-size: 22px;
+    }
+    .investment-wrap .invest-box-wrap li .content .data h3 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .investment-wrap .invest-box-wrap li .content .data .fs-18.text-decoration-none {
+        font-size: 20px !important;
+        line-height: 24px;
+    }
+    .content-wrap .data h2{
+        font-size:22px ;
+    }
+    .download-body-model .row.row1 label {
+        line-height: 28px;
+    }
+    .download-body-model .row1 {
+        margin-top: 25px;
+    }
+
+}
+
+
+@media screen and (max-width: 640px) {
+    .invest-box-wrap {
+        flex-wrap: wrap;
+    }
+    .investment-wrap .invest-box-wrap li,
+    .blog-wrap .invest-box-wrap li {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .indigo-ui .FAC-lp .ifl-btn{
+        font-weight: normal !important;
+    }
+    .fund-calculator .calci-tabs li a, .full-calculator .calci-tabs li a{
+        font-weight: normal;
+    }
+    .blog-wrap .title-2 h2{font-size: 2.4rem;}
+   
+}
+   
+
+@media only screen and (max-width: 1023px) {
+    .investment-wrap .invest-box-wrap li .content .data h3 span{
+        font-size: 16px;
+    }
+    .investment-wrap .invest-box-wrap li .content .data h3 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .investment-wrap .invest-box-wrap li .content .data .fs-18.text-decoration-none {
+        font-size: 16px !important;
+        line-height: 24px;
+    }
+}
+@media only screen and (max-width: 420px){
+    
+    .calci-form-label .tooltiptext.inf-rate {
+        right: -200px;
+        width: 330px;
+    }
+    .calci-form-label .tooltip .tooltip-box{
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 335px) {
+    .ageinfo li input[type=text].DOB{
+        width: 140px;
+    }
+    .calci-form-label .tooltiptext.inf-rate {
+        right: -146px;
+        width: 280px;
+    }
+    .calci-form-label .tooltip .tooltip-box{
+        width: 300px;
+    }
+}

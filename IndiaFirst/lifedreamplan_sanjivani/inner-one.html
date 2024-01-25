@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>IndiaFirst</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge ">
+		<meta name="description" content="Online Term Plan - Buy Term Insurance Plan Online from IndiaFirst Life &amp; Protect your family financially with a 50 Lakh cover at Rs.8/day. Buy now!">
+		<meta name="keywords" content="keywords">
+		<meta name="viewport" content="width=device-width, height=device-height,initial-scale=1.0,maximum-scale=1.0">
+		<link rel="icon" href="assets/images/favicon.ico" type="image/gif">
+		<link rel="stylesheet" href="assets/css/bootstrap.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/styles.css">
+		<link rel="stylesheet" href="assets/css/inner.css">
+	</head>
+	<body class="fixed">
+		<div ng-app="myApp" class="inside inner">
+			<!--.master-->
+			<header>
+				<div class="container">
+					<div class="logoContentWrap clearfix"><a href="#" class="logo"><img src="assets/images/indiaFirstLogo.png" alt="IndianFirst Life Insurance"></a></div>
+				</div>
+			</header>
+			<div ng-controller="termFormController" class="wrapper-content homeRewamp innerInvestingforWrapp">
+				<div class="progress-wrap">
+					<ul class="progress-bar-list">
+						<li class="progess-item completed">
+							<div class="progress">
+								<div class="progress-bar"></div>
+							</div><span class="no">1</span><span class="check-icon"></span>
+							<p class="text">Basic Details</p>
+						</li>
+						<li class="progess-item completed">
+							<div class="progress">
+								<div class="progress-bar"></div>
+							</div><span class="no">2</span><span class="check-icon"></span>
+							<p class="text">Calculate Returns</p>
+						</li>
+						<li class="progess-item active">
+							<div class="progress">
+								<div class="progress-bar"></div>
+							</div><span class="no">3</span><span class="check-icon"></span>
+							<p class="text">Investing for</p>
+						</li>
+					</ul>
+				</div>
+				<div class="container">
+					<div class="flex-wrap basic-details">
+						<div class="lhs">
+							<h2 class="titleformobile">Whom are you investing for ?</h2>
+							<div class="border-box">
+								<h2 class="form-title">I want to invest for my</h2>
+								<ul class="radiobtnList js-basicdetails">
+									<li class="radioItem"> 
+										<div class="bs-radio">
+											<input id="Self" type="radio" name="invest" checked="" value="Self">
+											<label for="Self">Self</label>
+										</div>
+									</li>
+									<li class="radioItem"> 
+										<div class="bs-radio">
+											<input id="Spouse" type="radio" name="invest" value="Spouse">
+											<label for="Spouse">Spouse</label>
+										</div>
+									</li>
+									<li class="radioItem"> 
+										<div class="bs-radio">
+											<input id="Child" type="radio" name="invest" value="Child">
+											<label for="Child">Child                   </label>
+										</div>
+									</li>
+									<li class="radioItem"> 
+										<div class="bs-radio">
+											<input id="GrandChild" type="radio" name="invest" value="Grand Child">
+											<label for="GrandChild">Grand Child</label>
+										</div>
+									</li>
+								</ul>
+								<ul class="form-list basic-Detail">
+									<li class="form-item">
+										<div class="inputEffect inputField error">
+											<label>Full Name  <span style="color:red; margin-left: 1px;">*</span></label>
+											<input type="text" name="fullname" placeholder="Full Name" class="textBox required inputDefault alpha"><span class="error_message" style="display: block;">This field is required</span>
+										</div>
+									</li>
+									<li class="form-item">
+										<div class="inputEffect inputField error">
+											<label>Email ID  <span style="color:red; margin-left: 1px;">*</span></label>
+											<input type="text" name="emailid" placeholder="rahulkumar@gmail.com" class="textBox email required inputDefault"><span class="error_message" style="display: block;">This field is required.</span>
+										</div>
+									</li>
+									<li class="form-item">
+										<div class="inputEffect inputField">
+											<label>Mobile No. <span style="color:red; margin-left: 1px;">*</span></label>
+											<input type="tel" name="mobileNo" placeholder="+91 9876543219" class="textBox required inputDefault numbersOnly">
+										</div>
+									</li>
+									<li class="form-item dateField">
+										<div class="inputEffect js-appointmentDate inputField calenderInput">
+											<label>DOB of Life Assured  <span style="color:red; margin-left: 1px;">*</span></label>
+											<input name="" type="text" required="" data-inputmask-alias="date" data-inputmask-inputformat="dd/mm/yyyy" im-insert="false" placeholder="Enter Date of Birth" class="inputmask textBox required inputDefault" inputmode="text"><span class="error_message"></span>
+										</div>
+									</li>
+									<li class="form-item full-width genderSec">
+										<h2 class="form-title type2">Gender of Life Assured*</h2>
+										<ul class="radiobtnList">
+											<li> 
+												<label class="radioBt active"><span class="radioText"><span class="radioIcon icon-male"> </span>Male</span>
+													<input type="radio" name="gender" checked="checked">
+												</label>
+											</li>
+											<li> 
+												<label class="radioBt"><span class="radioText"><span class="radioIcon icon-female"></span>Female</span>
+													<input type="radio" name="gender">
+												</label>
+											</li>
+											<li> 
+												<label class="radioBt"><span class="radioText"><span class="radioIcon icon-others"></span>Other</span>
+													<input type="radio" name="gender">
+												</label>
+											</li>
+										</ul>
+									</li>
+								</ul>
+								<div class="spouseInfo">
+									
+									<h2 class="form-title cm-semi-bold">Life Assured Details</h2>
+									<ul class="form-list border-top basic-Detail">
+										<li class="form-item">
+											<div class="inputEffect inputField error">
+												<label>Full Name  <span style="color:red; margin-left: 1px;">*</span></label>
+												<input type="text" name="fullname" placeholder="Full Name" class="textBox required inputDefault alpha"><span class="error_message" style="display: block;">This field is required</span>
+											</div>
+										</li>
+										<li class="form-item">
+											<div class="inputEffect inputField error">
+												<label>Email ID  <span style="color:red; margin-left: 1px;">*</span></label>
+												<input type="text" name="emailid" placeholder="rahulkumar@gmail.com" class="textBox email required inputDefault"><span class="error_message" style="display: block;">This field is required.</span>
+											</div>
+										</li>
+										<li class="form-item">
+											<div class="inputEffect inputField">
+												<label>Mobile No. <span style="color:red; margin-left: 1px;">*</span></label>
+												<input type="tel" name="mobileNo" placeholder="+91 9876543219" class="textBox required inputDefault numbersOnly">
+											</div>
+										</li>
+										<li class="form-item dateField">
+											<div class="inputEffect js-appointmentDate inputField calenderInput">
+												<label>DOB of Life Assured  <span style="color:red; margin-left: 1px;">*</span></label>
+												<input name="" type="text" required="" data-inputmask-alias="date" data-inputmask-inputformat="dd/mm/yyyy" im-insert="false" placeholder="Enter Date of Birth" class="inputmask textBox required inputDefault" inputmode="text"><span class="error_message"></span>
+											</div>
+										</li>
+										<li class="form-item full-width genderSec"> 
+											<h2 class="form-title type2">Gender of Life Assured*</h2>
+											<ul class="radiobtnList">
+												<li> 
+													<label class="radioBt active"><span class="radioText"><span class="radioIcon icon-male"> </span>Male</span>
+														<input type="radio" name="gender2" checked="checked">
+													</label>
+												</li>
+												<li> 
+													<label class="radioBt"><span class="radioText"><span class="radioIcon icon-female"></span>Female</span>
+														<input type="radio" name="gender2">
+													</label>
+												</li>
+												<li> 
+													<label class="radioBt"><span class="radioText"><span class="radioIcon icon-others"></span>Other</span>
+														<input type="radio" name="gender2">
+													</label>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+								<div class="btn-wrap typ-center form-action"> <a href="javascript:void(0)" class="defaultBtn blueBtn investNow"><span>Invest Now</span></a></div>
+							</div>
+						</div>
+						<div class="rhs">
+							<div class="summary-box">
+								<h2 class="summary-title">Review Your Details<a href="#" data-toggle="modal" data-target="#innerreviewDetailModal" class="edit-icon"><img src="assets/images/edit_icon.svg" alt=""></a></h2>
+								<div class="content-wrap">
+									<h3 class="title">Proposer Details</h3>
+									<ul class="s-list"> 
+										<li class="s-item full-width">Rahul Kumar</li>
+										<li class="s-item">rahulkumar@gmail.com</li>
+										<li class="s-item">+91 9876543219</li>
+										<li class="s-item">07/09/1995 (DOB)</li>
+										<li class="s-item">Male</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div id="innerreviewDetailModal" tabindex="-1" role="dialog" aria-labelledby="reviewDetailModal" aria-hidden="true" class="modal fade innerreviewDetailModal">
+							<div class="modal-dialog modal-lg">
+								<div class="modal-content">		
+									<div class="modal-body">
+										<div class="ContWrap">
+											<div class="form-cont typ-propose-detail">
+												<h3 class="title">Edit Your Details</h3>
+												<h4 class="form-title">Proposer Details</h4>
+												<ul class="form-list basic-Detail">
+													<li class="form-item">
+														<div class="inputEffect inputField">
+															<label class="effectLabel"><span data-content="Full Name" class="placeHolder">Full Name</span></label>
+															<input type="text" name="fullname" value="Rahul Kumar" class="textBox required inputDefault alpha"><span class="error_message"></span>
+														</div>
+													</li>
+													<li class="form-item">
+														<div class="inputEffect inputField">
+															<label class="effectLabel"><span data-content="Email ID" class="placeHolder">Email ID</span></label>
+															<input type="text" name="emailid" value="rahulkumar@gmail.com" class="textBox email required inputDefault"><span class="error_message"></span>
+														</div>
+													</li>
+													<li class="form-item">
+														<div class="inputEffect inputField">
+															<label class="effectLabel"><span data-content="Mobile No." class="placeHolder">Mobile No.</span></label>
+															<input type="tel" name="mobileNo" value="+91 9876543219" class="textBox required inputDefault numbersOnly">
+														</div>
+													</li>
+													<li class="form-item dateField">
+														<div class="inputEffect js-appointmentDate inputField calenderInput">
+															<label class="effectLabel"><span data-content="DOB of Proposer" class="placeHolder">DOB of Proposer</span></label>
+															<input name="" type="text" required data-inputmask-alias="date" data-inputmask-inputformat="dd/mm/yyyy" im-insert="false" placeholder="dd/mm/yyyy" value="07/09/1998" class="inputmask textBox required inputDefault"><span class="error_message"></span>
+														</div>
+													</li>
+													<li class="form-item full-width genderSec">
+														<h2 class="form-title type2">Gender*</h2>
+														<ul class="radiobtnList">
+															<li> 
+																<label class="radioBt active"><span class="radioText"><span class="radioIcon icon-male"> </span>Male</span>
+																	<input type="radio" name="gender" checked="checked">
+																</label>
+															</li>
+															<li> 
+																<label class="radioBt"><span class="radioText"><span class="radioIcon icon-female"></span>Female</span>
+																	<input type="radio" name="gender">
+																</label>
+															</li>
+															<li> 
+																<label class="radioBt"><span class="radioText"><span class="radioIcon icon-others"></span>Other</span>
+																	<input type="radio" name="gender">
+																</label>
+															</li>
+														</ul>
+													</li>
+												</ul>
+											</div>
+											<div class="btn-wrap typ-center form-action"><a href="javascript:void(0)" class="defaultBtn blueBtn nextBtn"><span> Save</span></a>
+												<button type="button" data-dismiss="modal" aria-hidden="true" class="close"><span class="icon-close"></span></button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<section>
+						<div class="container">
+							<div class="yourLovedOneSec">
+								<div class="LHs">
+									<h2 class="title"> <span>What are the Benefits of buying</span>	Guarantee Of Life Dreams Plan?</h2>
+									<ul class="returnList">
+										<li class="returnList-item">IndiaFirst Life Gold Plan is a guaranteed income insurance
+											plan, which offers guaranteed regular income for 30 or 40 years, depending on the
+											policy term you choose. </li>
+										<li class="returnList-item">Get Income from the 1st Year under Immediate Income Option,
+											from the 5th Year under intermediate income, and from the 10th Year under deferred
+											Income Option. </li>
+										<li class="returnList-item">Upon choosing the Immediate Income plan option, your yearly
+											income will increase by 6%, 8% and 10% depending on the payment terms*.</li>
+										<li class="returnList-item">Get assured maturity benefit as a lumpsum at the end of the
+											policy term.</li>
+										<li class="returnList-item">Get 10X Life Cover throughout the policy term. </li>
+										<li class="returnList-item">Get Assured Tax benefits on IndiaFirst Life Guarantee of
+											Dreams Plan </li>
+										<li class="returnList-item">Option to opt for IndiaFirst Life Waiver of Premium (WOP)
+											Rider. This rider helps you by waiving off the future premiums of your base policy
+											in case the policyholder/ life assured suffers from death, accidental total
+											permanent disability or critical illnesses. </li>
+										<li class="returnList-item">Download the Policy Brochure for all the details. </li>
+	
+									</ul>
+									<!-- <a href="#" class="downloadBro">Download Brochure</a> -->
+									<!--a.downloadBro(href="#") Download Sample PD-->
+									<button class="defaultBtn blueBtn"> <span>Apply Now</span></button>
+								</div>
+								<div class="RHs"><img src="assets/images/why_choose.png" alt="your loved ones"></div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+			<!-- Start footer-->
+			<footer>
+				<div class="footerCurve">
+					<div class="jointVenture">
+						<ul>
+							<li><img src="assets/images/updatedbg.jpg" alt=""></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footerWrap">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-6">
+								<p>Reg. Off: 12th and 13th Floor, North [C] wing, Tower 4, Nesco IT Park, Nesco Center, Western Express Highway, Goregaon (East), Mumbai – 400063.</p>
+								<p>IRDAI Regd. No. 143 | CIN: U66010MH2008PLC183679</p>
+								<p>For more details on risk factors, associated terms and conditions and exclusions please read the product brochure before concluding a sale.</p>
+								<p>© IndiaFirst Life Insurance Company Limited. All rights reserved.</p>
+							</div>
+							<div class="col-sm-6">
+								<div class="bewareBox">
+									<h3>BEWARE OF SPURIOUS PHONE CALLS AND FICTITIOUS/ FRAUDULENT OFFERS</h3>
+									<p>IRDAI clarifies to the public thatIRDAI or its officials do not involve in activities like sale of any kind of insurance or financial products nor investment premiums.IRDAI does not announce any bonus.Public receiving such phone calls are requested to lodge a police complaint along with details of phone call, number.</p>
+								</div>
+							</div><a href="javascript:void(0)" id="js_toTop" class="toTopArrow"><span class="topArrow icon-top-arrow"></span>TOP</a>
+						</div>
+					</div>
+				</div><a href="#calulatePrimium" class="needHelpBt mainHelpBtn js-apply"><span class="helpText">Apply Now</span></a><a href="javascript:void(0)" class="needHelpBt mainHelpBtn callus"><span class="helpText">Need Help?</span></a>
+			</footer>
+			<div class="overlay"></div>
+			<div class="loaderOverlay"></div>
+			<div class="loader"><img src="assets/images/loader.gif"></div>
+			<!-- End footer-->
+			<!-- Start footerScripts-->
+			<script src="assets/js/vendor.js"></script>
+			<script src="assets/js/global.js"></script>
+			<script src="assets/js/landing.js"></script>
+			<script src="assets/js/form-validation.js"></script>
+			<!-- End footerScripts-->
+		</div>
+	</body>
+</html>

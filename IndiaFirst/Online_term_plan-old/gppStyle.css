@@ -1,0 +1,4545 @@
+.dobWrap .blankDOB {
+    text-align: left;
+    color: red;
+}
+
+.eTermInner .etermCol .errorTxt.pt {
+    bottom: inherit;
+    top: -85px;
+}
+
+.visibility-hide {
+    visibility: hidden;
+}
+
+.selected .visibility-hide {
+    visibility: visible;
+}
+
+.errorMsg {
+
+    color: #ed1c24;
+    line-height: 1.2rem;
+}
+
+.selectEffect .error {
+    position: absolute;
+    top: 103%;
+    left: 0;
+    padding-left: 1.5rem;
+    color: #ed1c24;
+    line-height: 1.2rem;
+}
+
+.jointVenture ul {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.jointVenture ul li img {
+    height: 110px;
+}
+
+.webcam {
+    text-align: center;
+}
+
+.showForceFully {
+    display: block !important;
+}
+
+#loaderDiv {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: grey;
+    opacity: .8;
+}
+
+.ajax-loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -32px;
+    margin-top: -32px;
+    display: block;
+    height: 100px;
+    width: 100px;
+}
+
+.disableAnchor {
+    pointer-events: none;
+}
+
+.alupload {
+    position: relative;
+    top: 25px;
+    color: #00aeef;
+    font-weight: 400;
+
+}
+
+select#medicalQueQ12Country,
+#medicalQueCity {
+
+    display: block !important;
+
+}
+
+.resumeApplBlock .imgres {
+    width: 25%;
+}
+
+.helpBlock {
+    top: 45% !important;
+}
+
+
+@media screen and (max-width: 992px) {
+    .resumeApplBlock .imgres {
+        width: 55%;
+    }
+}
+
+#snapshot {
+    width: 108px;
+}
+
+.resumeApplBlock .capimg {
+    overflow-x: auto;
+}
+
+.summulerr {
+    position: absolute;
+    bottom: -5%;
+
+}
+
+.premAmnt .errorMsg {
+    line-height: 1.3;
+}
+
+.addbenefitsMsg.sho {
+    display: block !important;
+}
+
+.lifeStyleBox.showLifestyle {
+    display: block !important;
+}
+
+.adharDetailBlock.personalDetail {
+    display: none !important;
+}
+
+.adharDetailBlock .adharBoxWrap .message {
+    font-size: 13.8px !important;
+    margin-top: 2px !important;
+}
+
+.premAmnt .noticeMsg {
+    color: #828282;
+    font-weight: bold;
+}
+
+.summulerrMob {
+
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    .summulerr {
+        position: relative;
+        left: 6%;
+        bottom: 274px;
+        clear: both;
+        display: none;
+    }
+
+    .summulerrMob {
+        position: relative;
+        left: -3%;
+        /*bottom: 274px; */
+        clear: both;
+        display: block;
+    }
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+    .summulerr {
+        position: absolute;
+        bottom: -20px;
+    }
+}
+
+.policyDetailBlock .policyInfoBlock .policyInfo ul li>span:first-child {
+    width: 147px !important;
+}
+
+.blk {
+    margin-top: 12%;
+
+}
+
+.amtTxt .buttonwithAmt {
+    max-width: 27.7rem !important;
+}
+
+.amtTxt .amount {
+    width: 15rem !important;
+}
+
+/* .insuranceBlock .progressBlock{
+	    top: 70px;
+} */
+
+.modal-dialog .buttonwithAmt {
+    max-width: 28.5rem !important;
+}
+
+.modal-dialog .amount {
+    width: 70% !important;
+}
+
+.disableBenefit {
+    background: rgba(255, 255, 255, 0.9);
+
+}
+
+.benefitabove-cr-PT-dsb,
+.benefitabove-cr-PT-ib,
+.benefitabove-cr-PT-ipb,
+.benefitabove-cr-PT-irb,
+.benefitabove-cr-PT-cb,
+.benefitabove-cr-PT-dsb,
+.benefitabove-cr-PT-asb,
+.benefitabove-cr-PT-cipb {
+    padding: 28px;
+    font-weight: bold;
+}
+
+.disableBenefit span {
+    font-weight: 800;
+}
+
+
+.policyDetailBlock .policyInfoBlock {
+    padding: 2.7rem 1rem 1.3rem 1.5rem !important;
+}
+
+.policyDetailBlock .quoteDiv {
+    padding: 2.3rem 1rem 1.7rem 1.5rem !important;
+}
+
+.inputEffect.errorToBtm .error {
+    top: 144%;
+    padding-left: 1.5rem;
+}
+
+.eTermInner .premAmnt.eTerm .select .bootstrap-select .dropdown-menu {
+    height: 130px;
+}
+
+a.removeMember {
+    margin-left: 4px;
+    color: #00aeef;
+    font-family: Whitney-Medium;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+}
+
+span.icon-minus {
+    margin-right: 4px;
+
+}
+
+p.monthlyNotice {
+    font-size: 15px;
+    font-family: Whitney-Book;
+    color: #818181;
+    margin-top: 10px;
+}
+
+.policyBtn button {
+    background: none;
+    border: none;
+}
+
+.helpBlock .assistanceWrap .connectOption ul li span {
+    cursor: pointer;
+}
+
+header .logoContentWrap .logo {
+    cursor: default;
+}
+
+input#ifsccd {
+    text-transform: uppercase;
+}
+
+.ifl-contentMaster.ifl-grey-bg {
+    padding: 10px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .webSection,
+    .breadcrumb {
+        display: none;
+    }
+
+    .mobSection {
+        display: block;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    .webSection {
+        display: block;
+    }
+
+    .mobSection {
+        display: none;
+    }
+
+    .gpp .navContent ul {
+        margin-top: 8px;
+    }
+
+    .benefitsTermInsurance .col-md-4 {
+        width: 325px
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .policyDetailBlock {
+        right: 2rem !important;
+    }
+}
+
+.requiredField .dropdwn {
+    width: 50%;
+    display: inline-block;
+}
+
+.inptstyle {
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.details.ng-binding {
+    font-size: 13px;
+}
+
+span.labelName {
+    font-size: 15px !important
+}
+
+span.details.coverdSum.ng-binding {
+    font-size: 13px !important;
+}
+
+.feedbackWrap .congratulationBox {
+    padding: 1.8rem;
+    margin-top: 5.8rem;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.feedbackWrap .congratulationBox .applicantInfo {
+    margin: 0 2rem 2.5rem;
+    padding-bottom: 2.5rem;
+
+}
+
+.feedbackWrap .congratulationBox .applicantInfo p {
+    font-size: 1.6rem;
+    font-family: Whitney-Medium;
+    text-align: center;
+    color: #2a2a2a;
+}
+
+.feedbackWrap .congratulationBox .applicantInfo p span {
+    font-family: Whitney-Book;
+    display: block;
+    padding-top: 1rem;
+}
+
+.feedbackWrap .congratulationBox .applicantInfo h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 2.6rem;
+    font-family: Whitney-Medium;
+    text-transform: capitalize;
+    text-align: center;
+    color: #00aeef;
+}
+
+.experienceWrapper .experienceBlog {
+    background-color: #fdfdfd;
+    padding: 0 0 3.5rem 0;
+    margin-top: 5.8rem;
+    background: #f3f7f9 url(https://www.indiafirstlife.com/buy-online-insurance/images/bg_thankYou.png) top right no-repeat;
+
+}
+
+span.icon-call {
+    top: -8px;
+}
+
+/*chat css */
+
+.etermLiveChat #myChatLinkContainer {
+    background: #444;
+    color: #fff;
+}
+
+.etermLiveChat .center {
+    margin: auto;
+    width: 50%;
+    padding: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.etermLiveChat .bottom-right {
+    position: fixed;
+    height: auto;
+    width: auto;
+    bottom: 50px;
+    left: 50px;
+}
+
+.etermLiveChat .bottom-left {
+    text-align: center;
+    position: fixed;
+    height: auto;
+    width: auto;
+    bottom: 50px;
+    left: 50px;
+}
+
+.etermLiveChat .bottom0 {
+    bottom: 0;
+}
+
+.etermLiveChat #reactive-chat-toggle {
+    height: auto;
+    width: 350px;
+    border: 1px solid;
+}
+
+.etermLiveChat #chatWindow {
+    height: 500px;
+    width: 350px;
+    -webkit-box-shadow: 2px 0px 62px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 0px 62px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 0px 62px -8px rgba(0, 0, 0, 0.75);
+    z-index: 100;
+    background: #fff;
+}
+
+#iframeContainer {
+    height: 500px;
+}
+
+.etermLiveChat #reactiveChatWindow {
+    height: 350px;
+}
+
+.etermLiveChat #chatWindowMinimized {
+    height: 30px;
+    width: 350px;
+    background-color: #eee;
+    color: #000;
+    /*  border: 1px solid blue; */
+    display: none;
+    color: #0094de;
+    font-family: 'Whitney-Medium';
+    padding: 5px;
+    z-index: 100;
+}
+
+.etermLiveChat .wrapContainer {
+    padding-bottom: 0px;
+}
+
+/*end chat css */
+
+@media only screen and (max-width: 480px) {
+    .requiredField .dropdwn {
+        width: 88%;
+        display: inline-block;
+        margin-left: 4%;
+        margin-top: -4%;
+    }
+
+    .inptstyle {
+        margin-top: 4%;
+    }
+}
+
+.inreplacementerr {
+    margin-top: 12px;
+    position: static !important;
+    margin-left: 20px;
+}
+
+.reviewApplicationWrap .titleDiv a {
+    cursor: pointer;
+}
+
+.reviewApplicationWrap .titleDiv a.disableAnchor {
+    cursor: default;
+}
+
+.noticeMsgPB {
+    color: #828282;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.activeTab .nomineeDetailsWrap .accordContent {
+    display: block !important;
+}
+
+.activeTab .employmentDetailWrap .accordContent {
+    display: block !important;
+}
+
+.activeTab .basicDetailWrap .accordContent {
+    display: block !important;
+}
+
+.activeTab .bankDetailWrap .accordContent {
+    display: block !important;
+}
+
+.activeTab .fatcaTabWrap .accordContent {
+    display: block !important;
+}
+
+.activeTab .healthDetailWrap .accordContent {
+    display: block !important;
+}
+
+.activeTab .medicalHistoryWrap .accordContent {
+    display: block !important;
+}
+
+.activeTab .lifestyleQuestionsWrap .accordContent {
+    display: block !important;
+}
+
+.paygateway {
+    text-align: left !important;
+    color: #00aeef;
+    padding: 15px 25px 0px 25px !important;
+    text-transform: capitalize;
+    margin-bottom: 1rem !important;
+}
+
+.paybox {
+    padding: 0 0 0.5rem 0 !important;
+}
+
+.paygatewayform {
+    text-align: left !important;
+    padding: 10px 25px !important
+}
+
+.paylabel {
+    color: #00aeef;
+
+}
+
+.paybleSize {
+    font-size: 20px;
+}
+
+.paylabelspacing {
+    padding-left: 10%;
+}
+
+.paygatewayform input[type="radio"]:checked:before {
+    background: #00aeef;
+}
+
+.paybtn {
+    border-radius: 0px !important;
+    padding: 5px 15px !important;
+}
+
+.payformbtn {
+    padding: 20px 5px;
+}
+
+.paygatewayform input[type="radio"]:checked:before {
+    content: "";
+    display: block;
+    position: relative;
+    top: 6px;
+    left: 6px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #00aeef;
+
+}
+
+.radiosize {
+    width: 25px;
+    height: 25px;
+}
+
+.radioname {
+    position: relative;
+    left: 15px;
+    top: 5px;
+}
+
+.errorOnPopup {
+    color: red;
+    padding-top: 5px;
+}
+
+/***CSS for Search application page**/
+#customers {
+
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #f47920;
+    color: white;
+}
+
+.searchapplication .resumeFormWrap {
+    width: 50%;
+    left: 30%;
+    position: relative;
+}
+
+.searchapplication .topCurve {
+    top: -20px;
+}
+
+.searchapplication .finalAge {
+    left: 0;
+    float: left;
+    position: inherit !important;
+}
+
+/***CSS for SP authorization page **/
+
+.Authline {
+    color: black !important;
+    border: .2px solid !important;
+}
+
+
+.spwelcome {
+    padding-bottom: 35px;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.spAggrement {
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.spAuthorizationTitle {
+    border-bottom: 0.2px solid black !important;
+    padding-bottom: 35px !important;
+}
+
+/***BOB page CSS**/
+.bobPage .paddBob {
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.bobPage .mrgn-top10 {
+    margin-top: 10px;
+}
+
+.bobPage .branchLabel {
+    font-size: 18px !important;
+    font-weight: 500;
+}
+
+.bobPage .logoContentWrapRight {
+    float: right;
+    max-width: 20rem;
+}
+
+.sticky .logoContentWrapRight img {
+    max-width: 15rem;
+}
+
+.gppBasicDetailHeader .progressBlock {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+
+    .bobPage .col-sm-3 {
+        width: 35%;
+    }
+
+    .bobPage .col-sm-6 {
+        width: 65%;
+    }
+
+    .bobPage .logoContentWrapRight {
+        max-width: 15rem;
+    }
+
+    .gppBasicDetail .lifeprotectionplanSection .progressBlock {
+        display: none
+    }
+
+    .gppBasicDetailHeader .progressBlock {
+        margin-right: 25%;
+        display: block;
+    }
+
+}
+
+
+/*Rahul Natu - code here */
+.required {
+    color: red
+}
+
+/* Quote_page_V4 Start */
+.yourinsuranceSection {
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 75px;
+    position: relative;
+    margin-bottom: 20px
+}
+
+.yourinsuranceSection .quoteTxt {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    font-family: Whitney-Medium;
+    font-size: 1.4rem;
+}
+
+.yourinsuranceSection h2 {
+    top: -95px;
+    position: relative;
+    font-size: 3.2rem;
+    margin-bottom: 0rem;
+    font-weight: bold;
+}
+
+.yourinsuranceSection h2 span {
+    background: #fff;
+    display: inline-table;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 2.4rem;
+    font-weight: 500
+}
+
+.yourInsuranceForm {
+    margin-top: -75px;
+    text-align: left;
+}
+
+.yourInsuranceForm .row {
+    max-width: 84%;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.yourInsuranceForm h6 {
+    font-family: Whitney-Medium;
+    font-size: 1.6rem;
+    color: #2a2a2a;
+    margin-bottom: 7px;
+}
+
+/* .yourInsuranceForm input {border: 1px solid #d3d3d3;font-size: 1.7rem;color: #2a2a2a;padding: 12px;text-align: center;max-width: 100%; width:100%;border-radius: 40px;font-family: Whitney-Medium;font-size: 1.8rem;} */
+.yourInsuranceForm select {
+    border: 1px solid #d3d3d3;
+    color: #2a2a2a;
+    padding: 5px 10px 7px 15px;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 40px;
+    font-family: Whitney-Medium;
+    font-size: 1.5rem;
+}
+
+.yourInsuranceForm .policyCovers select {
+    width: 45%;
+    margin-right: 1rem
+}
+
+.yourInsuranceForm .policyCovers select:first-child {
+    margin-left: 0;
+}
+
+.yourinsuranceSection .planlifeoptionSec {
+    background: #fef6e7 url(https://www.indiafirstlife.com/buy-online-insurance/images/family-icon.png) 0 100% no-repeat;
+    margin: 0;
+    padding: 15px 0 0;
+    border-radius: 0 0 10px 10px;
+    min-height: 75px
+}
+
+.yourinsuranceSection .planlifeoptionSec p {
+    font-size: 1.4rem;
+    text-align: left
+}
+
+.yourinsuranceSection .planlifeoptionSec .toggleBt {
+    width: 80px;
+    left: -10px
+}
+
+.yourinsuranceSection .planlifeoptionSec .toggleBt .switch,
+.yourinsuranceSection .planlifeoptionSec .toggleBt .slider,
+.yourinsuranceSection .planlifeoptionSec .toggleBt .slider:before {
+    height: 30px
+}
+
+.yourinsuranceSection .planlifeoptionSec .toggleBt .slider:before {
+    width: 45px
+}
+
+.yourinsuranceSection .planlifeoptionSec .toggleBt .slider {
+    width: 86px
+}
+
+.yourinsuranceSection .planlifeoptionSec .toggleBt .label1 {
+    top: 5px;
+    left: 22px
+}
+
+.yourinsuranceSection .planlifeoptionSec .toggleBt .label2 {
+    top: 5px;
+    right: -4px
+}
+
+/* .yourinsuranceSection .planlifeoptionSec .planOption {text-indent:15px;} */
+.yourinsuranceSection .planlifeoptionSec .planOption span {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.yourinsuranceSection .planlifeoptionSec .planOption,
+.yourinsuranceSection .planlifeoptionSec .premAmnt {
+    position: relative;
+    text-align: left;
+}
+
+.yourinsuranceSection .planlifeoptionSec .planOption {
+    text-align: center;
+}
+
+.yourinsuranceSection .planlifeoptionSec .planOption:before,
+.yourinsuranceSection .planlifeoptionSec .premAmnt:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    height: 40px;
+    border-left: 1px solid #c9bfab
+}
+
+.yourinsuranceSection .planlifeoptionSec .premAmnt:before {
+    left: -10px;
+}
+
+.yourinsuranceSection .planlifeoptionSec .defaultBtn.blueBtn {
+    width: 100%
+}
+
+.yourinsuranceSection .planlifeoptionSec .premAmnt .gstText {
+    font-size: 1.2rem
+}
+
+.yourinsuranceSection .planlifeoptionSec .premAmnt .rupeeText {
+    font-size: 2.2rem;
+    color: #f47c35;
+    font-family: Whitney-Bold;
+}
+
+.planLevelSection {
+    margin: 1rem 0
+}
+
+.planLevelSection h5 {
+    margin: 0 0 1rem
+}
+
+.planLevelSection h5 span {
+    color: #00aeef;
+    text-transform: uppercase;
+}
+
+.planLevelSection .row {
+    margin: 0;
+}
+
+.planLevelSection .col-md-6 {
+    padding-left: 0
+}
+
+.planLevelSection .boxRadius {
+    padding: 5px 15px;
+    margin: 0 0 1rem;
+    border-radius: 10px;
+    border: 1px solid #00aeef;
+    cursor: pointer;
+}
+
+.planLevelSection .boxRadius h4 {
+    font-size: 16px;
+    margin-bottom: .5rem
+}
+
+.planLevelSection .boxRadius .addIcon {
+    color: #154d83;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.planLevelSection .boxRadius p {
+    /* color:#f47c35; */
+    font-size: 14px;
+}
+
+.planLevelSection .boxRadius .knowMore {
+    border-left: 1px solid #2a2a2a;
+    margin-left: 5px;
+    padding-left: 10px;
+    color: #2a2a2a;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.planLevelSection .boxRadius .knowMore2 {
+    color: #2a2a2a;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* .planLevelSection .boxRadius.active {background:#72c814; border:1px solid #72c814} */
+.planLevelSection .boxRadius.active {
+    background: #72c814 url(https://www.indiafirstlife.com/buy-online-insurance/images/tickImg4.png) 95% 15px no-repeat
+}
+
+.planLevelSection .boxRadius.active h4 {
+    color: #fff
+}
+
+.planLevelSection .boxRadius.active p,
+.planLevelSection .boxRadius.active p .knowMore2 {
+    color: #fff
+}
+
+.planLevelSection .boxRadius.active .knowMore,
+.planLevelSection .boxRadius.active .addIcon {
+    display: none;
+}
+
+.planLevelSection .boxRadius.focus .knowMore,
+.planLevelSection .boxRadius:focus .knowMore2,
+.planLevelSection .boxRadius.focus .addIcon,
+.planLevelSection .boxRadius.disabled {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #acb1b7;
+    color: #acb1b7;
+}
+
+.planLevelSection .boxRadius.disabled h4,
+.planLevelSection .boxRadius.disabled .pull-right,
+.planLevelSection .boxRadius.disabled .knowMore2 {
+    color: #acb1b7;
+}
+
+.planLevelSection .boxRadius.focus.disabled,
+.planLevelSection .boxRadius.notSelected.disabled:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #acb1b7;
+    cursor: default;
+}
+
+.planLevelSection .owl-nav {
+    position: absolute;
+    right: 15px;
+    top: -42px;
+    text-align: right;
+    color: #fff;
+    width: auto;
+    z-index: -1;
+}
+
+.planLevelSection .boxRadius.focus,
+.planLevelSection .boxRadius.notSelected:hover {
+    background: #f47c35;
+    border: 1px solid #f47c35
+}
+
+.planLevelSection .boxRadius.focus h4,
+.planLevelSection .boxRadius:hover h4 {
+    color: #fff
+}
+
+.planLevelSection .boxRadius.focus p,
+.planLevelSection .boxRadius:hover p {
+    color: #fff
+}
+
+.planLevelSection .boxRadius:hover .knowMore,
+.planLevelSection .boxRadius:hover .knowMore2,
+.planLevelSection .boxRadius:hover .addIcon {
+    color: #fff
+}
+
+.planLevelSection .owl-nav .owl-prev,
+.planLevelSection .owl-nav .owl-next {
+    background: transparent;
+    box-shadow: none;
+    font-size: 0;
+}
+
+.planLevelSection .owl-nav .owl-next {
+    top: 5px
+}
+
+.planLevelSection .owl-nav .owl-prev:before {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowRightGrey.png) 0 0 no-repeat;
+    width: 25px;
+    height: 15px;
+    transform: inherit;
+}
+
+.planLevelSection .owl-nav .owl-prev:hover:before {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowLeft.png) 0 0 no-repeat;
+}
+
+.planLevelSection .owl-nav .owl-next:before {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowLeftGrey.png) 0 0 no-repeat;
+    width: 25px;
+    height: 15px
+}
+
+.planLevelSection .owl-nav .owl-next:hover:before {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowRight.png) 0 0 no-repeat;
+}
+
+.planLevelSection .owl-nav .owl-prev.disabled:before {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowRightGrey.png) 0 0 no-repeat;
+    width: 25px;
+    height: 15px;
+    transform: inherit;
+}
+
+.planLevelSection .owl-nav .owl-prev:before {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowLeft.png) 0 0 no-repeat;
+    transform: rotate(0deg);
+}
+
+.planLevelSection .owl-nav .owl-next.disabled:before {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowLeftGrey.png) 0 0 no-repeat;
+    width: 25px;
+    height: 15px
+}
+
+.planLevelSection .owl-nav .owl-next:before {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowRight.png) 0 0 no-repeat;
+}
+
+.hearfromourcustomers .boxbrdLTRT {
+    position: relative;
+    text-align: center
+}
+
+.hearfromourcustomers .boxbrdLTRT p>span {
+    font-family: Whitney-Medium;
+    display: block;
+    font-size: 1.5rem;
+}
+
+.hearfromourcustomers .boxbrdLTRT .reviewText {
+    font-size: 1.4rem;
+}
+
+.hearfromourcustomers .boxbrdLTRT .brdLt {
+    position: absolute;
+    left: -35px;
+    top: 3em;
+    width: 175px;
+    height: 105px;
+    border: 1px solid #e8e6e6;
+    border-radius: 5px;
+    padding: 20px 10px 10px
+}
+
+.hearfromourcustomers .boxbrdLTRT .brdRt {
+    position: absolute;
+    right: -35px;
+    top: 3em;
+    width: 175px;
+    height: 105px;
+    border: 1px solid #e8e6e6;
+    border-radius: 5px;
+    padding: 20px 10px 10px
+}
+
+
+.downloadSec {
+    max-width: 425px;
+    margin: 0 auto;
+    border: 1px solid #f6f6f6;
+    border-radius: 50px
+}
+
+.downloadSec span {
+    cursor: pointer;
+    padding: 5px 5px;
+    display: inline-block;
+    position: relative;
+}
+
+.downloadSec span:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-right: 1px solid #b1b1b1;
+    max-height: 20px;
+    width: 1px
+}
+
+.downloadSec span:hover {
+    color: #00aeef
+}
+
+.downloadSec .dwnld {
+    background: #e8eff1 url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-download.png) 12px center no-repeat;
+    padding-left: 32px;
+    padding-right: 10px;
+    color: #6f767b;
+    border-radius: 50px 0 0 50px;
+    cursor: auto
+}
+
+.downloadSec .dwnld:hover {
+    color: #6f767b
+}
+
+.downloadSec .links {
+    padding: 0 10px 0 10px;
+    line-height: 12px;
+}
+
+.downloadSec .links:hover {
+    color: #00aeef
+}
+
+.downloadSec .links:nth-child(2),
+.downloadSec .links:nth-child(3) {
+    border-right: 1px solid #b1b1b1;
+}
+
+.downloadSec .links.basic:nth-child(3) {
+    border-right: none;
+}
+
+.downloadSec.bsc {
+    max-width: 325px;
+}
+
+/* Quote_page_V4 End */
+
+.lifeprotectionplanSection .downloadSec {
+    margin: 0
+}
+
+.lifeprotectionplanSection h1 {
+    margin-bottom: 0
+}
+
+.lifeprotectionplanSection .yourpolicy {
+    font-size: 2rem;
+    font-family: Whitney-Medium;
+    margin-bottom: 3rem
+}
+
+.lifeprotectionplanSection h6.bankText {
+    width: 80%;
+    display: inline-block;
+    float: left;
+    font-size: 1.4rem !important
+}
+
+.lifeprotectionplanSection .toggleBt {
+    width: 80px;
+    left: -10px
+}
+
+.lifeprotectionplanSection .toggleBt .switch,
+.lifeprotectionplanSection .toggleBt .slider,
+.lifeprotectionplanSection .toggleBt .slider:before {
+    height: 30px
+}
+
+.lifeprotectionplanSection .toggleBt .slider:before {
+    width: 45px
+}
+
+.lifeprotectionplanSection .toggleBt .slider {
+    width: 86px
+}
+
+.lifeprotectionplanSection .toggleBt .label1 {
+    top: 5px;
+    left: 15px
+}
+
+.lifeprotectionplanSection .toggleBt .label2 {
+    top: 5px;
+    right: 8px
+}
+
+.lifeprotectionplanSection .backBtn {
+    margin-right: 10px;
+    margin-bottom: 2rem
+}
+
+.lifeprotectionplanSection .backBtn span {
+    padding-right: 0;
+}
+
+.lifeprotectionplanSection .backBtn span:before {
+    font-size: 0
+}
+
+.lifeprotectionplanSection .indiafirstliferightbox {
+    border-radius: 5px;
+    box-shadow: 0 0px 10px 0px rgba(0, 0, 0, .20);
+    position: relative;
+    top: -80px;
+    background: #fff
+}
+
+.lifeprotectionplanSection .indiafirstliferightbox .quoteidDiv {
+    font-size: 1.6rem;
+    padding: 10px 30px 0;
+    font-family: Whitney-Medium
+}
+
+.lifeprotectionplanSection .indiafirstliferightbox .rupeeText {
+    color: #f57c35;
+    font-family: Whitney-Bold;
+    font-size: 3.4rem;
+    padding: 5px 30px 10px
+}
+
+.lifeprotectionplanSection .indiafirstliferightbox .peryearText {
+    font-weight: 400;
+    color: #2a2a2a;
+    font-size: 1.4rem;
+    font-family: Whitney-Book;
+}
+
+.lifeprotectionplanSection .indiafirstliferightbox .gstText {
+    font-weight: 400;
+    font-size: 1.4rem;
+    font-family: Whitney-Book;
+}
+
+.lifeprotectionplanSection .lifeprotectionplanform {
+    background: #fdfdfd url(https://www.indiafirstlife.com/buy-online-insurance/images/protectionPlanbg.png) right bottom no-repeat;
+    border: 1px solid #eaf1f3;
+    border-radius: 8px;
+    margin: 20px 0 0;
+    padding: 30px;
+    position: relative;
+}
+
+.lifeprotectionplanSection .lifeprotectionplanform .policyDetailBlock {
+    position: absolute;
+}
+
+.lifeprotectionplanSection .priceList {
+    background: #cceffc;
+    padding: 10px 25px
+}
+
+.lifeprotectionplanSection .priceList h4 {
+    font-size: 20px;
+    color: #6a7a7f
+}
+
+.lifeprotectionplanSection .priceList ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 16px
+}
+
+.lifeprotectionplanSection .priceList ul li {
+    color: #333;
+    font-weight: 600
+}
+
+.lifeprotectionplanSection .priceList ul li label {
+    width: 145px;
+    display: inline-block;
+    color: #2a2a2a;
+    font-weight: normal
+}
+
+.lifeprotectionplanSection .priceList ul li span.rupee {
+    font-size: 20px
+}
+
+.lifeprotectionplanSection .secondDetails {
+    border-bottom: 1px solid #c9caca;
+    margin: 40px 0 20px;
+    padding: 0 0 5px
+}
+
+.lifeprotectionplanSection .secondDetails .col-md-6 {
+    padding: 0
+}
+
+.lifeprotectionplanSection .secondDetails h2 {
+    font-size: 1.8rem;
+    color: #2a2a2a;
+    margin: 0;
+    padding: 0
+}
+
+.lifeprotectionplanSection .secondDetails span.edit {
+    cursor: pointer;
+    color: #00aeef;
+    margin-left: 10px
+}
+
+.lifeprotectionplanSection .lifeprotectionplanform h6 {
+    font-family: Whitney-Medium;
+    font-size: 1.6rem;
+    color: #2a2a2a;
+    margin-bottom: 7px;
+}
+
+/*.lifeprotectionplanSection .lifeprotectionplanform .row {margin-bottom:20px} 
+.lifeprotectionplanSection .lifeprotectionplanform input[type="text"], .lifeprotectionplanSection .lifeprotectionplanform input[type="tel"] {border: 1px solid #d3d3d3; font-size: 1.7rem; color: #2a2a2a; padding: 12px; max-width: 100%; width:100%; border-radius: 40px; font-family: Whitney-Medium; font-size: 1.8rem;}*/
+.lifeprotectionplanSection .lifeprotectionplanform select {
+    border: 1px solid #d3d3d3;
+    color: #2a2a2a;
+    padding: 5px 10px 7px 15px;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 40px;
+    font-family: Whitney-Medium;
+    font-size: 1.5rem;
+}
+
+.lifeprotectionplanSection .lifeprotectionplanform .inputCrossBg .textBox {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-cross.png) 95% center no-repeat;
+}
+
+.lifeprotectionplanSection .lifeprotectionplanform .captchaBx,
+.lifeprotectionplanSection .lifeprotectionplanform .authorizeText {
+    margin: 25px 0;
+    font-size: 1.6rem
+}
+
+.guaranteedplanSection {
+    max-width: 100%;
+    /* padding:12rem 0 0; */
+    padding-bottom: 0 !important;
+    /* box-shadow: 0px 2px 6px -5px */
+}
+
+.guaranteedplanSection h1 {
+    margin-top: 2rem
+}
+
+.guaranteedplanSection .onlineTermForm {
+    padding-top: 5px;
+    width: 90%
+}
+
+.guaranteedplanSection .row {
+    margin: -20px 0 0;
+    padding: 20px 0 0;
+    /* overflow:hidden; */
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.guaranteedplanSection .row.genderSection {
+    padding: 30px 0 0;
+    /* overflow:hidden; */
+}
+
+.guaranteedplanSection .row>[class*='col-'] {
+    flex-direction: column;
+}
+
+.guaranteedplanSection .row .col-md-6 {
+    margin-top: 20px
+}
+
+.guaranteedplanSection .guaranteedplanBg img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: right;
+}
+
+.guaranteedplanSection h1 {
+    margin-bottom: 1rem
+}
+
+/* .guaranteedplanSection .subjustText {font-size:1.7rem} */
+.guaranteedplanSection input {
+    border: 1px solid #d3d3d3;
+    font-size: 1.7rem;
+    color: #2a2a2a;
+    padding: 12px;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 40px;
+    font-family: Whitney-Medium;
+    font-size: 1.8rem;
+}
+
+.guaranteedplanSection .onlineTermForm ul li input {
+    max-width: 90px
+}
+
+.guaranteedplanSection .radioBt {
+    width: 90px
+}
+
+.guaranteedplanSection select {
+    border: 1px solid #d3d3d3;
+    color: #2a2a2a;
+    padding: 12px;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 40px;
+    font-family: Whitney-Medium;
+    font-size: 1.8rem;
+}
+
+.guaranteedplanSection .authorizeText {
+    clear: both;
+    margin: 15px 0 0 15px
+}
+
+.guaranteedplanSection .authorizeText p span {
+    cursor: pointer;
+    color: #154d83
+}
+
+.guaranteedplanSection .authorizeText p {
+    text-align: left;
+    font-size: 1.4rem
+}
+
+.guaranteedplanSection .authorizeText p input[type="checkbox"] {
+    display: inline-block;
+    width: auto
+}
+
+.guaranteedplanSection .mobCenter {
+    margin-bottom: 3rem;
+}
+
+.guaranteedplanSection .onlineTermForm .genMarTp20 {
+    margin-top: -17px
+}
+
+.guaranteedplanSection .readButton {
+    color: #154d83;
+    font-size: 14px
+}
+
+.aboutguaranteedPlanSection {
+    margin: 5rem 0 7.3rem
+}
+
+.aboutguaranteedPlanSection h2 {
+    margin-bottom: 2rem
+}
+.aboutguaranteedPlanSection .mb {
+    margin-bottom: 3.7rem
+}
+
+.aboutguaranteedPlanSection .guaranteedPlanDiv {
+    margin: 10px 0;
+    padding: 10px 0
+}
+
+.aboutguaranteedPlanSection .guaranteedPlanDiv p {
+    color: #00aeef;
+    font-size: 12px;
+    padding: 0 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.aboutguaranteedPlanSection .guaranteedPlanDiv .iconBx {
+    height: 60px;
+}
+
+.aboutguaranteedPlanSection .guaranteedPlanDiv .iconBx img {
+    margin: auto
+}
+
+.aboutguaranteedPlanSection .grid2 {
+    border: 1px solid #e6edf0;
+    border-width: 0 1px 0 1px
+}
+
+.aboutguaranteedPlanSection .guaranteedPlanDiv img {
+    display: inline-block;
+    width: auto;
+}
+
+.aboutguaranteedPlanSection .readButton,
+.aboutguaranteedPlanSection .readButton2 {
+    color: #154d83;
+    font-size: 14px
+}
+
+.aboutguaranteedPlanSection .guaranteedPlanDiv .owl-nav {
+    right: 25px;
+    top: -6px
+}
+
+.aboutguaranteedPlanSection .guaranteedPlanDiv .owl-nav .owl-prev {
+    left: auto;
+    right: 30px;
+}
+
+.aboutguaranteedPlanSection .guaranteedPlanDiv .owl-nav .owl-prev,
+.aboutguaranteedPlanSection .guaranteedPlanDiv .owl-nav .owl-next {
+    background: transparent;
+    box-shadow: none;
+    font-size: 0;
+}
+
+.aboutguaranteedPlanSection .guaranteedPlanDiv .owl-nav .owl-prev.disabled:before {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowRightGrey.png) 0 0 no-repeat;
+    width: 25px;
+    height: 15px;
+    transform: inherit;
+}
+
+.aboutguaranteedPlanSection .guaranteedPlanDiv .owl-nav .owl-prev:before {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowLeft.png) 0 0 no-repeat;
+    transform: rotate(0deg);
+}
+
+.aboutguaranteedPlanSection .guaranteedPlanDiv .owl-nav .owl-next.disabled:before {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowLeftGrey.png) 0 0 no-repeat;
+    width: 25px;
+    height: 15px
+}
+
+.aboutguaranteedPlanSection .guaranteedPlanDiv .owl-nav .owl-next:before {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowRight.png) 0 0 no-repeat;
+}
+
+
+
+.benefitsTermInsurance {
+    margin: 4rem 0 3rem
+}
+.benefitsTermInsurance .mb1 {
+    margin-bottom: 2.1rem;
+}
+
+/*.benefitsTermInsurance .col-md-4 {background:url(https://www.indiafirstlife.com/buy-online-insurance/images/terminsurancebg.png) right 80% no-repeat; min-height:410px;background-size:95%; padding-right:15px}*/
+
+.benefitsTermInsurance .col-md-8 {
+    padding-left: 0
+}
+
+.benefitsTermInsurance h2 {
+    margin-bottom: 1rem
+}
+
+.benefitsTermInsurance .padrt0 {
+    padding-right: 0
+}
+
+.benefitsTermInsurance .imgbxDiv {
+    float: left;
+    margin-left: 15px;
+}
+
+.benefitsTermInsurance #benefitsLeft {
+    position: relative;
+}
+
+.benefitsTermInsurance #benefitsLeft .btnUp {
+    position: absolute;
+    right: .7rem;
+    top: 15rem;
+    transform: rotate(-90deg);
+    cursor: pointer;
+}
+
+.benefitsTermInsurance #benefitsLeft .btnDown {
+    position: absolute;
+    right: 1rem;
+    top: 20rem;
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+.benefitsTermInsurance #benefitsLeft .btnUp {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowLeftGrey.png) 0 0 no-repeat;
+    width: 25px;
+    height: 15px;
+}
+
+.benefitsTermInsurance #benefitsLeft .btnUp.active {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowRight.png) 0 0 no-repeat;
+    transform: rotate(-90deg)
+}
+
+.benefitsTermInsurance #benefitsLeft .btnDown {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowLeftGrey.png) 0 0 no-repeat;
+    width: 25px;
+    height: 15px
+}
+
+.benefitsTermInsurance #benefitsLeft .btnDown.active {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowRight.png) 0 0 no-repeat;
+}
+
+.benefitsTermInsurance .panel-default {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.benefitsTermInsurance #benefitsLeft {
+    background: #154c84;
+    border-radius: 10px;
+    padding: 25px 40px 12px 20px;
+    min-height: 270px
+}
+
+/* .benefitsTermInsurance #benefitsLeft {background: #e0e5e9; border-radius: 10px; padding: 25px 40px 25px 20px; min-height:370px} */
+.benefitsTermInsurance #benefitsLeft .panel-default,
+.benefitsTermInsurance #benefitsLeft .panel-default>.panel-heading {
+    background: none;
+    border: 0;
+    color: #acb1b7;
+    position: relative;
+    border-radius: 0
+}
+
+.benefitsTermInsurance #benefitsLeft .panel-default {
+    margin-left: 10px
+}
+
+.benefitsTermInsurance #benefitsLeft .panel-default>.panel-heading {
+    position: relative;
+    color: #fff;
+}
+
+.benefitsTermInsurance #benefitsLeft .panel-default>.panel-heading:before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 14px;
+    left: -10px;
+    top: 11px;
+    border-left: 2px solid #E57025;
+}
+
+.benefitsTermInsurance #benefitsLeft .more-less {
+    float: right
+}
+
+.benefitsTermInsurance .glyphicon-plus {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-plus1.png) 0 0 no-repeat;
+    width: 14px;
+    height: 14px;
+}
+
+.benefitsTermInsurance .active .glyphicon-plus {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-neg1.png) 0 0 no-repeat;
+    width: 14px;
+    height: 14px;
+}
+
+.benefitsTermInsurance #benefitsLeft .panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: #12426f;
+    padding: 10px 0;
+    color: #fff
+}
+
+.howtobuyterminsurance h2 {
+    margin-bottom: 2rem
+}
+
+.howtobuyterminsurance span.colorO {
+    color: #f47920
+}
+
+.howtobuyterminsurance .block {
+    font-size: 15px;
+    padding-bottom: 12px;
+}
+
+.howtobuyterminsurance .block>span.left {
+    text-align: center;
+    border-radius: 50px;
+    width: 20px;
+    background: #154d83;
+    position: absolute;
+    color: white;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 14px;
+}
+
+.howtobuyterminsurance .block>span.right {
+    margin-left: 35px;
+    display: inline-block;
+}
+
+.howtobuyterminsurance .textBlock {
+    display: block;
+    margin-top: 10px
+}
+
+.howtobuyterminsurance .chooseVarious {
+    border: 1px solid #e8e6e6;
+    border-radius: 10px;
+    text-align: center;
+    margin: 15px 0 0
+}
+
+.howtobuyterminsurance .chooseVarious .iconbx {
+    height: 60px
+}
+
+.howtobuyterminsurance .chooseVarious .col-md-1 {
+    border: 1px solid #e8e6e6;
+    border-width: 1px 1px 1px 0;
+    height: 110px;
+    width: 12%;
+}
+.howtobuyterminsurance .chooseVarious > div{
+border: 1px solid #e8e6e6;
+    border-width: 1px 1px 1px 0;
+    height: 110px;
+}
+
+.howtobuyterminsurance .chooseVarious > div:hover {
+    background: #f47920;
+    color: #fff;}
+.howtobuyterminsurance .chooseVarious .lifeOption {
+    border-left: 1px solid #e8e6e6;
+}
+
+.howtobuyterminsurance .chooseTxt {
+    width: 65%;
+}
+
+.howtobuyterminsurance .chooseVarious .lifeOption:hover {
+    background: #f47920;
+    cursor: pointer;
+    color: white
+}
+
+.howtobuyterminsurance .chooseVarious .col-md-1:hover {
+    background: #f47920;
+    color: #fff;
+}
+
+.howtobuyterminsurance .chooseVarious .col-md-1 p {
+    font-size: 1.4rem;
+    line-height: 1.2;
+    color: #acb1b7 !important;
+}
+
+.howtobuyterminsurance .chooseVariousMob .col-md-1mob p {
+    font-size: 1.4rem;
+    line-height: 1.2;
+    color: #acb1b7 !important;
+}
+.howtobuyterminsurance .chooseVariousMob .owl-item span {
+    width: 40%;
+    margin: 0 auto;
+    display: block;
+}
+.howtobuyterminsurance .chooseVarious .col-md-1:hover p {
+    /* color : #acb1b7 !important; */
+    color: #fff;
+}
+
+.howtobuyterminsurance .chooseVarious .col-md-1mob:hover p {
+    /* color : #acb1b7 !important; */
+    color: #fff;
+}
+
+.howtobuyterminsurance .chooseVariousMob .col-md-1mob p {
+    /* color : #acb1b7 !important; */
+    color: #fff
+}
+
+.howtobuyterminsurance .chooseVarious .lifeOption .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-lifeoption.png) center center no-repeat
+}
+
+.howtobuyterminsurance .chooseVarious .lifeOption:hover .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-lifeoptionW.png) center center no-repeat
+}
+
+.howtobuyterminsurance .chooseVarious .lifePlusOption .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-lifeplusoption.png) center center no-repeat
+}
+
+.howtobuyterminsurance .chooseVarious .lifePlusOption:hover .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-lifeplusoptionW.png) center center no-repeat
+}
+
+.howtobuyterminsurance .chooseVarious .incidenceCoverage .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-incidencecoverage.png) center center no-repeat
+}
+
+.howtobuyterminsurance .chooseVarious .incidenceCoverage:hover .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-incidencecoverageW.png) center center no-repeat
+}
+
+.howtobuyterminsurance .chooseVarious .longTerm .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-longtermcare.png) center center no-repeat
+}
+
+.howtobuyterminsurance .chooseVarious .longTerm:hover .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-longtermcareW.png) center center no-repeat
+}
+
+/* .howtobuyterminsurance .chooseVarious .longTerm, .howtobuyterminsurance .chooseVarious .covid19 {color : #acb1b7 !important;} */
+
+.howtobuyterminsurance .chooseVarious .returnPremium .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-returnofpremium.png) center center no-repeat
+}
+
+.howtobuyterminsurance .chooseVarious .returnPremium:hover .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-returnofpremiumW.png) center center no-repeat
+}
+
+.howtobuyterminsurance .chooseVarious .dualProtect .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-dualprotect.png) center center no-repeat
+}
+
+.howtobuyterminsurance .chooseVarious .dualProtect:hover .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-dualprotectW.png) center center no-repeat
+}
+
+.howtobuyterminsurance .chooseVarious .emergencySupport .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-emergencysupport.png) center center no-repeat
+}
+
+.howtobuyterminsurance .chooseVarious .emergencySupport:hover .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-emergencysupportW.png) center center no-repeat
+}
+
+.howtobuyterminsurance .chooseVarious .covid19 .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-covid19.png) center center no-repeat
+}
+
+.howtobuyterminsurance .chooseVarious .covid19:hover .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-covid19W.png) center center no-repeat
+}
+
+/* .howtobuyterminsurance .chooseVarious .returnPremium, .howtobuyterminsurance .chooseVarious .dualProtect, .howtobuyterminsurance .chooseVarious .emergencySupport,
+.howtobuyterminsurance .chooseVarious .covid19 {border-bottom:0} */
+
+/* Mobile */
+.howtobuyterminsurance .chooseVariousMob {
+    border: 1px solid #e8e6e6;
+    border-radius: 10px;
+    text-align: center;
+    margin: 15px 0 0;
+    display: none;
+    padding: 0
+}
+
+.howtobuyterminsurance .chooseVariousMob .iconbx {
+    height: 60px
+}
+
+.howtobuyterminsurance .chooseVariousMob .col-md-1 {
+    border: 1px solid #e8e6e6;
+    border-width: 0 1px 1px 0;
+    height: 100px;
+    width: 12%;
+}
+
+.howtobuyterminsurance .chooseVariousMob .lifeOption:hover {
+    background: #f47920;
+    cursor: pointer;
+    color: white
+}
+
+.howtobuyterminsurance .chooseVariousMob .col-md-1mob:hover {
+    background: #f47920;
+    color: #fff
+}
+
+.howtobuyterminsurance .chooseVariousMob .col-md-1 p {
+    font-size: 1.4rem;
+    line-height: 1.2;
+    color: #acb1b7 !important;
+}
+
+.howtobuyterminsurance .chooseVariousMob .col-md-1:hover p {
+    /*color : #acb1b7 !important;*/
+    color: #fff
+}
+
+.howtobuyterminsurance .chooseVariousMob .lifeOption .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-lifeoption.png) center center no-repeat
+}
+
+.howtobuyterminsurance .chooseVariousMob .lifeOption:hover .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-lifeoptionW.png) center center no-repeat
+}
+
+.howtobuyterminsurance .chooseVariousMob .lifePlusOption .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-lifeplusoption.png) center center no-repeat
+}
+
+.howtobuyterminsurance .chooseVariousMob .lifePlusOption:hover .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-lifeplusoptionW.png) center center no-repeat
+}
+
+.howtobuyterminsurance .chooseVariousMob .incidenceCoverage .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-incidencecoverage.png) center center no-repeat
+}
+
+.howtobuyterminsurance .chooseVariousMob .incidenceCoverage:hover .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-incidencecoverageW.png) center center no-repeat
+}
+
+.howtobuyterminsurance .chooseVariousMob .longTerm .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-longtermcare.png) center center no-repeat
+}
+
+.howtobuyterminsurance .chooseVariousMob .longTerm:hover .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-longtermcareW.png) center center no-repeat
+}
+
+/* .howtobuyterminsurance .chooseVariousMob .longTerm, .howtobuyterminsurance .chooseVarious .covid19 {color : #acb1b7 !important;}
+ */
+.howtobuyterminsurance .chooseVariousMob .returnPremium .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-returnofpremium.png) center center no-repeat
+}
+
+.howtobuyterminsurance .chooseVariousMob .returnPremium:hover .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-returnofpremiumW.png) center center no-repeat
+}
+
+.howtobuyterminsurance .chooseVariousMob .dualProtect .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-dualprotect.png) center center no-repeat
+}
+
+.howtobuyterminsurance .chooseVariousMob .dualProtect:hover .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-dualprotectW.png) center center no-repeat
+}
+
+.howtobuyterminsurance .chooseVariousMob .emergencySupport .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-emergencysupport.png) center center no-repeat
+}
+
+.howtobuyterminsurance .chooseVariousMob .emergencySupport:hover .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-emergencysupportW.png) center center no-repeat
+}
+
+.howtobuyterminsurance .chooseVariousMob .covid19 .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-covid19.png) center center no-repeat
+}
+
+.howtobuyterminsurance .chooseVariousMob .covid19:hover .iconbx {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-covid19W.png) center center no-repeat
+}
+
+.howtobuyterminsurance .chooseVariousMob .returnPremium,
+.howtobuyterminsurance .chooseVariousMob .dualProtect,
+.howtobuyterminsurance .chooseVariousMob .emergencySupport,
+.howtobuyterminsurance .chooseVariousMob .covid19 {
+    border-bottom: 0
+}
+
+.howtobuyterminsurance .chooseVariousMob .owl-item {
+    border-left: 1px solid #e8e6e7;
+    height: 110px;
+    padding: 1px;
+}
+
+.howtobuyterminsurance .chooseVariousMob .owl-nav {
+    right: 25px;
+    top: -35px
+}
+
+.howtobuyterminsurance .chooseVariousMob .owl-nav .owl-prev {
+    left: auto;
+    right: 30px;
+}
+
+.howtobuyterminsurance .chooseVariousMob .owl-nav .owl-prev,
+.howtobuyterminsurance .chooseVariousMob .owl-nav .owl-next {
+    background: transparent;
+    box-shadow: none;
+    font-size: 0;
+}
+
+.howtobuyterminsurance .chooseVariousMob .owl-nav .owl-prev.disabled:before {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowRightGrey.png) 0 0 no-repeat;
+    width: 25px;
+    height: 15px;
+    transform: inherit;
+}
+
+.howtobuyterminsurance .chooseVariousMob .owl-nav .owl-prev:before {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowLeft.png) 0 0 no-repeat;
+    transform: rotate(0deg);
+}
+
+.howtobuyterminsurance .chooseVariousMob .owl-nav .owl-next.disabled:before {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowLeftGrey.png) 0 0 no-repeat;
+    width: 25px;
+    height: 15px
+}
+
+.howtobuyterminsurance .chooseVariousMob .owl-nav .owl-next:before {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowRight.png) 0 0 no-repeat;
+}
+
+
+.knowfeaturesProtectionPlan {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/knowfeaturesbg.jpg) 0 0 no-repeat;
+    background-size: cover;
+    margin: 0rem 0 5rem;
+    padding: 5rem 0;
+}
+
+.knowfeaturesProtectionPlan .container {
+    position: relative;
+}
+
+.knowfeaturesProtectionPlan .knowfeature {
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid #9ed2ed;
+    border-radius: 10px;
+    padding: 15px 50px 20px;
+    position: relative;
+}
+
+.knowfeaturesProtectionPlan .knowfeature {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.knowfeaturesProtectionPlan .knowheadingbox {
+    width: 380px;
+    border-radius: 10px;
+    background: #154d83;
+    padding: 20px;
+    color: #fff;
+    position: absolute;
+    left: 3%;
+    top: 25%;
+    z-index: 2
+}
+
+.knowfeaturesProtectionPlan .knowheadingbox h2,
+.knowfeaturesProtectionPlan .knowheadingbox h2 span,
+.knowfeaturesProtectionPlan .knowheadingbox p {
+    color: #fff
+}
+
+.knowfeaturesProtectionPlan .knowheadingbox h2 {
+    margin-bottom: 1.5rem
+}
+
+.knowfeaturesProtectionPlan .knowfeautrelist {
+    max-width: 540px;
+    margin-left: auto
+}
+
+.knowfeaturesProtectionPlan .knowfeautrelist ul {
+    list-style-type: none;
+    font-size: 1.6rem
+}
+
+.knowfeaturesProtectionPlan .knowfeautrelist ul li:first-child {
+    border-top: 0;
+    padding-top: 0;
+}
+
+.knowfeaturesProtectionPlan .knowfeautrelist ul li {
+    border-top: 1px solid #cce1f5;
+    font-size: 1.6rem
+}
+
+.knowfeaturesProtectionPlan .knowfeautrelist ul li p {
+    padding: 5px 10px 5px 15px;
+}
+
+.knowfeaturesProtectionPlan .knowfeautrelist ul li p.boxCover {
+    background: #f47920;
+    color: #fff;
+    padding: 5px 10px 5px 15px;
+    box-shadow: 0px 2px 10px -4px
+}
+
+.knowfeaturesProtectionPlan .btnUp {
+    position: absolute;
+    right: .7rem;
+    top: 20rem;
+    transform: rotate(-90deg);
+    cursor: pointer;
+}
+
+.knowfeaturesProtectionPlan .btnDown {
+    position: absolute;
+    right: 1rem;
+    top: 24rem;
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+.knowfeaturesProtectionPlan .btnUp {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowLeftGrey.png) 0 0 no-repeat;
+    width: 25px;
+    height: 15px;
+}
+
+.knowfeaturesProtectionPlan .btnUp.active {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowRight.png) 0 0 no-repeat;
+    transform: rotate(-90deg)
+}
+
+.knowfeaturesProtectionPlan .btnDown {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowLeftGrey.png) 0 0 no-repeat;
+    width: 25px;
+    height: 15px
+}
+
+.knowfeaturesProtectionPlan .btnDown.active {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowRight.png) 0 0 no-repeat;
+}
+
+.yourpreferrenchoice .row {
+    margin: 0;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.yourpreferrenchoice .row>[class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+.yourpreferrenchoice .imgAdvBg {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/yourchoicebg.jpg) 0 0 no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.yourpreferrenchoice .imgAdv {
+    position: absolute;
+    right: -30px;
+    top: 8.5rem;
+    z-index: 1
+}
+
+.yourpreferrenchoice .preferredChoicesec {
+    background: #154d83;
+    background-size: cover;
+    padding: 4rem 0
+}
+
+.yourpreferrenchoice .preferredChoicesec h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.yourpreferrenchoice .preferredChoicesec h2 span {
+    color: #fff
+}
+
+.yourpreferrenchoice .preferredChoicesec .listbox {
+    padding: 0 7rem 0 6rem;
+    font-size: 1.4rem
+}
+
+.yourpreferrenchoice .preferredChoicesec .listbox .brdlightRadius {
+    border: 1px solid #2d5f90;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px 25px;
+    margin-bottom: 10px
+}
+
+.yourpreferrenchoice .preferredChoicesec .listbox .brdlightRadius:hover {
+    background: #f47920
+}
+
+.yourpreferrenchoice .preferredChoicesec .col-md-4 {
+    padding: 0 5px
+}
+
+.yourpreferrenchoice .preferredChoicesec .col-md-4:nth-child(1) {
+    padding-top: 5rem
+}
+
+.yourpreferrenchoice .preferredChoicesec .col-md-4:nth-child(3) {
+    padding-top: 2rem
+}
+
+.yourpreferrenchoice .preferredChoicesec .listbox .brdlightRadius {
+    color: #A7B6CB;
+    font-size: 1.2rem
+}
+
+.yourpreferrenchoice .preferredChoicesec .listbox .brdlightRadius p {
+    color: inherit;
+    font-size: 1.3rem
+}
+
+.yourpreferrenchoice .preferredChoicesec .listbox .brdlightRadius:hover {
+    color: #FFFEFF;
+    font-size: 1.2rem
+}
+
+.yourpreferrenchoice .preferredChoicesec .listbox .brdlightRadius p span {
+    color: #FFFEFF;
+    font-family: Whitney-Medium;
+    font-size: 1.6rem;
+    display: block;
+    margin-bottom: 5px
+}
+
+.yourpreferrenchoice .preferredChoicesecMob {
+    display: none;
+}
+
+.yourpreferrenchoice .preferredChoicesecMob .listboxOwlCarousel {
+    padding: 0 2rem;
+    font-size: 1.4rem;
+    margin-top: 2rem
+}
+
+.yourpreferrenchoice .preferredChoicesecMob .listboxOwlCarousel .brdlightRadius {
+    color: #A7B6CB;
+    border: 1px solid #2d5f90;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 10px
+}
+
+.yourpreferrenchoice .preferredChoicesecMob .listboxOwlCarousel .brdlightRadius:hover {
+    color: #FFFEFF;
+    background: #f47920
+}
+
+.yourpreferrenchoice .preferredChoicesecMob .listboxOwlCarousel .brdlightRadius p {
+    color: inherit;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.yourpreferrenchoice .preferredChoicesecMob .listboxOwlCarousel .brdlightRadius p span {
+    color: #FFFEFF;
+    font-family: Whitney-Medium;
+    font-size: 1.4rem;
+    display: block;
+    margin-bottom: 5px
+}
+
+.yourpreferrenchoice .preferredChoicesecMob .owl-nav {
+    top: auto;
+    bottom: -3rem;
+    width: 50px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.yourpreferrenchoice .preferredChoicesecMob .owl-nav .owl-prev,
+.yourpreferrenchoice .preferredChoicesecMob .owl-nav .owl-next {
+    background: transparent;
+    box-shadow: none;
+    font-size: 0;
+}
+
+.yourpreferrenchoice .preferredChoicesecMob .owl-nav .owl-prev.disabled:before {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowLeft.png) 0 0 no-repeat;
+    width: 25px;
+    height: 15px;
+    transform: inherit;
+}
+
+.yourpreferrenchoice .preferredChoicesecMob .owl-nav .owl-prev:before {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowLeftActive.png) 0 0 no-repeat;
+    transform: rotate(0deg);
+}
+
+.yourpreferrenchoice .preferredChoicesecMob .owl-nav .owl-next.disabled:before {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowRight.png) 0 0 no-repeat;
+    width: 25px;
+    height: 15px
+}
+
+.yourpreferrenchoice .preferredChoicesecMob .owl-nav .owl-next:before {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowRightActive.png) 0 0 no-repeat;
+}
+
+.hearfromourcustomers {
+    margin: 3rem 0 5rem
+}
+
+.hearfromourcustomers h2 {
+    text-align: center;
+    margin-bottom: 1.5rem
+}
+
+.hearfromourcustomers .hearfromourAccords {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    line-height: 2;
+    position: relative;
+}
+
+.hearfromourcustomers .hearfromourAccords:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -20px;
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/qutoe2.png) 0 0 no-repeat;
+    width: 88px;
+    height: 74px;
+    opacity: .75px;
+}
+
+.hearfromourcustomers .hearfromourAccords:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/qutoe1.png) 0 0 no-repeat;
+    width: 43px;
+    height: 37px
+}
+
+.hearfromourcustomers .hearfromourAccords p.reviewText {
+    line-height: normal;
+    margin: 2rem 0 0
+}
+
+.hearfromourcustomers .hearfromourAccords p.reviewText span {
+    display: block;
+    font-family: Whitney-Medium;
+}
+
+.hearfromourcustomers .hearfromourAccords .owl-nav {
+    position: absolute;
+    bottom: 65%;
+    left: 0;
+}
+
+.hearfromourcustomers .hearfromourAccords .owl-nav .owl-prev {
+    position: absolute;
+    left: -10%;
+    top: 0
+}
+
+.hearfromourcustomers .hearfromourAccords .owl-nav .owl-next {
+    position: absolute;
+    right: -10%;
+    top: 0
+}
+
+
+.articlesforyourknowledge {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/articlesforyourblogsbg.jpg) 0 0 no-repeat;
+    padding: 4rem 0 5rem;
+    background-size: cover;
+    margin-bottom: 3rem;
+}
+
+.articlesforyourknowledge h2 {
+    margin-bottom: 1rem
+}
+
+.articlesforyourknowledge .imgBx {
+    position: relative;
+    top: -40px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: -30px;
+}
+
+.articlesforyourknowledge .boxRadius {
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px 20px 10px;
+    margin-top: 40px
+}
+
+.articlesforyourknowledge .boxRadius h4 {
+    font-size: 1.6rem;
+    font-family: Whitney-Bold;
+    color: #2a2a2a;
+    min-height: 35px;
+    margin-bottom: 1rem;
+}
+
+.articlesforyourknowledge .boxRadius p {
+    font-size: 1.4rem
+}
+.boxRadius .disc{
+    min-height: 40px;
+}
+
+.articlesforyourknowledge .boxRadius .readButton3,
+.articlesforyourknowledge .boxRadius .readButton4,
+.articlesforyourknowledge .boxRadius .readButton5 {
+    background: #fff;
+    float: none;
+    margin-top: 0
+}
+
+.articlesforyourknowledge .boxRadius p em {
+    color: #2a2a2a;
+    font-style: normal;
+    padding-left: 3px
+}
+
+.articlesforyourknowledge .aboutRadius {
+    background: #fbb74c;
+    font-family: Whitney-Medium;
+    font-size: 1.4rem;
+    margin: 1.4rem 0;
+    border-radius: 40px;
+    padding: 5px 10px;
+    display: inline-block
+}
+
+.readMore1,
+.readMore2,
+.readMore3 {
+    color: #f47920
+}
+
+.articlesforyourknowledge .dtexplore {
+    margin: 1.4rem 0;
+    font-size: 1.4rem
+}
+
+.articlesforyourknowledge .dtexplore .exploreText {
+    color: #154d83;
+    font-family: Whitney-Medium;
+}
+
+.articlesforyourknowledge .dtexplore .dtSec {}
+
+.articlesforyourknowledge .articlesBlogs {
+    position: relative;
+}
+
+.articlesforyourknowledge .articlesBlogs .owl-nav {
+    position: absolute;
+    right: 45px;
+    top: -10px;
+    left: auto;
+    text-align: right
+}
+
+.articlesforyourknowledge .articlesBlogs .owl-dots {
+    position: absolute;
+    right: 25px;
+    top: -10px;
+    left: auto;
+    text-align: right
+}
+
+.readmorebtn {
+    float: right
+}
+
+.frequentlyaskedquestions {
+    margin-bottom: 3.5rem
+}
+
+.frequentlyaskedquestions h2 {
+    margin-bottom: 2rem
+}
+
+.frequentlyaskedquestions .panel-default,
+.frequentlyaskedquestions .panel-default>.panel-heading {
+    background: none;
+    border: 0;
+    color: #154d83;
+    border-radius: 0
+}
+
+.frequentlyaskedquestions .panel-default {
+    border-bottom: 1px solid #e8e6e6;
+    box-shadow: none
+}
+
+.frequentlyaskedquestions .panel-default>.panel-heading {
+    padding: 10px 15px;
+    position: relative;
+}
+
+.frequentlyaskedquestions .panel-default>.panel-heading+.panel-collapse>.panel-body {
+    padding: 10px 30px;
+    border: 0;
+    color: #2a2a2a
+}
+
+.frequentlyaskedquestions .more-less {
+    float: right
+}
+
+.frequentlyaskedquestions .mobCenter {
+    margin-top: 2rem
+}
+
+.benefitsTermInsurance .glyphicon-plus {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-plus1.png) 0 0 no-repeat;
+    width: 14px;
+    height: 14px;
+}
+
+.benefitsTermInsurance .active .glyphicon-plus {
+    background: url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-neg1.png) 0 0 no-repeat;
+    width: 14px;
+    height: 14px;
+}
+
+.controlWrap {
+    padding: 2rem 0 !important;
+}
+
+.planOptionMobShow {
+    display: none;
+}
+
+#benefitsTermInsurance #loadMoreBenfit,
+#benefitsTermInsurance #loadLessBenfit {
+    margin-top: 40px;
+}
+
+.genderMob {
+    display: none !important
+}
+
+@media only screen and (max-width: 1280px) {
+    .guaranteedplanSection .onlineTermForm {
+        width: 100%;
+    }
+ }
+
+@media only screen and (max-width: 1199px) {
+    .guaranteedplanSection .onlineTermForm ul li input {
+        max-width: 80px;
+    }
+
+    .guaranteedplanSection .radioBt {
+        width: 80px;
+    }
+    
+    .radioBt .radioText {
+        font-size: 15px;
+        padding-left: 20px;
+    }
+
+    .radioBt .radioIcon.icon-male:before {
+        font-size: 16px;
+    }
+
+    .radioBt .radioIcon.icon-female:before {
+        font-size: 20px;
+        top: -2px;
+    }
+
+    .radioBt .radioIcon.icon-others:before {
+        font-size: 20px;
+    }
+
+    .guaranteedplanSection .row .col-md-6 {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .guaranteedplanSection .onlineTermForm ul li input {
+        max-width: 70px;
+    }
+
+    .guaranteedplanSection .radioBt {
+        width: 70px;
+    }
+
+    .radioBt .radioText {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .PANmarginTop {
+        margin-top: 0px !important;
+    }
+
+    .emailmarginTop {
+        margin-top: 14px !important;
+    }
+
+    .benefitsTermInsurance .col-md-4 {
+        width: 100%
+    }
+
+    .downloadSec .links {
+        padding: 0 4px 0 5px;
+    }
+
+    .benefitsTermInsurance #benefitsLeft .defaultBtn.blueBtn {
+        border: 1px solid #acb1b7
+    }
+
+    .howtobuyterminsurance .block {
+        padding: 15px 0 0;
+    }
+
+    .howtobuyterminsurance .chooseTxt {
+        margin-top: 15px;
+    }
+
+    .guaranteedplanSection select {
+        padding: 0 12px
+    }
+
+    /*.headMobHidden {display:none;}*/
+    .frequentlyaskedquestions h2 {
+        margin-bottom: 0.5rem
+    }
+
+    .articlesforyourknowledge h2 {
+        padding-top: 1rem
+    }
+
+    .articlesforyourknowledge .boxRadius {
+        margin-top: 35px
+    }
+
+    .mobFreq {
+        clear: both
+    }
+
+    .mobMarg {
+        margin-top: 15px;
+    }
+
+    .wrapper-content {
+        overflow: hidden
+    }
+
+    .yourInsuranceForm .row {
+        max-width: 100%
+    }
+
+    .yourinsuranceSection .quoteTxt {
+        top: 50px
+    }
+
+    .yourinsuranceSection h1 {
+        font-size: 1.8rem;
+    }
+
+    .planLevelSection .owl-nav {
+        position: absolute;
+        top: 0;
+        right: 0px
+    }
+
+    .planLevelSection .owl-nav .owl-prev {
+        left: auto;
+        right: 40px;
+    }
+
+    .planLevelSection .owl-nav .owl-next {
+        right: 0;
+        top: -15px
+    }
+
+    .planLevelSection .planoptions,
+    .planLevelSection .optfor {
+        padding: 0
+    }
+
+    .optfor .owl-nav {
+        position: absolute;
+        top: -5px;
+        right: 0
+    }
+
+    /* .planLevelSection .boxRadius {min-height:90px} */
+    .planLevelSection .col-md-6 {
+        padding-right: 10px
+    }
+
+    .planLevelSection .col-xs-12 {
+        padding-right: 0
+    }
+
+    .yourInsuranceForm .col-xs-6 h6.minHeight33 {
+        min-height: 15px;
+    }
+
+    .yourinsuranceSection .planlifeoptionSec {
+        background: none;
+        margin-top: -35px;
+    }
+
+    .lifeprotectionplanSection .indiafirstliferightbox {
+        top: 0;
+        position: static;
+        margin-top: 3rem
+    }
+
+    /* .lifeprotectionplanSection .lifeprotectionplanform .row {margin-bottom:0} */
+    .lifeprotectionplanSection .lifeprotectionplanform h6.bankText {
+        margin-bottom: 20px
+    }
+
+    .lifeprotectionplanSection .lifeprotectionplanform .col-xs-12 {
+        margin-bottom: 30px
+    }
+
+    .lifeprotectionplanSection .secondDetails {
+        margin: 10px 0 20px !important;
+        padding-bottom: 0
+    }
+
+    .lifeprotectionplanSection .secondDetails .col-md-6 {
+        margin-bottom: 10px
+    }
+
+    .lifeprotectionplanSection {
+        margin: 1rem 0 0
+    }
+
+    .lifeprotectionplanSection .lifeprotectionplanform {
+        border: 0;
+        margin: 20px -10px 0;
+        padding: 0 10px;
+        border-radius: 0;
+    }
+
+    .lifeprotectionplanSection .toggleBt {
+        width: 50px
+    }
+
+    .lifeprotectionplanSection .toggleBt .label2 {
+        right: -22px
+    }
+
+    .lifeprotectionplanform .policyHolder .controlWrap {
+        padding: 0 !important
+    }
+
+    .lifeprotectionplanSection .lifeprotectionplanform .policyHolder {
+        margin-top: -6rem
+    }
+
+    .lifeprotectionplanSection .lifeprotectionplanform .policyDetailBlock {
+        position: relative;
+        top: -23rem;
+        left: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .lifeprotectionplanSection .downloadSec {
+        margin: 25rem auto 0
+    }
+
+    .lifeprotectionplanSection .lifeprotectionplanform .inputEffect {
+        max-width: 100%
+    }
+
+    .lifeprotectionplanSection .lifeprotectionplanform .checkBox,
+    .lifeprotectionplanSection .lifeprotectionplanform .mobCenter {
+        margin: 0 15px
+    }
+
+    .lifeprotectionplanSection .lifeprotectionplanform .captchaBx {
+        margin: 25px 15px
+    }
+
+    .lifeprotectionplanSection .lifeprotectionplanform .ExtistingPolicy {
+        margin: 14px 0px 50px 0px;
+    }
+
+    .lifeprotectionplanSection .lifeprotectionplanform .bankText {
+        margin: 5px 0 0
+    }
+
+    .howtobuyterminsurance .chooseVarious .col-md-1 {
+        width: 33.33333333%;
+    }
+
+    .guaranteedplanSection .mobCenter {
+        margin-top: 2rem
+    }
+
+    .guaranteedplanSection .row {
+        display: block;
+    }
+
+    .guaranteedplanSection .onlineTermForm {
+        width: 100%;
+        padding-top: 30px
+    }
+
+    .guaranteedplanSection .onlineTermForm .row {
+        padding: 0
+    }
+
+    .guaranteedplanSection .onlineTermForm .row .padTp0 {
+        padding-top: 0
+    }
+
+    .guaranteedplanSection .row .inputEffect {
+        max-width: 100%
+    }
+
+    .guaranteedplanSection h1 {
+        margin: 30px 0 20px
+    }
+
+    .gppLanding h1 {
+        margin: 10px 0 10px;
+        font-size: 2rem;
+    }
+
+    .guaranteedplanSection .row .col-xs-12 {
+        padding-top: 2.5rem;
+        background: transparent
+    }
+
+    .guaranteedplanSection .onlineTermForm.gppTermForm .row.topPadding .col-md-6.col-xs-12:nth-child(1) {
+        width: 45%;
+        padding-top: 0
+    }
+
+    .guaranteedplanSection .row .col-xs-12 img {
+        display: none;
+    }
+
+    .guaranteedplanSection .onlineTermForm .dobWrap {
+        margin-bottom: 20px;
+    }
+
+    .guaranteedplanSection .onlineTermForm h6.headText {
+        min-height: 25px;
+        margin-top: 10px
+    }
+
+    .guaranteedplanSection .onlineTermForm .genMarTp20 {
+        margin-top: 0
+    }
+
+    .guaranteedplanSection .row .col-md-6 {
+        margin-top: 0
+    }
+
+    .jointLife .jointHead {
+        margin-top: 80px;
+    }
+
+    .knowfeaturesProtectionPlan {
+        padding: 2.5rem 1.5rem;
+        margin-bottom: 3rem
+    }
+
+    .knowfeaturesProtectionPlan .container {
+        padding: 0
+    }
+
+    .knowfeaturesProtectionPlan .knowheadingbox {
+        position: inherit;
+        width: 100%;
+        left: 0;
+        margin-bottom: 20px
+    }
+
+    .knowfeaturesProtectionPlan .knowfeature {
+        width: 100%;
+        background: transparent;
+        border: 0;
+        border-radius: 0;
+        padding: 0
+    }
+
+    .knowfeaturesProtectionPlan .knowfeature .knowfeautrelist {
+        max-width: 100%
+    }
+
+    .hearfromourcustomers h2 {
+        text-align: left;
+    }
+
+    .hearfromourcustomers .boxbrdLTRT {
+        display: none
+    }
+
+    .hearfromourcustomers .hearfromourAccords {
+        width: 100%;
+        padding: 0 5px
+    }
+
+    .hearfromourcustomers .hearfromourAccords .owl-nav {
+        bottom: auto;
+        top: -45px;
+        right: 70px;
+        left: auto;
+    }
+
+    .hearfromourcustomers .hearfromourAccords .owl-nav .owl-prev,
+    .hearfromourcustomers .hearfromourAccords .owl-nav .owl-next {
+        background: transparent;
+        box-shadow: none;
+        font-size: 0;
+    }
+
+    .hearfromourcustomers .hearfromourAccords .owl-nav .owl-prev.disabled:before {
+        background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowRightGrey.png) 0 0 no-repeat;
+        width: 25px;
+        height: 15px;
+        transform: inherit;
+    }
+
+    .hearfromourcustomers .hearfromourAccords .owl-nav .owl-prev:before {
+        background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowLeft.png) 0 0 no-repeat;
+        transform: rotate(0deg);
+    }
+
+    .hearfromourcustomers .hearfromourAccords .owl-nav .owl-next.disabled:before {
+        background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowLeftGrey.png) 0 0 no-repeat;
+        width: 25px;
+        height: 15px
+    }
+
+    .hearfromourcustomers .hearfromourAccords .owl-nav .owl-next:before {
+        background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowRight.png) 0 0 no-repeat;
+    }
+
+    .hearfromourcustomers .hearfromourAccords .owl-nav .owl-prev {
+        left: auto;
+        right: 0;
+        top: 0;
+        box-shadow: none;
+    }
+
+    .hearfromourcustomers .hearfromourAccords .owl-nav .owl-next {
+        top: 0;
+        box-shadow: none;
+    }
+
+    .benefitsTermInsurance .col-md-4 {
+        background: transparent;
+        min-height: auto;
+        margin-bottom: 20px
+    }
+
+    .benefitsTermInsurance .benefitsTermInsurance {
+        display: none;
+    }
+
+    .yourpreferrenchoice .imgAdvBg,
+    .yourpreferrenchoice .listbox {
+        display: none !important;
+    }
+
+    .yourpreferrenchoice .preferredChoicesec {
+        padding: 2.5rem 0 0
+    }
+
+    .yourpreferrenchoice .preferredChoicesec h2 {
+        margin-bottom: 2.5rem
+    }
+
+    .yourpreferrenchoice .preferredChoicesecMob {
+        display: block;
+        text-align: center;
+        padding: 0 25px 15px
+    }
+
+    .yourpreferrenchoice .preferredChoicesecMob img {
+        display: inline-block;
+    }
+
+    .yourpreferrenchoice {
+        margin: 3rem 0 2.5rem
+    }
+
+
+    .articlesforyourknowledge {
+        padding: 2rem 0 3rem
+    }
+
+    .articlesforyourknowledge .articlesBlogs {
+        padding: 0
+    }
+
+    .articlesforyourknowledge .articlesBlogs .owl-dots {
+        right: 40px;
+        top: -50px;
+    }
+
+    .articlesforyourknowledge .articlesBlogs .owl-nav {
+        right: 25px;
+        top: -5px
+    }
+
+    .articlesforyourknowledge .articlesBlogs .owl-nav .owl-prev {
+        left: auto;
+        right: 30px;
+    }
+
+    .articlesforyourknowledge .articlesBlogs .owl-nav .owl-prev,
+    .articlesforyourknowledge .articlesBlogs .owl-nav .owl-next {
+        background: transparent;
+        box-shadow: none;
+        font-size: 0;
+    }
+
+    .articlesforyourknowledge .articlesBlogs .owl-nav .owl-prev:before {
+        background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowLeft.png) 0 0 no-repeat;
+        width: 25px;
+        height: 15px;
+        transform: inherit;
+    }
+
+    .articlesforyourknowledge .articlesBlogs .owl-nav .owl-prev.disabled:before {
+        background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowRightGrey.png) 0 0 no-repeat;
+    }
+
+    .articlesforyourknowledge .articlesBlogs .owl-nav .owl-next.disabled:before {
+        background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowLeftGrey.png) 0 0 no-repeat;
+        width: 25px;
+        height: 15px
+    }
+
+    .articlesforyourknowledge .articlesBlogs .owl-nav .owl-next:before {
+        background: url(https://www.indiafirstlife.com/buy-online-insurance/images/iconArrowRight.png) 0 0 no-repeat;
+    }
+
+    .howtobuyterminsurance .chooseVarious {
+        display: none;
+    }
+
+    .howtobuyterminsurance .chooseVariousMob {
+        display: block;
+        border: 0
+    }
+
+    .yourinsuranceSection .inputEffect {
+        max-width: 100%
+    }
+
+    .yourinsuranceSection .col-md-4.col-xs-12 {
+        margin-bottom: 20px
+    }
+
+    .planoptions.owl-carousel {
+        padding: 0
+    }
+
+    .planOptionMob {
+        display: none;
+    }
+
+    .planOptionMobShow {
+        display: block;
+    }
+
+    .planOptionMobShow .planOption {
+        padding-bottom: 8px;
+        border-bottom: 1px solid #d3d3d3;
+    }
+
+    .planOptionMobShow .premAmnt {
+        padding-top: 10px;
+    }
+
+    .planOptionMobShow .premBtn {
+        padding-top: 25px;
+    }
+
+    .planOptionMobShow {
+        background: #fef7e7;
+        padding: 15px;
+    }
+
+    .planOptionMobShow .premAmnt .rupeeText {
+        font-size: 2.2rem;
+        color: #f47c35;
+        font-family: Whitney-Bold;
+    }
+
+    .planOptionMobShow .defaultBtn {
+        font-size: 1.4rem;
+    }
+
+    .lifeprotectionplanSection .secondDetails .detailsName {
+        text-align: left
+    }
+
+    .lifeprotectionplanSection .secondDetails span.edit {
+        float: right
+    }
+
+    .gppBasicDetail .policyHolder .welcomeBlock h3 {
+        margin-bottom: 0rem;
+    }
+
+    .gppBasicDetail .policyHolder .welcomeBlock {
+        max-width: none;
+        padding: 2rem 1.5rem;
+        margin-bottom: 30px;
+    }
+
+
+    .padbtmMob4 {
+        padding-bottom: 4rem
+    }
+
+    .formDetailsWrap .inputEffect {
+        max-width: 100%
+    }
+
+    .aboutguaranteedPlanSection .guaranteedPlanDiv .row .col-xs-12 {
+        margin-bottom: 15px
+    }
+
+    .yourpreferrenchoice .preferredChoicesecMob .listboxOwlCarousel {
+        padding: 0
+    }
+
+    .yourpreferrenchoice .preferredChoicesecMob .listboxOwlCarousel .brdlightRadius {
+        min-height: 120px
+    }
+
+    .benefitsTermInsurance #benefitsLeft {
+        min-height: auto;
+        margin-bottom: 0;
+        margin-right: -15px;
+        margin-left: -15px;
+        ;
+        border-radius: 0;
+        padding: 10px 20px 10px 20px
+    }
+
+    .benefitsTermInsurance #benefitsLeft .btnUp,
+    .benefitsTermInsurance #benefitsLeft .btnDown {
+        display: none
+    }
+
+    #benefitsTermInsurance #loadMoreBenfit,
+    #benefitsTermInsurance #loadLessBenfit {
+        margin-top: 10px
+    }
+
+    .aboutguaranteedPlanSection .guaranteedPlanDiv {
+        margin: 2rem 0 1rem
+    }
+
+    .aboutguaranteedPlanSection .col-md-4.col-xs-12 {
+        margin-bottom: 1rem
+    }
+
+    .benefitsTermInsurance {
+        margin: 1.5rem 0 3rem
+    }
+
+    .aboutguaranteedPlanSection p.text {
+        text-overflow: ellipsis;
+    }
+
+    .genderMob {
+        display: flex !important;
+        clear: both;
+        width: 100%
+    }
+
+    .genderMobHidden {
+        display: none !important;
+    }
+}
+
+
+@media only screen and (max-width:650px) {
+    .lifeprotectionplanSection .lifeprotectionplanform .policyDetailBlock {
+        top: -27rem
+    }
+
+    .lifeprotectionplanSection .lifeprotectionplanform .policyHolder {
+        margin-top: -16rem
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .guaranteedplanSection .onlineTermForm.gppTermForm .row.topPadding .col-md-6.col-xs-12:nth-child(1) {
+        width: 100%
+    }
+
+    .genderMob {
+        clear: none;
+        width: 50%
+    }
+
+    .howtobuyterminsurance .chooseVariousMob .owl-item {
+        border-left: 1px solid #e8e6e7;
+        height: 103px;
+        padding: 1px;
+    }
+
+    .yourinsuranceSection .quoteTxt {
+        top: 51px
+    }
+
+    .lifeprotectionplanSection .lifeprotectionplanform .policyDetailBlock {
+        top: -29rem
+    }
+
+    .lifeprotectionplanSection .lifeprotectionplanform .bankText {
+        padding-right: 15px
+    }
+
+    .lifeprotectionplanSection .lifeprotectionplanform .policyHolder {
+        margin-top: -18rem
+    }
+
+    .aboutguaranteedPlanSection .row .col-md-8.col-xs-12 p {
+        padding-right: 70px
+    }
+
+    .aboutguaranteedPlanSection .row .col-md-8.col-xs-12 p.text2,
+    .aboutguaranteedPlanSection .row .col-md-8.col-xs-12 p.readButton2 {
+        padding-right: 0
+    }
+
+    .aboutguaranteedPlanSection .guaranteedPlanDiv .owl-nav {
+        right: -1px;
+        top: -18px;
+    }
+
+    .yourpreferrenchoice .preferredChoicesecMob .listboxOwlCarousel .brdlightRadius {
+        min-height: 202px
+    }
+
+    .downloadSec {
+        font-size: 13px;
+        text-align: center;
+        overflow: hidden;
+        height: 40px;
+        border: 1px solid rgba(177, 177, 177, .5)
+    }
+
+    .downloadSec span {
+        padding: 1px 5px
+    }
+
+    .downloadSec span.links {
+        width: 22%;
+        float: left;
+        padding: 8px 5px 8px
+    }
+
+    .downloadSec span.links:nth-child(2) {
+        padding: 14px 5px
+    }
+
+    .downloadSec span.links.basic {
+        width: 40%;
+        padding: 14px 8px;
+        text-align: center
+    }
+
+    .downloadSec .dwnld {
+        float: left;
+        padding: 10px 10px 10px 31px;
+        background: #e8eff1 url(https://www.indiafirstlife.com/buy-online-insurance/images/icon-download.png) 12px 12px no-repeat
+    }
+
+    /* .planLevelSection .boxRadius {min-height:90px} */
+    .home .forCurveSpacing {
+        margin-bottom: 3rem !important
+    }
+
+    .guaranteedplanSection .onlineTermForm ul li input {
+        max-width: 100px;
+    }
+
+    .guaranteedplanSection .dobWrap {
+        width: 100%;
+    }
+
+    .onlineTermForm ul li:last-child input {
+        max-width: 115px;
+        width: 120px
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .onlineTermForm ul li:last-child input {
+        max-width: 100px;
+        width: auto
+    }
+}
+
+@media only screen and (max-width:365px) {
+    .onlineTermForm ul li:last-child {
+        float: right
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .onlineTermForm ul li:last-child input {
+        max-width: 95px;
+        width: auto
+    }
+}
+
+@media only screen and (max-width:355px) {
+    .downloadSec span {
+        padding: 5px 5px
+    }
+
+    .downloadSec span.links {
+        width: 21%;
+        padding: 8px 5px
+    }
+
+    .onlineTermForm.gppTermForm .genderMob {
+        padding-right: 5px
+    }
+
+    .planOptionMobShow .defaultBtn {
+        font-size: 1.2rem;
+        padding: 1rem 1.5rem;
+    }
+
+    .downloadSec {
+        font-size: 11px
+    }
+
+    .guaranteedplanSection .row .col-md-6 {
+        padding: 0 5px
+    }
+
+    .onlineTermForm ul li:last-child input {
+        max-width: 85px;
+        width: auto
+    }
+}
+
+@media only screen and (max-width:310px) {
+    .onlineTermForm ul li:last-child input {
+        max-width: 75px;
+        width: auto
+    }
+}
+
+
+.yourInsuranceForm .numberWord,
+.yourInsuranceForm .numberWord2 {
+    font-size: 1.4rem;
+    margin-left: 15px;
+}
+
+.yourInsuranceForm .sumInsured .errorTxt {
+    bottom: 88%;
+}
+
+.frequentlyaskedquestions .faqsContent {
+    height: 100% !important;
+}
+
+
+.ExtistingPolicy {
+    margin: 15px 0px 10px 0px;
+    padding-bottom: 30px;
+}
+
+.lifeprotectionplanform .policyHolder .controlWrap {
+    margin: 0rem 0;
+}
+
+.breadcrumb {
+    background: transparent
+}
+
+.breadcrumb li a {
+    color: #717172;
+    font-family: Whitney-Bold;
+}
+
+.breadcrumb>li+li:before {
+    color: #717172;
+    content: "\003e";
+    font-weight: bold
+}
+
+.guaranteedplanSection .breadcrumb>.active {
+    color: #717172;
+}
+
+.onlinetermSection .breadcrumb {
+    padding: 8px 15px 8px 0;
+    margin-bottom: -60px;
+    z-index: 99;
+    position: relative;
+    font-size: 12px
+}
+
+.updateName {
+    position: absolute;
+    float: right;
+    right: 16px;
+    top: -21px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.lifeprotectionplanform .policyDetailBlock span {
+    font-size: 1.3rem;
+}
+
+/***disable content CR***/
+/* .disableContent,.disableContent:hover{
+color : #acb1b7 !important;
+pointer-events:none;
+} */
+
+.trackApplication {
+    color: #f47920 !important;
+}
+
+.trackApplication:hover {
+    color: #fff !important;
+    background: #f47920 !important;
+}
+
+.insuranceDetails .navContent .navWrap {
+    display: block;
+}
+
+.guaranteedplanSection .dobWrap {
+    max-width: 348px;
+}
+
+.readButton,
+.readButton2 {
+    color: green;
+    position: relative;
+    float: right;
+}
+
+
+.gpp .navContent .navWrap ul li a:after {
+    display: none;
+}
+
+.gppBasicDetail .lifeprotectionplanSection h1 {
+    font-size: 2.8rem;
+}
+
+.gppBasicDetail .lifeprotectionplanSection {
+    position: relative;
+    z-index: 3;
+}
+
+@media only screen and (max-width: 767px) {
+    .gppBasicDetail .lifeprotectionplanSection h1 {
+        font-size: 2.2rem;
+    }
+
+    .yourinsuranceSection h2 {
+        font-size: 2.2rem;
+    }
+
+    .policyDetailBlock .policyInfoBlock.infoBox {
+        position: relative;
+    }
+
+    .policyDetailBlock .policyInfoBlock .drawerArrow {}
+
+    .policyDetailBlock .policyInfoBlock .drawerArrow.uperArrow {
+        transform: rotate(180deg);
+        display: block
+    }
+}
+
+.gppTitleFontTise {
+
+    font-size: 27px;
+}
+
+.howtobuyterminsurance .chooseVarious {
+    border: none;
+}
+
+.coming-soon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.wrapper-content.gppLanding {
+    padding-top: 8rem;
+}
+
+.gpp.sticky {
+    box-shadow: 0 1px 7px -1px rgba(0, 0, 0, .2);
+}
+
+.benefitsTermInsurance .benefitsTermInsurance {
+    margin-top: 10px;
+
+
+}
+
+.guaranteedplanBgRight {
+    margin-top: 5px;
+}
+
+.gpp.sticky img {
+    max-width: 9rem;
+}
+
+.guaranteedplanSection .onlineTermForm ul li input {
+    padding: 8px;
+}
+
+.gppLanding .scroll-btn {
+    display: none;
+}
+
+.gppPremium.wrapper-content {
+    padding-top: 5rem;
+}
+
+.planLevelSection .boxRadius.notSelected .knowMore {
+    border-left: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.jointLife .onlineTermForm {
+    padding-top: 0px;
+}
+
+.jointLife .onlineTermForm ul li input {
+    max-width: 95px;
+    padding: 12px;
+}
+
+.jointLife .onlineTermForm .radioBt {
+    width: 95px;
+    height: 44px;
+}
+
+.jointLife .onlineTermForm .padTpName {
+    padding-top: 20px;
+}
+
+.jointLife .text-center {
+    margin-top: 12px;
+}
+
+.jointLife .onlineTermForm .row {
+    margin-top: 30px;
+}
+
+.jointLife .jointLifeUl ul {
+    list-style-type: unset;
+    padding: 0px 20px 0px;
+}
+
+.secondary-header-personal-details {
+    font-family: Whitney-Bold;
+    font-size: 2.4rem !important;
+    text-align: left;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #f47920;
+    padding-bottom: 5px;
+
+}
+
+.type-header-primary-secondary p {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    ;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.fatca-details-section-secondary {
+    border-top: 1px solid #ccc;
+}
+
+.profileInfoSecondary ul li {
+    display: inline-block
+}
+
+.profileInfoSecondary ul li span {
+    color: #6f767b;
+    font-family: Whitney-Medium;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 0 .5rem;
+    position: relative;
+    display: inline-block
+}
+
+.profileInfoSecondary ul li span:after {
+    content: "";
+    height: 10px;
+    width: 1px;
+    background: #e3e5e5;
+    position: absolute;
+    left: -1px;
+    display: block;
+    top: 4px
+}
+
+.profileInfoSecondary ul li a {
+    color: #00aeef;
+    font-family: Whitney-Medium;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 0 0 0 2rem
+}
+
+.profileInfoSecondary ul li:first-child span:after {
+    display: none
+}
+
+.profileInfoSecondary ul li:last-child {
+    border: none
+}
+
+.laHeading {
+    margin-top: 25px;
+}
+
+#profModalSecondaryLA .modal-title {
+    text-transform: capitalize
+}
+
+#profModalSecondaryLA .icon-close {
+    font-size: 18px
+}
+
+#profModalSecondaryLA .modal-dialog {
+    max-width: 467px
+}
+
+#profModalSecondaryLA .calculatorData {
+    padding: 20
+}
+
+#profModalSecondaryLA .modal-header {
+    padding: 10px 20px
+}
+
+#profModalSecondaryLA .modal-header h2 span {
+    font-size: 2.6rem
+}
+
+#profModalSecondaryLA .modal-header .close {
+    top: 20px;
+    right: 20px
+}
+
+#profModalSecondaryLA .dobWrap {
+    margin-bottom: 33px;
+}
+
+.jointLife .buttonwithAmt .blueBtn {
+    right: -22px;
+}
+
+.jointLife .onlineTermForm h6 span {
+    margin: 0 0 0 0px;
+}
+
+.jointLife .onlineTermForm .headText.tulteep {
+    margin-top: -20px;
+}
+
+.LoadMoretext {
+    font-size: 1.4rem;
+    padding-top: 20px;
+}
+
+.BiTnc {
+    font-family: Whitney-Medium;
+}
+
+.BiTnc .optionHeader {
+    font-size: 1.6rem;
+    ;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.BiTnc .optionTncList {
+    padding-left: 20px
+}
+
+.BiTnc .optionTncList li {
+    margin-bottom: 10px
+}
+
+.BiTncStandalonePage {
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 1px solid #ccc;
+    padding: 6rem !important;
+    border-radius: 15px;
+}
+
+.BiTncStandalonePage .BiTnc .biTncHeader {
+    padding-left: 0px;
+    font-size: 2.5rem;
+    margin-top: 0px;
+}
+
+.disclaimerP {
+    margin-bottom: 5px;
+}
+
+.disclaimerP .icon-icon_downloads {
+    display: none;
+}
+
+.disclaimerP a {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.disclaimerP span.icon-icon_downloads {
+    position: relative;
+    top: 0.5rem;
+    font-size: 18px;
+}
+
+.BiTnc .biTncHeader {
+    margin-bottom: 20px;
+    margin-top: 15px;
+    padding-left: 20px;
+    font-size: 2.0rem;
+    color: #409fd5;
+}
+
+.BiTnc .BiTncOuterDiv {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+
+.BiTnc .BiTncOuterDiv .BiTncInnerDiv {
+    height: 19rem;
+    overflow-x: auto;
+    background-color: white;
+}
+
+.quoteDiv .premiumQuoteHeader {
+    font-size: 2.0rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+
+}
+
+.incomeBContent ul {
+    list-style: disc;
+}
+
+.disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+    color: grey;
+}
+
+.qutoApp {
+    margin-top: -50px;
+}
+
+.basicApp {
+    margin-top: -54px;
+}
+
+.mobileNoText {
+    text-align: left !important;
+    height: 53px;
+    margin-top: 8px !important;
+    font-size: 13px !important;
+    position: absolute;
+    line-height: 1 !important;
+    margin-bottom: 5px !important;
+}
+
+.personalDetailsSkipLink {
+    margin-top: 43px !important;
+}
+
+.marginTop {
+    margin-top: 30px !important;
+}
+
+.PANmarginTop {
+    margin-top: 40px;
+}
+
+
+.jointPadding {
+    padding-top: 15px !important
+}
+
+.jointBPadding {
+    padding-bottom: 20px !important
+}
+
+/* @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+  html {
+   display:none;
+  }
+} */
+
+.incomeBContent ul>li ul {
+    list-style: decimal;
+    padding: 5px 0px 5px 20px;
+}
+
+.selincTermfield input[type=radio]:disabled,
+.selincTermfield input[type=radio]:disabled+label {
+    cursor: default;
+}
+
+.listRequiredDoc {
+    font-weight: bold;
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+}
+
+.listRequiredDoc:hover {
+    color: #287795
+}
+
+.requiredDoc {
+    text-align: inherit;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .planLevelSection .boxRadius.notSelected:hover {
+        background: none;
+        border: 1px solid #00aeef;
+    }
+
+    .planLevelSection .boxRadius:hover h4 {
+        color: inherit;
+    }
+
+    .planLevelSection .boxRadius:hover .knowMore,
+    .planLevelSection .boxRadius:hover .knowMore2 {
+        color: #2a2a2a;
+    }
+
+    .planLevelSection .boxRadius:hover .addIcon {
+        color: #154d83;
+    }
+}
+
+.selectedBox {
+    border: solid 2px #00aeef !important;
+    background: #00aeef !important;
+    color: #fff !important;
+}
+
+.blurSelectedBox {
+    opacity: 0.6;
+}
+
+.jointLife.smartSave .onlineTermForm ul li input{
+max-width: 118px;
+}
+
+.jointLife.smartSave .onlineTermForm .radioBt {
+    max-width: 118px;
+}
+
+.suitability-requirnments .question {
+    color: #f47920;
+    display: inline-block;
+}
+
+.suitability-requirnments .answers {
+    padding-left: 25px;
+}
+
+.suitability-requirnments .answers .answer {
+    padding: 20px 20px 20px 0px;
+}
+
+.suitability-goal .effectLabel-goal {
+    transform: translate3d(0, 36px, 0);
+    z-index: 9;
+    padding: 2px 0;
+    position: absolute;
+    top: -24px;
+}
+
+.suitability-goal {
+    margin-left: 25px;
+}
+
+.suitability-requirnments h3 {
+
+    font-size: 2.2rem !important;
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.suitability-header {
+    margin: 20px 0px;
+}
+
+.suitability-header p {
+    font-size: 1.4rem;
+    font-family: Whitney-Medium;
+    margin: 10px 0px;
+}
+
+.suitability-header h3 span {
+    font-weight: 600
+}
+
+.ans {
+    display: flex;
+}
+
+.margn {
+    margin-left: 8px;
+}
+
+.suitability-requirnments .error {
+    color: red;
+    position: relative;
+    display: block;
+}
+
+
+.accordContent > table{
+    max-width: 95%;
+    margin-left: 10px;
+}
+.accordContent table th {
+    background: #ddf4ff;
+    padding: 10px;
+}
+
+.accordContent table table th {
+    background: none;
+    padding: inherit;
+}
+
+.accordContent table th,
+.accordContent table td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #6f767a;
+    font-family: Whitney-Book;
+}
+
+.accordContent ol,
+.accordContent ul{
+ margin-left: 27px;
+ margin-top: 15px;
+}
+
+.accordContent ol li,
+.accordContent ul li{
+    margin-top: 10px;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #6f767a;
+    font-family:'Whitney-Book';
+}
+
+
+.faqsContent .accord .accordContent ol h3,
+.faqsContent .accord .accordContent ol p{
+    padding-left: 0;
+   }
+.faqsContent .accord .accordContent ol h4{
+    font-weight: bold;
+    color: #154d83;
+    font-size: 14px;
+    margin: 10px 0 5px 0;
+}
+.accordContent table.table-lg{
+    width: 100%;
+    padding-left: 0;
+}
+.faqsContent .accord .accordContent table.table-lg p{
+    padding-left: 0;
+    max-width: 100%;
+}
+.accordContent table.table-lg th,
+.accordContent table.table-lg td {
+    text-align: left;
+}
+
+.accordContent table.table-lg td ol.bold > li{ 
+    font-family: Whitney-Medium;
+    margin-top: 10px;
+}
+
+.accordContent table.table-lg td ol,
+.accordContent table.table-lg td ul{
+    margin-left: 27px;
+    margin-top: 10px;
+   }
+.accordContent table,   
+.accordContent table.table-lg ol li,
+.accordContent table.table-lg ul li{
+    margin-top: 5px;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #6f767a;
+    font-family:'Whitney-Book';
+}
+
+.accordContent table.table-lg ol li:first-child,
+.accordContent table.table-lg ul li:first-child{
+    margin-top: 0;
+}
+
+.accordContent table td ul {
+    margin-left: 15px;
+    text-align: left;
+    padding: inherit;
+}
+
+.accordContent table .bld-txt h3 {
+    margin-top: 15px;
+    font-weight: bold;
+
+}
+
+@media only screen and (max-width: 767px) {
+.tableWrap{
+    width: 100%;
+    overflow-x: auto;
+}
+.accordContent .tableWrap table{
+width: auto;
+max-width: 900px;
+}
+}
+
+@media only screen and (max-width: 480px) {
+.howtobuyterminsurance .chooseVariousMob .owl-item{
+    padding: 0 10px;
+}
+}
+
+/*****************Sanjivani*******************/
+/*************WhyTermPlan**********************/
+
+.whyTermPlan{
+    background-color: #154D83;
+    padding:4.2rem 0;
+}
+.whyTermtitle{
+    /* margin-bottom: 56px; */
+    padding: 0 15px;
+}
+.whyTermtitle span{
+    display: block;
+    font-size:36px;
+    font-weight: 700;
+}
+.whyTermtitle p{
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 16px;
+}
+.termBlocks .card{
+    border:1px solid #fff;
+    border-radius: 14px;
+    padding: 18px 15px;
+    min-height: 215px;
+    transition: 0.5s ease all;
+    margin-bottom: 30px;
+}
+.termBlocks .card:hover{
+    background-color: #F47920;
+}
+.termBlocks h4, .termBlocks p{
+    color: #fff;
+}
+.termBlocks h4{
+    font-weight: 700;
+    margin-bottom: 9px;
+}
+.termBlocks p {
+    font-size: 14px;
+    line-height: 20.5px;
+}
+
+
+/*********Choose Right term plan*******/
+.chooseRightplan{
+    background-color: #EDF9FF;
+    padding: 60px 0;
+}
+.rightTermtitle h3, .rightTermtitle h2{
+    color: #00AEEF;
+    font-size: 24px;
+}
+.rightTermtitle span{
+    color: #F47920;
+    font-size: 36px;
+    display: block;
+    font-weight: 700;
+    line-height: 41px;
+}
+.rightTermtitle p{
+    padding-top: 10px;
+}
+.rightPlanContent{
+    padding-top: 16px;
+    color: #2A2A2A;
+}
+.eligibilitycriteria{
+    padding: 30px 0;
+}
+.howtobuyterminsurance{
+    padding: 30px 0;
+}
+.howtobuyterminsurance h4{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #2A2A2A;
+    padding-bottom: 10px;
+}
+/*********Onlie term plan - yogesh************/
+.OnlineTermPlan{
+    padding-bottom: 40px;
+}
+.termPlanCards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.OnlineTermPlan h2 {
+    margin-bottom: 1.8rem;
+}
+.onlineTerm-box{
+    margin-top: 18px;
+    position: relative;
+    width: 190px;
+    height: 270px;
+    overflow: hidden;
+    margin-right: 24px;
+}
+.onlineTerm-box:last-child{
+    margin-right: 0;
+}
+.onlineTerm-box .onlineTerm-logo{
+    background-color: #F8F8F8;
+    border-radius: 8px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.onlineTerm-box .onlineTerm-logo .termCard-heading{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2A2A2A;
+    margin-top: 15px;
+}
+
+.onlineTerm-box .text{
+    font-size: 14px;
+    line-height: 20px;
+    padding: 25px 12px;
+    position: absolute;
+    top: 0;
+    border-radius: 8px;
+    background: #F47920;
+    color: #fff;
+    transition: all 0.5s ease;
+    transform: translateY(105%);
+    height: 100%;
+    
+}
+
+.onlineTerm-box:hover .text{
+    transform: translateY(0);
+}
+
+
+
+/* ------ ratings -------- */
+.ratings-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13px;
+    margin-bottom: 35px;
+}
+.ratings-wrapper p{
+    font-family: 'Whitney-Bold';
+    font-size: 12px;
+    line-height: 18px;
+    color: #2A2A2A;
+    background-color:  #EDF9FF;
+    border-radius: 10px;
+    padding: 2px 6px; 
+    margin-right: 5px;
+}
+
+.ratings-wrapper .rates{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ratings-wrapper .rates p{
+    font-size: 12px;
+    line-height: 18px;
+    font-family: 'Whitney-Bold';
+    color: #2A2A2A;
+    background-color:  transparent;
+}
+
+.ratings-wrapper .rates ul{
+    display: flex ;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.ratings-wrapper .rates ul li{
+    margin-right: 5px;
+}
+
+.ratings-wrapper .rates ul li:last-child{
+    margin-right: 0;
+}
+
+.ratings-wrapper .star-download a{
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    padding: 6px 8px 10px;
+    margin-right: 5px;
+}
+
+.rate {
+    height: 30px;
+    position: relative;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:20px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+@media screen and (max-width: 991px) {
+    .guaranteedplanSection .row .col-xs-12 .star-download a img{
+        display: inline;
+    }
+}
+
+/* ------------------------ rating ends ------------ */
+
+/*********Footer**************/
+
+footer {
+    background: #6f767b;
+    position: relative
+}
+
+footer .footerWrap {
+    padding: 5rem 0 5.5rem
+}
+
+footer p {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #fff;
+    letter-spacing: .5px
+}
+
+footer p+p {
+    margin-top: 1.3rem
+}
+
+footer .bewareBox {
+    padding: 1.7rem;
+    border: 1px solid #fff;
+    border-radius: 5px
+}
+
+footer .bewareBox h3 {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-family: Whitney-Medium;
+    color: #fff
+}
+
+footer .bewareBox p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: #fff;
+    margin-top: 1.3rem;
+    opacity: .8
+}
+.jointVenture {
+    padding: 16px 39px 17px 39px;
+    border-radius: 50px;
+    background: #fff;
+    max-width: 570px;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 3.84px .16px rgba(0,0,0,.2)
+}
+
+.jointVenture span {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #2a2a2a;
+    font-family: Whitney-Medium;
+    display: block;
+    margin-bottom: 1.5rem
+}
+
+.jointVenture ul {
+    margin-top: -5px;
+    text-align: center
+}
+
+.jointVenture ul li {
+    display: inline-block;
+    margin: 0 2rem;
+    vertical-align: bottom
+}
+
+.jointVenture ul li:first-child {
+    margin-left: 0
+}
+
+.jointVenture ul li:last-child {
+    margin-right: 0
+}
+
+.jointVenture ul li img {
+    height: 60px
+}
+
+@media screen and (max-width:991px){
+    .whyTermPlanImg{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    footer {
+        margin-top: 5.5rem
+    }
+
+    footer .footerWrap {
+        padding: 3.5rem 0 3.5rem
+    }
+
+    footer p {
+        display: block
+    }
+
+    footer .bewareBox {
+        margin-top: 2.2rem
+    }
+    .jointVenture {
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%)
+    }
+
+    .jointVenture span {
+        margin-left: 0;
+        position: relative;
+        top: 15px
+    }
+    .jointVenture ul li {
+        width: 100%;
+    }
+    .jointVenture ul li img {
+        height: auto!important;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: none
+    }
+}
+@media screen and (max-width: 600px) {
+    .onlineTerm-box {
+        width: 100%;
+        margin-right: 0;
+        height: 200px;
+    }
+
+    .onlineTerm-box .onlineTerm-logo{
+        height: 200px;
+    }
+    footer {
+        margin-top: 0
+    }
+
+    footer .footerWrap {
+        padding: 0 0 4rem
+    }
+
+    .jointVenture {
+        padding: 0 10px 7px 10px;
+        max-width: 300px;
+        top: -8px
+    }
+
+    .jointVenture span {
+        margin-left: 1.5rem;
+        font-size: 1.2rem
+    }
+
+    .jointVenture ul {
+        text-align: center;
+        margin-top: -14px
+    }
+
+    .jointVenture ul li {
+        margin: .5rem auto;
+        /* width: 32% */
+    }
+
+    .jointVenture ul li:nth-child(2) img {
+        max-width: 55%
+    }
+}

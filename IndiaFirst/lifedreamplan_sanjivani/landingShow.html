@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>IndiaFirst</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge ">
+	<meta name="description"
+		content="Online Term Plan - Buy Term Insurance Plan Online from IndiaFirst Life &amp; Protect your family financially with a 50 Lakh cover at Rs.8/day. Buy now!">
+	<meta name="keywords" content="keywords">
+	<meta name="viewport" content="width=device-width, height=device-height,initial-scale=1.0,maximum-scale=1.0">
+	<link rel="icon" href="assets/images/favicon.ico" type="image/gif">
+	<link rel="stylesheet" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<link rel="stylesheet" href="assets/css/landingShow.css">
+</head>
+
+<body class="fixed">
+	<div ng-app="myApp" class="home">
+		<form name="termForm">
+			<!--.master-->
+			<header>
+				<div class="container">
+					<div class="logoContentWrap clearfix"><a href="#" class="logo"><img
+								src="assets/images/indiaFirstLogo.png" alt="IndianFirst Life Insurance"></a></div>
+				</div>
+			</header>
+			<div ng-controller="termFormController" class="wrapper-content homeRewamp calreturnpageWrapp">
+				<section class="BenefitWrap JourneyForm">
+					<div class="container">
+						<div class="sec-hd text-center">
+							<div class="form-stepper">
+								<div class="progress-wrap">
+									<ul class="progress-bar-list">
+										<li class="progess-item completed">
+											<div class="progress">
+												<div class="progress-bar"></div>
+											</div><span class="no">1</span><span class="check-icon"></span>
+											<p class="text">Basic Details</p>
+										</li>
+										<li class="progess-item active">
+											<div class="progress">
+												<div class="progress-bar"></div>
+											</div><span class="no">2</span><span class="check-icon"></span>
+											<p class="text">Calculate Returns</p>
+										</li>
+										<li class="progess-item">
+											<div class="progress">
+												<div class="progress-bar"></div>
+											</div><span class="no">3</span><span class="check-icon"></span>
+											<p class="text">Investing for</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="basic-details">
+					<div class="container">
+						<div class="flex-wrap">
+							<div class="lhs">
+								<h2 class="titlefordesktop">Choose Income Options</h2>
+
+								<div class="border-box">
+									<div class="formrowwrapp">
+										<ul class="form-list">
+											<label for=" " class="policytermLabel">Receive Income from</label>
+											<li class="form-item form-rowone">
+												<div class="inputEffect inputField selectList receivedIncomedrop">
+													
+													<div class="selectOption">
+														<select>
+															<option value="">10th Year</option>
+															<option value="Service">12th Year</option>
+															<option value="Service">13th Year</option>
+															<option value="Service">14th Year</option>
+														</select>
+													</div><span class="error_message"></span>
+												</div>
+
+												
+
+												<div class="defferIncome">
+													<p>Deferred Income </p>
+													<div class="popover-block-container">
+														<button tabindex="0" type="button" class="popover-icon" data-popover-content="#unique-id" data-toggle="popover" data-placement="right" data-trigger="hover">
+														  <span class="icon-icon_info"></span>
+														</button>
+														<div id="unique-id" style="display:none;">
+														  <div class="popover-body">
+															1. Get base Income from the end of the 1st policy year till the end of policy paying term. </br>
+															2. Receive an increase in base premium basis the term you opt for i.e., 6,8 and 10 years.	</br>
+															3. Get fixed regular income after the end of policy paying term i.e., after 6th, 8th or 10th year.
+														  </div>
+														</div>
+													  </div>
+											
+												</div>
+												
+											</li>
+										</ul>
+
+										<div class="investfor">
+											<label>Invest</label>
+											<ul class="form-list basic-Detail selfInfo">
+												<li class="form-item">
+													<div class="inputEffect inputField">
+														<input type="text" name="Invest" placeHolder="₹"
+															class="textBox required inputDefault alpha"><span
+															class="error_message"></span>
+													</div>
+												</li>
+												<li class="form-item">
+													<div class="inputEffect inputField selectList">
+														<div class="selectOption">
+															<select>
+																<option value="">Monthly</option>
+																<option value="Service">12th Year</option>
+																<option value="Service">13th Year</option>
+																<option value="Service">14th Year</option>
+															</select>
+														</div><span class="error_message"></span>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="formrowwrapp formrowOut">
+										<label class="labelitle">Pay for</label>
+										<ul class="radiobtnList js-basicdetails">
+											<li class="radioItem radioBt2">
+												<input id="six-years" type="radio" name="buying_for" checked=""
+													value="6 Years">
+												<label for="six-years" class="radioText">6 Years</label>
+											</li>
+											<li class="radioItem radioBt2">
+												<input id="eight-years" type="radio" name="buying_for" value="8 Years">
+												<label for="eight-years" class="radioText">8 Years</label>
+											</li>
+											<li class="radioItem radioBt2 active">
+												<input id="ten-years" type="radio" name="buying_for" value="10 Years">
+												<label for="ten-years" class="radioText">10 Years </label>
+											</li>
+
+										</ul>
+									</div>
+									<div class="formrowwrapp formrowOut">
+										<label class="labelitle">Get Income for</label>
+										<ul class="radiobtnList js-basicdetails getIncomeRadio">
+											<li class="radioItem radioBt active">
+												<input id="thirty-years" type="radio" name="income_for" checked=""
+													value="30 Years">
+												<label for="thirty-years" class="radioText">30 Years</label>
+											</li>
+											<li class="radioItem radioBt">
+												<input id="forty-years" type="radio" name="income_for" value="40 Years">
+												<label for="forty-years" class="radioText">40 Years</label>
+											</li>
+
+
+										</ul>
+									</div>
+									<div class="download-benefit"><span>Download the <a href="javascript:void(0);"
+												class="blue-text">Benefit Illustration</a> before you proceed</span>
+										<span class="downImg"><img src="assets/images/download.png"></span>
+									</div>
+									<div class="btn-wrap form-action"> <a href="javascript:void(0)"
+											class="defaultBtn blueBtn continueBtn"><span>continue</span></a></div>
+								</div>
+							</div>
+							<div class="rhs">
+								<div class="overallreturn-box">
+									<h2 class="overallreturn-title">Overall Returns ₹48.88 Lakh</h2>
+									<div class="content-wrap">
+										<div class="ovrallHead">Get <span class="boldText">Guaranteed Tax-Free</span>
+											Income</div>
+										<div class="guarantedlistWrapp">
+											<div class="inputEffect inputField selectList">
+
+												<div class="selectOption">
+													<select>
+														<option value="">Yearly Income</option>
+														<option value="Service">12th Year</option>
+														<option value="Service">13th Year</option>
+														<option value="Service">14th Year</option>
+													</select>
+												</div><span class="error_message"></span>
+											</div>
+											<ul class="s-list">
+												<li class="s-item">
+													<div class="incomeBlock">
+														<p class="incomlabel">Loyalty Cashback</p>
+														<h4>₹2.5 Lakh</h4>
+														<p class="smallIncom">In the 5th & 10th year</p>
+													</div>
+												</li>
+												<li class="s-item plusBox">+</li>
+												<li class="s-item midItem">
+													<div class="incomeBlock">
+														<p class="incomlabel">Regular Income</p>
+														<h4>₹41,000 p.a.</h4>
+														<p class="smallIncom">From 10-30 year with increase of 45% every
+															5 years</p>
+													</div>
+												</li>
+												<li class="s-item plusBox">+</li>
+												<li class="s-item">
+													<div class="incomeBlock">
+														<p class="incomlabel">Maturity Benefit</p>
+														<h4>₹10 Lakh</h4>
+														<p class="smallIncom">On 31st Year</p>
+													</div>
+												</li>
+
+											</ul>
+
+
+											<div class="inputEffect js-appointmentDate inputField calenderInput">
+												<label>Save the Payout Date <span data-toggle="tooltip" title="Choose a date after your 1st" class="toolTip premiumtooltip"></label>
+
+												<div class="calendarBox">
+													<input type="text" class="datePick textBox"
+														placeholder="Select Date" id="payoutDate">
+												</div>
+												<span class="error_message"></span>
+											</div>
+
+
+										</div>
+										<div class="guarantedlife-cover">
+											<p class="lifecover-Head">& <span class="boldText">₹7.5 Lakh</span> Life
+												Cover</p>
+											<p class="lifecover-para">You will get a total of <span class="boldText">₹20
+													Lakh </span> by investing just
+												<span class="boldText">₹3,500</span> Monthly for 10 years
+											</p>
+										</div>
+
+										<div class="btn-wrap typ-center">
+											<a href="javascript:void(0)"
+												class="defaultBtn blueBtn getOnlinebtn"><span>Get ₹1.5 Lakh extra
+													online</span></a>
+											<a href="javascript:void(0)"
+												class="defaultBtn blueBtn taxsavingbtn"><span>Tax Saving UpTo ₹5
+													Lakh</span></a>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+							<div id="innerreviewDetailModal" tabindex="-1" role="dialog"
+								aria-labelledby="reviewDetailModal" aria-hidden="true"
+								class="modal fade innerreviewDetailModal">
+								<div class="modal-dialog modal-lg">
+									<div class="modal-content">
+										<div class="modal-body">
+											<div class="ContWrap">
+												<div class="form-cont typ-propose-detail">
+													<h3 class="title">Edit Your Details</h3>
+													<ul class="form-list basic-Detail">
+														<div class="formInputs">
+															<div class="formField translateField">
+																<div class="inputEffect inputField">
+																	<label for="min-max" class="investLabel">I want to
+																		invest ₹ <span class="small-text">(One Time
+																			Payment)</span></label>
+																	<input id="investAmount" type="text" name="min-max"
+																		value="50,000"
+																		class="textBox required inputDefault"><span
+																		class="error_message"></span>
+																</div>
+															</div>
+															<div class="formField translateField policyTermField">
+																<div class="inputEffect inputField selectList">
+																	<label for="policy-term" class="policytermLabel">For
+																		a Policy Term of </label>
+																	<div class="selectOption">
+																		<select>
+																			<option>10 Years</option>
+																			<option>20 Years</option>
+																			<option>30 Years</option>
+																		</select>
+																	</div><span class="error_message"></span>
+																</div>
+															</div>
+															<div class="formField translateField lifeCoverField">
+																<div class="inputEffect inputField selectList">
+																	<label for="life-cover" class="lifecoverLabel">And a
+																		Life Cover of ₹</label>
+																	<ul class="radiobtnList">
+																		<li>
+																			<label class="mradioBt2 active"><span
+																					class="radioText">5,00,000</span>
+																				<input type="radio" name="life_cover"
+																					checked="checked">
+																			</label>
+																		</li>
+																		<li>
+																			<label class="mradioBt2"><span
+																					class="radioText">60,000</span>
+																				<input type="radio" name="life_cover">
+																			</label>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+															<div class="formField translateField dateField">
+																<div
+																	class="inputEffect js-appointmentDate inputField calenderInput">
+																	<label for="DOB" class="dobLabel">My Date Of
+																		Birth</label>
+																	<input name="" type="text" required
+																		data-inputmask-alias="date"
+																		data-inputmask-inputformat="dd/mm/yyyy"
+																		im-insert="false" value="05/03/1988"
+																		class="inputmask textBox datepicker required inputDefault"><span
+																		class="error_message"></span>
+																</div>
+															</div>
+															<div class="formField translateField maturityField">
+																<div class="inputEffect inputField selectList">
+																	<label for="maturity" class="maturityLabel">I want
+																		to Receive Maturity Amount As.</label>
+																	<div class="selectOption">
+																		<select>
+																			<option>Lumpsum</option>
+																			<option>Monthly</option>
+																		</select>
+																	</div><span class="error_message"></span>
+																</div>
+															</div>
+														</div>
+													</ul>
+												</div>
+												<div class="btn-wrap typ-center form-action"><a
+														href="javascript:void(0)"
+														class="defaultBtn blueBtn nextBtn"><span> Save</span></a>
+													<button type="button" data-dismiss="modal" aria-hidden="true"
+														class="close"><span class="icon-close"></span></button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="summaryWrapper">
+					<div class="container">
+						<div class="summary-box">
+							<h2 class="summary-title">Review Your Details<a href="#" data-toggle="modal"
+									data-target="#innerreviewDetailModal" class="edit-icon"><img
+										src="assets/images/edit_icon.svg" alt=""></a></h2>
+							<div class="content-wrap">
+								<ul class="s-list">
+									<li class="s-item slist-head">Proposer Details</li>
+									<li class="s-item">Rahul Kumar</li>
+									<li class="s-item">rahulkumar@gmail.com</li>
+									<li class="s-item">+91 9876543219</li>
+									<li class="s-item">07/09/1995 (DOB) </li>
+									<li class="s-item">Male</li>
+								</ul>
+								<ul class="s-list">
+									<li class="s-item slist-head">Life Assured Details</li>
+									<li class="s-item">Rashmi Kumar</li>
+									<li class="s-item">rashmikumar@gmail.com</li>
+									<li class="s-item">+91 9876543219</li>
+									<li class="s-item">07/09/1998 (DOB) </li>
+									<li class="s-item">Female</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="BenefitWrap">
+					<div class="container">
+						<div class="yourLovedOneSec">
+							<div class="LHs">
+								<h2 class="title"> <span>Why choose indiafirst life</span>GUARANTEED SINGLE PREMIUM
+									PLAN?</h2>
+								<ul class="returnList">
+									<li class="returnList-item">Guaranteed Returns on Investment</li>
+									<li class="returnList-item">One-time payment (Single Pay) to ensure financial
+										security through life insurance cover for the entire policy term</li>
+									<li class="returnList-item">Option to avail Insurance Cover of either 1.25 times of
+										Single Premium or 10 times of Single Premium (till Age at Entry 45 years)</li>
+									<li class="returnList-item">Enhanced Maturity Benefit for higher premium bands</li>
+								</ul>
+								<button class="defaultBtn blueBtn"> <span>Apply Now</span></button>
+							</div>
+							<div class="RHs"><img src="assets/images/why_choose.png" alt="your loved ones"></div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<!-- Start footer-->
+			<footer>
+				<div id="hideLandingShow" class="footerCurve">
+					<div class="jointVenture">
+						<ul>
+							<li><span>Promoted By</span><img src="assets/images/promotedBy_BOB.png" alt="BOB">
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footerWrap">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-6">
+								<p>Reg. Off: 12th and 13th Floor, North [C] wing, Tower 4, Nesco IT Park, Nesco Center,
+									Western Express Highway, Goregaon (East), Mumbai – 400063.</p>
+								<p>IRDAI Regd. No. 143 | CIN: U66010MH2008PLC183679</p>
+								<p>For more details on risk factors, associated terms and conditions and exclusions
+									please read the product brochure before concluding a sale.</p>
+								<p> <strong>Disclaimer: </strong>Trade logo displayed above belongs to M/s Bank of
+									Baroda, and used by IndiaFirst Life Insurance Co. Ltd. under license. is a Corporate
+									Agent of Indiafirst Life Insurance . CA 0004</p>
+								<p>© IndiaFirst Life Insurance Company Limited. All rights reserved.</p>
+							</div>
+							<div class="col-sm-6">
+								<div class="bewareBox">
+									<h3>BEWARE OF SPURIOUS PHONE CALLS AND FICTITIOUS/ FRAUDULENT OFFERS</h3>
+									<p>IRDAI clarifies to the public thatIRDAI or its officials do not involve in
+										activities like sale of any kind of insurance or financial products nor
+										investment premiums.IRDAI does not announce any bonus.Public receiving such
+										phone calls are requested to lodge a police complaint along with details of
+										phone call, number.</p>
+								</div>
+							</div><a href="javascript:void(0)" id="js_toTop" class="toTopArrow"><span
+									class="topArrow icon-top-arrow"></span>TOP</a>
+						</div>
+					</div>
+				</div><a href="#calulatePrimium" class="needHelpBt mainHelpBtn js-apply"><span class="helpText">Apply
+						Now</span></a><a href="javascript:void(0)" class="needHelpBt mainHelpBtn callus"><span
+						class="helpText">Need Help?</span></a>
+			</footer>
+			<div class="overlay"></div>
+			<div class="loaderOverlay"></div>
+			<div class="loader"><img src="assets/images/loader.gif"></div>
+			<!-- End footer-->
+			<!-- Start footerScripts-->
+			<script src="assets/js/vendor.js"></script>
+			<script src="assets/js/vendor/jquery-ui.min.js"></script>
+			<script src="assets/js/global.js"></script>
+			<script src="assets/js/landing.js"></script>
+			<script src="assets/js/form-validation.js"></script>
+			<!-- End footerScripts-->
+			<script>
+				$(function () {
+					$('#payoutDate').datepicker({
+
+						buttonImage: 'assets/images/calendar.png',
+						buttonImageOnly: true,
+						changeMonth: true,
+						changeYear: true,
+						dateFormat: "dd/mm/yy",
+						showOn: 'both',
+					});
+					$("[data-toggle=popover]").popover({
+						html : true,
+						trigger: 'hover',
+						content: function() {
+							var content = $(this).attr("data-popover-content");
+							return $(content).children(".popover-body").html();
+						}
+					});
+				});
+			</script>
+		</form>
+	</div>
+</body>
+
+</html>
