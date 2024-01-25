@@ -1,0 +1,115 @@
+@font-face {
+  font-family: Frutiger_Light;
+  src: url(../fonts/FrutigerLTPro-Light.eot);
+  src: url(../fonts/FrutigerLTPro-Light.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/FrutigerLTPro-Light.woff2) format("woff2"),
+    url(../fonts/FrutigerLTPro-Light.woff) format("woff"),
+    url(../fonts/FrutigerLTPro-Light.ttf) format("truetype"),
+    url(../fonts/FrutigerLTPro-Light.svg#FrutigerLTPro-Light) format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Frutiger_Regular;
+  src: url(../fonts/FrutigerLTPro-Roman.eot);
+  src: url(../fonts/FrutigerLTPro-Roman.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/FrutigerLTPro-Roman.woff2) format("woff2"),
+    url(../fonts/FrutigerLTPro-Roman.woff) format("woff"),
+    url(../fonts/FrutigerLTPro-Roman.ttf) format("truetype"),
+    url(../fonts/FrutigerLTPro-Roman.svg#FrutigerLTPro-Roman) format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Frutiger_Bold;
+  src: url(../fonts/FrutigerLTPro-Bold.eot);
+  src: url(../fonts/FrutigerLTPro-Bold.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/FrutigerLTPro-Bold.woff2) format("woff2"),
+    url(../fonts/FrutigerLTPro-Bold.woff) format("woff"),
+    url(../fonts/FrutigerLTPro-Bold.ttf) format("truetype"),
+    url(../fonts/FrutigerLTPro-Bold.svg#FrutigerLTPro-Bold) format("svg");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Frutiger_Black;
+  src: url(../fonts/FrutigerLTPro-Black.eot);
+  src: url(../fonts/FrutigerLTPro-Black.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/FrutigerLTPro-Black.woff2) format("woff2"),
+    url(../fonts/FrutigerLTPro-Black.woff) format("woff"),
+    url(../fonts/FrutigerLTPro-Black.ttf) format("truetype"),
+    url(../fonts/FrutigerLTPro-Black.svg#FrutigerLTPro-Black) format("svg");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: icomoon;
+  src: url(../fonts/icomoon.eot?azbc63);
+  src: url(../fonts/icomoon.eot?azbc63#iefix) format("embedded-opentype"),
+    url(../fonts/icomoon.woff2?azbc63) format("woff2"),
+    url(../fonts/icomoon.ttf?azbc63) format("truetype"),
+    url(../fonts/icomoon.woff?azbc63) format("woff"),
+    url(../fonts/icomoon.svg?azbc63#icomoon) format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+/* header  */
+.headmain .logo{
+  padding: 20px 0;
+}
+.maintance {
+  padding: 11.4rem 0 8rem;
+}
+.maintance-wrapper {
+  text-align: center;
+}
+.maintance-head {
+  color: #45485c;
+  text-align: center;
+  font-family: Frutiger_Bold;
+  font-size: 4rem;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.maintance-sub-head {
+  color: #45485c;
+  font-family: Frutiger_Bold;
+  font-size: 2.4rem;
+  line-height: normal;
+  margin: 2.4rem 0;
+}
+@media only screen and (max-width: 991px) {
+  .main-img-wrap {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .headmain .logo{
+    padding: 10px 0 15px;
+  }
+  .maintance {
+    padding: 5rem 0 4rem;
+  }
+  .maintance-head {
+    font-size: 2.8rem;
+  }
+  .maintance-sub-head {
+    font-size: 1.6rem;
+    margin: 1.6rem auto;
+    max-width: 21.8rem;
+  }
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

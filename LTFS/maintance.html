@@ -1,0 +1,128 @@
+<!DOCTYPE :html>
+<html lang="en">
+	<head>
+		<title>Maintance Page</title>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="description" content=""/>
+		<meta name="keywords" content="keywords"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link href="assets/fonts/FrutigerLTPro-Light.woff" rel="preload" as="font" type="font/woff2" crossorigin="anonymous"/>
+		<link rel="preload" as="font" href="assets/fonts/FrutigerLTPro-Roman.woff" type="font/woff2" crossorigin="anonymous"/>
+		<link rel="preload" as="font" href="assets/fonts/FrutigerLTPro-Bold.woff" type="font/woff2" crossorigin="anonymous"/>
+		<link rel="preload" as="font" href="assets/fonts/FrutigerLTPro-Black.woff" type="font/woff2" crossorigin="anonymous"/>
+		<link rel="preload" as="font" href="assets/fonts/icomoon.woff" type="font/woff2" crossorigin="anonymous"/>
+		<link href="assets/images/favicon.jpg" type="image/ico/gif" sizes="16x16" rel="shortcut icon"/>
+		<link rel="preload" as="images" href="assets/images/loader.gif"/>
+		<style>
+			#loader {
+			    position: fixed;
+			    top: 0;
+			    left: 0;
+			    bottom: 0;
+			    right: 0;
+			    z-index: 4447483647;
+			    background-color: #fff;
+			    opacity: 1;
+			    text-align: center;
+			    transition: .5s ease-in-out;
+			}
+			.loaderContent {
+			    position: absolute;
+			    left: 50%;
+			    top: 50%;
+			    width: 100%;
+			    transform:translate(-50%, -50%);
+			}
+			.loaderContent img {
+			    width: auto;
+			    max-width: 80%;
+			}
+			#loader span{
+			    font-size: 4.2rem;
+			    color: #fff;
+			}
+			
+		</style>
+		<script type="text/javascript">
+			window.onload = function(){ 
+			   // document.getElementById("loader").style.visibility = "hidden";
+			   setTimeout(function() {
+			        var loader = document.getElementById("loader");
+			        loader.style.WebkitTransition = 'visibility .5s, opacity .5s';
+			        loader.style.opacity = '0';
+			        loader.style.visibility = 'hidden';
+			    }, 10);
+			}
+		</script>
+	</head>
+	<body>
+		<div id="loader">
+			<div class="loaderContent"><img src="assets/images/loader.gif" alt="loader" width="220" height="145"/></div>
+		</div>
+		<header class="header"> 
+			<div class="main-header">
+				<div class="container headmain">
+					<a href="javascript:void(0);" rel="noopener noreferrer" title="L&amp;T Financial Services" class="logo">
+						<img src="assets/images/logo.svg" width="218" height="46" alt="L&amp;T Financial Services" title="L&amp;T Financial Services"/>
+					</a>
+				</div>
+			</div>
+			<div class="btm-hdr-border">
+				<div class="btm-header-edge"></div>
+			</div>
+		</header>
+		<div class="pageWrapper maintance">
+			<!--.master-->
+			<section class="maintance">
+				<div class="container">
+					<div class="maintance-wrapper"> 
+						<h1 class="maintance-head">We are under Maintenance!</h1>
+						<p class="maintance-sub-head">Sorry for the inconvenience, we will be back soon.</p>
+						<div class="main-img-wrap"> <img src="assets/images/maintance.png" alt="maintance" width="759" height="459"/></div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- Start footer scripts-->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/header.css">
+		<link rel="stylesheet" href="assets/css/global.css">
+		
+		<link rel="stylesheet" href="assets/css/maintance.css">
+		
+		<script src="assets/js/vendor/jquery-3.6.1.min.js"></script>
+		<script src="assets/js/vendor/jquery-ui.js"></script>
+		<script src="assets/js/global.js"></script>
+		<script type="text/javascript">
+			setTimeout(function(){
+			    var script = document.createElement('script');
+			script.src = "https://ltfs.allincall.in/files/deploy/embed_chatbot_1.js";
+			document.getElementsByTagName('body')[0].appendChild(script);
+			}, 10000);
+			
+			
+			jQuery.event.special.touchstart = {
+			    setup: function( _, ns, handle ) {
+			        this.addEventListener("touchstart", handle, { passive: !ns.includes("noPreventDefault") });
+			    }
+			};
+			jQuery.event.special.touchmove = {
+			    setup: function( _, ns, handle ) {
+			        this.addEventListener("touchmove", handle, { passive: !ns.includes("noPreventDefault") });
+			    }
+			};
+			jQuery.event.special.wheel = {
+			    setup: function( _, ns, handle ){
+			        this.addEventListener("wheel", handle, { passive: true });
+			    }
+			};
+			jQuery.event.special.mousewheel = {
+			    setup: function( _, ns, handle ){
+			        this.addEventListener("mousewheel", handle, { passive: true });
+			    }
+			};
+		</script>
+		<!-- End footer scripts-->
+	</body>
+</html>

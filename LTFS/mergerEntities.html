@@ -1,0 +1,818 @@
+<!DOCTYPE :html>
+<html lang="en">
+	<head>
+		<title>Merger Entities Page</title>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="description" content=""/>
+		<meta name="keywords" content="keywords"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link href="assets/fonts/FrutigerLTPro-Light.woff" rel="preload" as="font" type="font/woff2" crossorigin="anonymous"/>
+		<link rel="preload" as="font" href="assets/fonts/FrutigerLTPro-Roman.woff" type="font/woff2" crossorigin="anonymous"/>
+		<link rel="preload" as="font" href="assets/fonts/FrutigerLTPro-Bold.woff" type="font/woff2" crossorigin="anonymous"/>
+		<link rel="preload" as="font" href="assets/fonts/FrutigerLTPro-Black.woff" type="font/woff2" crossorigin="anonymous"/>
+		<link rel="preload" as="font" href="assets/fonts/icomoon.woff" type="font/woff2" crossorigin="anonymous"/>
+		<link href="assets/images/favicon.jpg" type="image/ico/gif" sizes="16x16" rel="shortcut icon"/>
+		<link rel="preload" as="images" href="assets/images/loader.gif"/>
+		<style>
+			#loader {
+			    position: fixed;
+			    top: 0;
+			    left: 0;
+			    bottom: 0;
+			    right: 0;
+			    z-index: 4447483647;
+			    background-color: #fff;
+			    opacity: 1;
+			    text-align: center;
+			    transition: .5s ease-in-out;
+			}
+			.loaderContent {
+			    position: absolute;
+			    left: 50%;
+			    top: 50%;
+			    width: 100%;
+			    transform:translate(-50%, -50%);
+			}
+			.loaderContent img {
+			    width: auto;
+			    max-width: 80%;
+			}
+			#loader span{
+			    font-size: 4.2rem;
+			    color: #fff;
+			}
+			
+		</style>
+		<script type="text/javascript">
+			window.onload = function(){ 
+			   // document.getElementById("loader").style.visibility = "hidden";
+			   setTimeout(function() {
+			        var loader = document.getElementById("loader");
+			        loader.style.WebkitTransition = 'visibility .5s, opacity .5s';
+			        loader.style.opacity = '0';
+			        loader.style.visibility = 'hidden';
+			    }, 10);
+			}
+		</script>
+	</head>
+	<body>
+		<div id="loader">
+			<div class="loaderContent"><img src="assets/images/loader.gif" alt="loader" width="220" height="145"/></div>
+		</div>
+		<header class="header"> 
+			<div class="top-header headerVscroll">
+				<div class="top-bar vheadscroll">
+					<p><span class="icon-offer"></span>Fulfil your financial needs with LTFS Consumer Loans &amp; pay ZERO* Processing Fees. <a href="https://www.ltfs.com/campaign/urban-finance/consumer-loans.html" rel="noopener noreferrer" class="apply-link">Apply Now </a>*T&amp;C Apply</p>
+				</div>
+				<div class="top-bar vheadscroll">
+					<p><span class="icon-offer"></span>Fulfil your financial needs with LTFS Consumer Loans &amp; pay ZERO* Processing Fees. <a href="https://www.ltfs.com/campaign/urban-finance/consumer-loans.html" rel="noopener noreferrer" class="apply-link">Apply Now </a>*T&amp;C Apply</p>
+				</div>
+				<div class="top-bar vheadscroll"><img src="assets/images/offer.svg" alt="L&amp;T Financial Services offer" title="L&amp;T Financial Services"/>
+					<p>Special Women offer on Micro Loans! - </p><span>Avail at 12% during the month of August. <a href="#" rel="noopener noreferrer" class="apply-link">Apply Now</a></span>
+				</div>
+				<div class="top-bar vheadscroll"><img src="assets/images/offer.svg" alt="L&amp;T Financial Services offer" title="L&amp;T Financial Services"/>
+					<p>Special Women offer on Micro Loans! - </p><span>Avail at 10% during the month of August. <a href="#" rel="noopener noreferrer" class="apply-link">Apply Now</a></span>
+				</div>
+				<div class="top-bar vheadscroll"><img src="assets/images/offer.svg" alt="L&amp;T Financial Services offer" title="L&amp;T Financial Services"/>
+					<p>Special Women offer on Micro Loans! - </p><span>Avail at 12% during the month of August. <a href="#" rel="noopener noreferrer" class="apply-link">Apply Now</a></span>
+				</div>
+			</div>
+			<div class="overlay_menu"></div>
+			<div class="main-header">
+				<div class="searchOverlay"></div>
+				<div class="container headmain"> <a href="javascript:void(0);" rel="noopener noreferrer" title="L&amp;T Financial Services" class="logo"><img src="assets/images/logo.svg" width="218" height="46" alt="L&amp;T Financial Services" title="L&amp;T Financial Services"/></a>
+					<nav class="nav_bar"> 
+						<ul class="nav_list"> 
+							<li class="nav_item dropdown_item"><a href="javascript:void(0);" rel="noopener noreferrer" title="Our Products" class="nav_link">Our Products</a>
+								<div class="dropdown_menu"> 
+									<div class="row"> 
+										<div class="col-xl-4"> <a href="javascript:void(0);" rel="noopener noreferrer" title="Our Products" class="xs-drop-title">Our Products</a>
+											<div class="dropdown_tabs"> 
+												<h3 class="drop-tab_title">Urban Business Finance</h3>
+												<ul class="drop-tab_list"> 
+													<li class="tab_item"><a href="#housingFinace" data-toggle="tab" role="tab" title="Housing Finance" class="tab_link disabled-link tabActive">Housing Finance</a></li>
+													<li class="tab_item"><a href="https://uat-app.ltfs.com/esg-ratings" data-toggle="tab" role="tab" title="Consumer Finance" class="tab_link disabled-link">Consumer Finance</a></li>
+													<li class="tab_item"><a href="#twoWheeler" data-toggle="tab" role="tab" title="Two Wheeler Finance" class="tab_link disabled-link">Two - Wheeler Finance</a></li>
+												</ul>
+												<h3 class="drop-tab_title">Farm Finance</h3>
+												<ul class="drop-tab_list"> 
+													<li class="tab_item"><a href="#farmerEquipment" data-toggle="tab" role="tab" title="Farm Equipment Finance" class="tab_link disabled-link">Farm Equipment Finance</a></li>
+												</ul>
+												<h3 class="drop-tab_title">SME Finance</h3>
+												<ul class="drop-tab_list"> 
+													<li class="tab_item"><a href="#smeLoans" data-toggle="tab" role="tab" title="SME Loans" class="tab_link disabled-link">SME Loans</a></li>
+												</ul>
+												<h3 class="drop-tab_title">Rural Business Finance</h3>
+												<ul class="drop-tab_list"> 
+													<li class="tab_item"><a href="#microLoans" data-toggle="tab" role="tab" title="Micro Loans" class="tab_link disabled-link">Micro Loans</a></li>
+												</ul>
+												<h3 class="drop-tab_title">Wholesale Business</h3>
+												<ul class="drop-tab_list"> 
+													<li class="tab_item"><a href="#realEstate" data-toggle="tab" role="tab" title="Real Estate Finance" class="tab_link disabled-link">Real Estate Finance</a></li>
+													<li class="tab_item"><a href="#infraFinance" data-toggle="tab" role="tab" title="Infrastructure Finance" class="tab_link disabled-link">Infrastructure Finance</a></li>
+												</ul>
+												<h3 class="drop-tab_title">Insurance</h3>
+												<ul class="drop-tab_list"> 
+													<li class="tab_item"><a href="#lifeInsurance" data-toggle="tab" role="tab" title="Life Insurance" class="tab_link disabled-link">Life Insurance</a></li>
+													<li class="tab_item"><a href="#healthInsurance" data-toggle="tab" role="tab" title="Health Insurance" class="tab_link disabled-link">Health Insurance</a></li>
+													<li class="tab_item"><a href="#generalInsurance" data-toggle="tab" role="tab" title="General Insurance" class="tab_link disabled-link">General Insurance</a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="col-xl-8">
+											<div class="tab_cont hdr-tab_content">
+												<div id="housingFinace" data-tab="0" role="tabpanel" class="tab_panel tabmenu">
+													<h3 class="xs-nav_title">Housing Finance</h3>
+													<div class="row"> 
+														<div class="col-lg-6">
+															<div class="card">
+																<h3 class="card-title"><span class="icon icon-home"></span>Housing Finance</h3>
+																<ul class="list-bullets"> 
+																	<li> <a href="javascript:void(0);" rel="noopener noreferrer" title="Home Loan">Home Loan</a></li>
+																	<li> <a href="javascript:void(0);" rel="noopener noreferrer" title="Balance Transfer &amp; TopUp Loans">Balance Transfer &amp; TopUp Loans</a></li>
+																	<li> <a href="javascript:void(0);" rel="noopener noreferrer" title="Loan Against Property">Loan Against Property</a></li>
+																	<li> <a href="javascript:void(0);" rel="noopener noreferrer" title="Non Residential Property">Non Residential Property</a></li>
+																</ul><a href="javascript:void(0);" rel="noopener noreferrer" title="View All Housing Finance" class="viewurl">View All Housing Finance</a>
+															</div>
+															<div class="viewall">   <a href="javascript:void(0);" rel="noopener noreferrer" title="Calculate your Home Loan Eligibility ">Calculate your Home Loan Eligibility </a></div>
+															<div class="viewall"><a href="homeLoan.html#eligibility" rel="noopener noreferrer" title="Calculate your Home Loan EMI">Calculate your Home Loan EMI</a></div>
+														</div>
+													</div>
+												</div>
+												<div id="consumerFinance" data-tab="1" role="tabpanel" class="tab_panel tabmenu">
+													<h3 class="xs-nav_title">Consumer Finance</h3>
+													<div class="row"> 
+														<div class="col-lg-6">
+															<div class="card">
+																<h3 class="card-title"><span class="icon icon-rupeebag"></span>Consumer Loans</h3>
+																<ul class="list"> 
+																	<li> <a href="consumerLoan.html#keyfeature" rel="noopener noreferrer" title="Overview &amp; Key Features" class="pageclicked">Overview &amp; Key Features</a></li>
+																	<li> <a href="consumerLoan.html#eligibility" rel="noopener noreferrer" title="Eligibility" class="pageclicked">Eligibility</a></li>
+																	<li> <a href="consumerLoan.html#documentation" rel="noopener noreferrer" title="Documents" class="pageclicked">Documents</a></li>
+																	<li> <a href="consumerLoan.html#consumerfaq" rel="noopener noreferrer" title="FAQs">FAQs</a></li>
+																</ul>
+																<ul class="list-bullets"> 
+																	<li> <a href="javascript:void(0);" rel="noopener noreferrer" title="Wedding Loans">Wedding Loans</a></li>
+																	<li> <a href="javascript:void(0);" rel="noopener noreferrer" title="Education Loans">Education Loans</a></li>
+																	<li> <a href="javascript:void(0);" rel="noopener noreferrer" title="Hospital Loans">Hospital Loans</a></li>
+																</ul><a href="javascript:void(0);" rel="noopener noreferrer" title="View All Home Loans" class="viewurl">View All Consumer Loans</a>
+															</div>
+															<div class="viewall"><a href="consumerLoan.html#eligibility" rel="noopener noreferrer" title="Calculate your Home Loan Eligibility ">Calculate your Consumer Loan EMI</a></div>
+														</div>
+													</div>
+												</div>
+												<div id="twoWheeler" data-tab="2" role="tabpanel" class="tab_panel tabmenu">
+													<h3 class="xs-nav_title">Two Wheeler Finance</h3>
+													<div class="row"> 
+														<div class="col-lg-6">
+															<div class="card">
+																<h3 class="card-title"><span class="icon icon-bike"></span>Two Wheeler Loan</h3>
+																<ul class="list"> 
+																	<li> <a href="twoWheelerLoan.html#keyfeature" rel="noopener noreferrer" title="Overview &amp; Key Features" class="pageclicked">Overview &amp; Key Features</a></li>
+																	<li> <a href="twoWheelerLoan.html#eligibility" rel="noopener noreferrer" title="Eligibility" class="pageclicked">Eligibility</a></li>
+																	<li> <a href="twoWheelerLoan.html#documentation" rel="noopener noreferrer" title="Documents" class="pageclicked">Documents</a></li>
+																	<li> <a href="twoWheelerLoan.html#twowheelerfaq" rel="noopener noreferrer" title="FAQs">FAQs</a></li>
+																</ul>
+															</div>
+															<div class="viewall"><a href="twoWheelerLoan.html#eligibility" rel="noopener noreferrer" title="Calculate your Two Wheeler Loan EMI ">Calculate your Two Wheeler Loan EMI </a></div>
+														</div>
+													</div>
+												</div>
+												<div id="farmerEquipment" data-tab="3" role="tabpanel" class="tab_panel tabmenu">
+													<h3 class="xs-nav_title">Farm Equipment Finance</h3>
+													<div class="row"> 
+														<div class="col-lg-7">
+															<div class="card">
+																<h3 class="card-title"><span class="icon icon-farmer"></span>Farm Finance</h3>
+																<ul class="list-bullets"> 
+																	<li> <a href="javascript:void(0);" rel="noopener noreferrer" title="New Tractor Loan">New Tractor Loan</a></li>
+																	<li> <a href="javascript:void(0);" rel="noopener noreferrer" title="Implement Finance &amp; Equipment Finance">Kisan Samridhhi (Implement Loan)</a></li>
+																	<li> <a href="javascript:void(0);" rel="noopener noreferrer" title="Refinance &amp; Top Up">Kisan Suvidha (Top Up)</a></li>
+																	<li> <a href="javascript:void(0);" rel="noopener noreferrer" title="Used Tractor Loan">Used/Pre-owned Tractor Loan</a></li>
+																</ul><a href="javascript:void(0);" rel="noopener noreferrer" title="View All" class="viewurl">View All</a>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div id="smeLoans" data-tab="4" role="tabpanel" class="tab_panel tabmenu">
+													<h3 class="xs-nav_title">SME Loans</h3>
+													<div class="row"> 
+														<div class="col-lg-6">
+															<div class="card">
+																<h3 class="card-title"><span class="icon icon-sme"></span>SME Loans</h3>
+																<ul class="list"> 
+																	<li> <a href="smeLoan.html#keyfeature" rel="noopener noreferrer" title="Overview &amp; Key Features" class="pageclicked">Overview &amp; Key Features</a></li>
+																	<li> <a href="smeLoan.html#eligibility" rel="noopener noreferrer" title="Eligibility" class="pageclicked">Eligibility</a></li>
+																	<li> <a href="smeLoan.html#documentation" rel="noopener noreferrer" title="Documents" class="pageclicked">Documents</a></li>
+																	<li> <a href="smeLoan.html#smefaq" rel="noopener noreferrer" title="FAQs" class="pageclicked">FAQs</a></li>
+																</ul>
+															</div>
+															<div class="viewall"><a href="smeLoan.html#eligibility" rel="noopener noreferrer" title="Calculate your SME Loan EMI ">Calculate your SME Loan EMI </a></div>
+														</div>
+														<div class="col-lg-6">
+															<div class="card">
+																<h3 class="card-title"><span class="icon icon-briefcase"></span>Loans to Professionals</h3>
+																<ul class="list"> 
+																	<li> <a href="loansToProfessionals.html#keyfeature" rel="noopener noreferrer" title="Overview &amp; Key Features" class="pageclicked">Overview &amp; Key Features</a></li>
+																	<li> <a href="loansToProfessionals.html#eligibility" rel="noopener noreferrer" title="Eligibility" class="pageclicked">Eligibility</a></li>
+																	<li> <a href="loansToProfessionals.html#documentation" rel="noopener noreferrer" title="Documents" class="pageclicked">Documents</a></li>
+																	<li> <a href="loansToProfessionals.html#ltpfaq" rel="noopener noreferrer" title="FAQs">FAQs</a></li>
+																</ul>
+																<ul class="list-bullets">
+																	<li> <a href="javascript:void(0);" rel="noopener noreferrer" title="Loans to CAs">Loans to CAs</a></li>
+																	<li> <a href="javascript:void(0);" rel="noopener noreferrer" title="Loans to Doctors">Loans to Doctors</a></li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div id="microLoans" data-tab="5" role="tabpanel" class="tab_panel tabmenu">
+													<h3 class="xs-nav_title">Micro Loans</h3>
+													<div class="row"> 
+														<div class="col-lg-6">
+															<div class="card">
+																<h3 class="card-title"><span class="icon icon-microloan"></span>Micro Loan</h3>
+																<ul class="list"> 
+																	<li> <a href="microLoan.html#keyfeature" rel="noopener noreferrer" title="Overview &amp; Key Features" class="pageclicked">Overview &amp; Key Features</a></li>
+																	<li> <a href="microLoan.html#eligibility" rel="noopener noreferrer" title="Eligibility" class="pageclicked">Eligibility</a></li>
+																	<li> <a href="microLoan.html#documentation" rel="noopener noreferrer" title="Documents" class="pageclicked">Documents</a></li>
+																	<li> <a href="microLoan.html#microfaq" rel="noopener noreferrer" title="FAQs">FAQs</a></li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div id="realEstate" data-tab="6" role="tabpanel" class="tab_panel tabmenu">
+													<h3 class="xs-nav_title">Real Estate Finance    </h3>
+													<div class="row"> 
+														<div class="col-lg-6">
+															<div class="card">
+																<h3 class="card-title"><span class="icon icon-realestate"></span>Real Estate Finance</h3>
+																<ul class="list"> 
+																	<li> <a href="javascript:void(0);" rel="noopener noreferrer" title="Overview &amp; Key Features">Overview &amp; Key Features</a></li>
+																	<li> <a href="javascript:void(0);" rel="noopener noreferrer" title="Eligibility">Eligibility</a></li>
+																	<li> <a href="javascript:void(0);" rel="noopener noreferrer" title="Documents">Documents</a></li>
+																	<li> <a href="javascript:void(0);" rel="noopener noreferrer" title="FAQs">FAQs</a></li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div id="infraFinance" data-tab="7" role="tabpanel" class="tab_panel tabmenu">
+													<h3 class="xs-nav_title">Infrastructure Finance</h3>
+													<div class="row"> 
+														<div class="col-lg-6">
+															<div class="card">
+																<h3 class="card-title"><span class="icon icon-infra"></span>Infrastructure Finance</h3>
+																<ul class="list"> 
+																	<li> <a href="infraFinance.html#keyfeature" rel="noopener noreferrer" title="Overview &amp; Key Features" class="pageclicked">Overview &amp; Key Features</a></li>
+																</ul>
+																<ul class="list-bullets"> 
+																	<li> <a href="infraFinance.html#overview" rel="noopener noreferrer" title="Project Financing" class="pageclicked">Project Financing</a></li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div id="lifeInsurance" data-tab="8" role="tabpanel" class="tab_panel tabmenu">
+													<h3 class="xs-nav_title">Life Insurance</h3>
+													<div class="row"> 
+														<div class="col-lg-6">
+															<div class="card">
+																<h3 class="card-title"><span class="icon icon-infra"></span>Life Insurance</h3>
+																<ul class="list-bullets"> 
+																	<li> <a href="#" rel="noopener noreferrer" title="ICICI Prudential Life Insurance" class="pageclicked">ICICI Prudential Life Insurance</a></li>
+																</ul>
+																<ul class="list-bullets"> 
+																	<li> <a href="#" rel="noopener noreferrer" title="Bajaj Life Insurance company LTD" class="pageclicked">Bajaj Life Insurance Company Ltd.</a></li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div id="healthInsurance" data-tab="9" role="tabpanel" class="tab_panel tabmenu">
+													<h3 class="xs-nav_title">Health Insurance</h3>
+													<div class="row"> 
+														<div class="col-lg-6">
+															<div class="card">
+																<h3 class="card-title"><span class="icon icon-infra"></span>Health Insurance</h3>
+																<ul class="list-bullets"> 
+																	<li> <a href="#" rel="noopener noreferrer" title="Manipal Cigna Health Insurance" class="pageclicked">Manipal Cigna Health Insurance</a></li>
+																</ul>
+																<ul class="list-bullets"> 
+																	<li> <a href="#" rel="noopener noreferrer" title="Care Health Insurance" class="pageclicked">Care Health Insurance</a></li>
+																</ul>
+																<ul class="list-bullets"> 
+																	<li> <a href="#" rel="noopener noreferrer" title="Star Health Insurance" class="pageclicked">Star Health Insurance</a></li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div id="generalInsurance" data-tab="10" role="tabpanel" class="tab_panel tabmenu">
+													<h3 class="xs-nav_title">General Insurance</h3>
+													<div class="row"> 
+														<div class="col-lg-6">
+															<div class="card">
+																<h3 class="card-title"><span class="icon icon-infra"></span>General Insurance</h3>
+																<ul class="list-bullets"> 
+																	<li> <a href="#" rel="noopener noreferrer" title="HDFC Ergo General Insurance" class="pageclicked">HDFC Ergo General Insurance</a></li>
+																</ul>
+																<ul class="list-bullets"> 
+																	<li> <a href="#" rel="noopener noreferrer" title="CICI Lombard General Insurance" class="pageclicked">CICI Lombard General Insurance</a></li>
+																</ul>
+																<ul class="list-bullets"> 
+																	<li> <a href="#" rel="noopener noreferrer" title="Magma General Insurance" class="pageclicked">Magma General Insurance</a></li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="nav_item"> <a href="javascript:void(0);" rel="noopener noreferrer" title="About Us" class="nav_link">About Us</a></li>
+							<li class="nav_item dropdown_item"><a href="javascript:void(0);" rel="noopener noreferrer" title="Customer Support" class="nav_link">Customer Support</a>
+								<div class="dropdown_menu"> 
+									<div class="row">
+										<div class="col-lg-4"> <a href="javascript:void(0);" rel="noopener noreferrer" title="Customer Support" class="xs-drop-title">Customer Support</a>
+											<div class="dropdown_tabs"> 
+												<h3 class="drop-tab_title">Customer Support</h3>
+												<ul class="drop-tab_list"> 
+													<li class="tab_item"><a href="#contactUs" data-toggle="tab" role="tab" title="Contact Us" class="tab_link tabActive">Customer Servicing</a></li>
+													<li class="tab_item"> <a href="#faqs" data-toggle="tab" role="tab" title="Frequently Asked Questions" class="tab_link">Frequently Asked Questions</a></li>
+													<li class="tab_item"> <a href="#contact" data-toggle="tab" role="tab" title="Frequently Asked Questions" class="tab_link">Contact Us</a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="col-lg-8">
+											<div class="tab_cont hdr-tab_content">
+												<div id="contactUs" data-tab="0" role="tabpanel" class="tab_panel tabmenu">
+													<h3 class="xs-nav_title">Contact Us</h3>
+													<div class="row"> 
+														<div class="col-lg-6">
+															<div class="card">
+																<h3 class="card-title"><span class="icon icon-call"></span>Contact Us</h3>
+																<ul class="list-bullets"> 
+																	<li> <a href="homeLoan.html#csrreportpolicy" rel="noopener noreferrer" title="Home Loans" class="supportclick">Home Loans</a></li>
+																	<li> <a href="javascript:void(0);" rel="noopener noreferrer" title="Two Wheeler, Consumer &amp; Micro Loans">Two Wheeler, Consumer &amp; Micro Loans</a></li>
+																	<li> <a href="smeLoan.html#csrreportpolicy" rel="noopener noreferrer" title="SME Finance" class="supportclick">SME Finance</a></li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+												
+												<div id="faqs" data-tab="1" role="tabpanel" class="tab_panel tabmenu">
+													<h3 class="xs-nav_title">Frequently Asked Questions</h3>
+													<div class="row"> 
+														<div class="col-lg-6">
+															<div class="card">
+																<h3 class="card-title"><span class="icon icon-faqs"></span>Frequently Asked Questions</h3>
+																<ul class="list-bullets"> 
+																	<li> <a href="faqs.html#consumer" rel="noopener noreferrer" title="consumer Loans" class="pageclicked">Consumer Loans</a></li>
+																	<li> <a href="faqs.html#twowheeler" rel="noopener noreferrer" title="Two Wheeler" class="pageclicked">Two Wheeler</a></li>
+																	<li> <a href="faqs.html#sme" rel="noopener noreferrer" title="SME Finance" class="pageclicked">SME Loans</a></li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div id="contact" data-tab="2" role="tabpanel" class="tab_panel tabmenu">
+													<h3 class="xs-nav_title">Contact Us</h3>
+													<div class="row"> 
+														<div class="col-lg-6">
+															<div class="card">
+																<h3 class="card-title"><span class="icon icon-faqs"></span>Contact Us</h3>
+																<ul class="list-bullets"> 
+																	<li> <a href="contact-us.html" rel="noopener noreferrer" title="Connect with us" class="pageclicked">Connect With Us</a></li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="nav_item"><a href="javascript:void(0);" rel="noopener noreferrer" title="Investor" class="nav_link">Investor</a></li>
+						</ul>
+						<div class="xs-nav_btns"><a href="javascript:void(0);" title="Quick Pay" class="btn-secondary btn-default detectdevice">Quick Pay</a><a href="javascript:void(0);" title="Login" class="btn-dark btn-default detectdevice">Login</a></div>
+					</nav>
+					<div class="right-nav"> 
+						<ul class="right-navlist">
+							<li>
+								<div class="downloandIcon mb-link"> <img src="assets/images/planet.png" width="37" heigh="37" alt="L&amp;T Planet App" title="L&amp;T PLanet App"/><img src="assets/images/planet-download.svg" width="37" heigh="26" alt="L&amp;T Planet App" title="L&amp;T PLanet App"/>
+								</div><a href="" class="downloadTxt">Download PLANET App</a>
+							</li>
+							<li class="d-lg mb-link headerbtns"><a href="https://planet.ltfs.com/LTFS/" target="_blank" title="Quick Pay" class="btn-header btn-default">Quick Pay   </a><a href="#" title="Login" class="btn-dark btn-default">Login  </a></li>
+							<li class="mb-link">
+								<button id="burger" type="button" aria-label="Toggle navigation" class="burger"><span class="burger-line"></span><span class="burger-line"></span><span class="burger-line"></span><span class="burger-line"></span></button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="btm-hdr-border">
+				<div class="btm-header-edge"></div>
+			</div>
+		</header>
+		<div class="pageWrapper mergerentities">
+			<!--.master-->
+			<div class="container">
+				<div class="breadcrumb">
+					<ul class="list">
+						<li class="list-item"><a href="javascript:void(0)" rel="noopener noreferrer" title="home">Home</a></li>
+						<li class="list-item"><span class="icon icon-arrow-right"></span></li>
+						<li class="list-item"><span>L &amp; T Finance</span></li>
+						<li class="list-item"><span class="icon icon-arrow-right"></span></li>
+						<li class="list-item active"><span>Our Companies</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="merger-Banner"><a href="javascript:void(0)" rel="noopener noreferrer" title="Merger Entities Banner">
+					<picture>
+						<source media="(max-width:578px)" srcset="assets/images/merger414.jpg"/>
+						<source media="(max-width:768px)" srcset="assets/images/merger768.jpg"/>
+						<source media="(max-width:1440px)" srcset="assets/images/merger1440.jpg"/>
+						<source media="(max-width:1920px)" srcset="assets/images/merger1920.jpg"/><img src="assets/images/merger1920.jpg" alt="Document Checklist Banner"/>
+					</picture></a></div>
+			<section class="mergerWrap">
+				<div class="container">
+					<h2 class="title-inner">Merged Entities</h2>
+					<div class="ourmergerWrap">
+						<div class="mergercards"> 
+							<picture>
+								<source media="(max-width:578px)" srcset="assets/images/financemerger_mb.jpg"/>
+								<source media="(max-width:768px)" srcset="assets/images/finance_merger.png"/><img src="assets/images/finance_merger.png" alt="L&amp;T Finance Limited"/>
+							</picture>
+							<div class="merger-overlay"> 
+								<h4>L&amp;T Finance Limited</h4>
+								<p>Our vision at L&amp;T Finance is to be Admirable, Inspirational &amp; Sustainable institution.</p>
+								<div class="btn-wrapper"> <a class="mergerbtn btn-default btn-outline">Know More</a></div>
+							</div>
+						</div>
+						<div class="mergercards"> 
+							<picture>
+								<source media="(max-width:578px)" srcset="assets/images/ic_merger_mb.jpg"/>
+								<source media="(max-width:768px)" srcset="assets/images/infracredit-merger.png"/><img src="assets/images/infracredit-merger.png" alt="L&amp;T Infra Credit Limited"/>
+							</picture>
+							<div class="merger-overlay"> 
+								<h4>L&amp;T Infra Credit Limited</h4>
+								<p>Financing solutions to eligible customers including operational infrastructure project companies.</p>
+								<div class="btn-wrapper"> <a class="mergerbtn btn-default btn-outline">Know More</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="downloadApp"> 
+				<picture>
+					<source media="(max-width:767px)" srcset="assets/images/downloadbg.png"/>
+					<source media="(max-width:420px)" srcset="assets/images/downloadbg.png"/><img src="" data-src="assets/images/downloadbg.png" alt="download app bg" loading="lazy" class="ltfs-bg lazy"/>
+				</picture>
+				<div class="container">
+					<div class="downloadWrap">
+						<div class="downloadWrapLeft">
+							<h2 class="section-heading">Download the PLANET App</h2><span class="appStore"><a href="#" title="apple badge" class="badge"> <img src="" data-src="assets/images/badge-apple.png" alt="apple badge" width="142" height="46" loading="lazy" class="apple-badge lazy"/></a><a href="#" title="google badge" class="badge-google"> <img src="" data-src="assets/images/badge-google.png" alt="google badge" width="153" height="46" loading="lazy" class="google-badge lazy"/></a></span>
+						</div>
+						<div class="downloadWrapRight">
+							<p>Connect with us: </p>
+							<ul>
+								<li><a href="#" target="_blank"><span class="icon-whatsapp"></span></a></li>
+								<li><a href="#" target="_blank"><span class="icon-facebook"></span></a></li>
+								<li><a href="#" target="_blank" class="twitterX_Dlogo"><img src="assets/images/twitter_x.svg" alt="twitter X logo"/></a></li>
+								<li><a href="#" target="_blank"><span class="icon-linkedin"></span></a></li>
+								<li><a href="#" target="_blank"><span class="icon-youtube"></span></a></li>
+								<li><a href="#" target="_blank"><span class="icon icon-insta"></span></a></li>
+								<li><a href="#" target="_blank"><span class="icon icon-quora"></span></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div id="sidePanelChamber" class="sidePanel sidetwo">
+				<div class="boxPanel">
+					<div class="sideBoxed">
+						<h4 class="Quick_link">Quick Links</h4>
+					</div><a class="icon-chamber"><span class="icon-arrow-right"></span></a>
+					<ul class="sidePanel_List">
+						<li class="side_list"><a href="javascript:void(0)" class="side_link"><img src="" data-src="assets/images/cibil_score.svg" alt="cibil score" width="32" height="21" loading="lazy" class="lazy hide-large"/><img src="" data-src="assets/images/cibil_mobile.svg" alt="cibil score" width="28" height="19" loading="lazy" class="lazy show-large"/>Check CIBIL score</a></li>
+						<li class="side_list"><a href="javascript:void(0)" class="side_link"><img src="" data-src="assets/images/download_soa.svg" alt="download soa" width="32" height="32" loading="lazy" class="lazy hide-large"/><img src="" data-src="assets/images/download_soa_mobile.svg" alt="download soa" width="28" height="28" loading="lazy" class="lazy show-large"/>Download SOA</a></li>
+						<li class="side_list"><a href="javascript:void(0)" class="side_link"><img src="" data-src="assets/images/emi_details.svg" alt="emi_details" width="26" height="28" loading="lazy" class="lazy hide-large"/><img src="" data-src="assets/images/emi_details_mobile.svg" alt="emi_details" width="28" height="28" loading="lazy" class="lazy show-large"/><span>EMI Details</span></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="chamberOverlay"></div>
+			<div class="bottomTab">
+				<ul class="bottomTabLink">
+					<li class="bottomLink quick-links"> <a href="javascript:void(0)">Quick Links<span id="chamberNav" class="icon-quick-links"></span></a></li>
+					<li class="bottomLink bottomLink2"><a href="javascript:void(0)">Login<span class="icon-login"> </span></a></li>
+					<li class="bottomLink btmlink3"><a href="javascript:void(0)"> 
+							<h4>Ask <span>LTFS</span></h4><img src="" data-src="assets/images/askbot_mb.svg" alt="chat bot" width="" height="" loading="lazy" class="lazy"/></a></li>
+				</ul>
+			</div>
+			<div class="chatBox">
+				<div class="chatPin"><a href="javascript:void(0)" class="chatlink">Ask<span>LTFS   </span></a></div>
+				<div class="chatBotBox"><img src="assets/images/ask_bot.svg" alt="Chat Bot"/></div>
+			</div>
+		</div>
+		<!-- Start footer-->
+		<footer id="footer">
+			<div class="footer-wrapper contents">
+				<!-- Top Footer Start-->
+				<div class="productTabFooter">
+					<h2 class="title-main">Our Products</h2>
+					<ul class="tabs">
+						<li rel="tab1" class="active">Consumer Loan </li>
+						<li rel="tab2">Two Wheeler Loan</li>
+						<li rel="tab3">Home Loans</li>
+						<li rel="tab4">Farmer Finance</li>
+						<li rel="tab5">Micro Finance</li>
+						<li rel="tab6">SME Loan</li>
+						<li rel="tab7">Loan Against Property</li>
+						<li rel="tab8">Finance for Professionals</li>
+					</ul>
+					<div class="tab_container">
+						<h3 rel="tab1" class="tab_drawer_heading">Consumer Loan</h3>
+						<div id="tab1" class="tab_content">
+							<ul class="innerTabContent">
+								<li> <a href="javascript:void(0);">Instant Consumer Loan</a></li>
+								<li> <a href="javascript:void(0);">Consumer Loan Interest Rates</a></li>
+								<li> <a href="javascript:void(0);">Consumer Loan Eligibility</a></li>
+								<li> <a href="javascript:void(0);">Consumer Loan Eligibility Calculator</a></li>
+								<li> <a href="javascript:void(0);">Consumer Loan Documents</a></li>
+								<li> <a href="javascript:void(0);">Consumer Loan EMI Calculator</a></li>
+								<li> <a href="javascript:void(0);">Consumer Loan for Salaried</a></li>
+								<li> <a href="javascript:void(0);">Consumer Loan for self Employed</a></li>
+								<li> <a href="javascript:void(0);">Wedding Loan</a></li>
+								<li> <a href="javascript:void(0);">Consumer Loan for Home Renovation</a></li>
+								<li> <a href="javascript:void(0);">Consumer Loan for Business Loan</a></li>
+								<li> <a href="javascript:void(0);">Medical Emergency Loan</a></li>
+							</ul>
+						</div>
+						<h3 rel="tab2" class="tab_drawer_heading">Two Wheeler Loan </h3>
+						<div id="tab2" class="tab_content">
+							<ul class="innerTabContent"> 
+								<li> <a href="javascript:void(0);">Two Wheeler Loan</a></li>
+								<li> <a href="javascript:void(0);">Two Wheeler Loan Interest Rates</a></li>
+								<li> <a href="javascript:void(0);">Two Wheeler Loan Eligibility</a></li>
+								<li> <a href="javascript:void(0);">Two Wheeler Loan EMI Calculator</a></li>
+								<li> <a href="javascript:void(0);">Bike Loan</a></li>
+							</ul>
+						</div>
+						<h3 rel="tab3" class="tab_drawer_heading">Home Loans</h3>
+						<div id="tab3" class="tab_content">
+							<ul class="innerTabContent"> 
+								<li> <a href="javascript:void(0);">Home Loan</a></li>
+								<li> <a href="javascript:void(0);">Home Loan Interest Rates</a></li>
+							</ul>
+						</div>
+						<h3 rel="tab4" class="tab_drawer_heading">Farmer Finance</h3>
+						<div id="tab4" class="tab_content">
+							<ul class="innerTabContent"> 
+								<li> <a href="javascript:void(0);">Tractor Loan</a></li>
+								<li> <a href="javascript:void(0);">Used Tractor Loan</a></li>
+								<li> <a href="javascript:void(0);">Refinance &amp; Top-up Loan</a></li>
+								<li> <a href="javascript:void(0);">Implement Finance</a></li>
+								<li> <a href="javascript:void(0);">Warehouse Receipt Finance</a></li>
+								<li> <a href="javascript:void(0);">Corporate Farming Finance</a></li>
+							</ul>
+						</div>
+						<h3 rel="tab5" class="tab_drawer_heading">Micro Loan </h3>
+						<div id="tab5" class="tab_content">
+							<ul class="innerTabContent"> 
+								<li> <a href="javascript:void(0);">Micro Loan</a></li>
+								<li> <a href="javascript:void(0);">Micro Loan Interest Rates</a></li>
+							</ul>
+						</div>
+						<h3 rel="tab6" class="tab_drawer_heading">SME Loan</h3>
+						<div id="tab6" class="tab_content">
+							<ul class="innerTabContent"> 
+								<li> <a href="javascript:void(0);">Business Loan</a></li>
+								<li> <a href="javascript:void(0);">Business Loan Interest Rates</a></li>
+								<li> <a href="javascript:void(0);">Business Loan Eligibility</a></li>
+								<li> <a href="javascript:void(0);">Business Loan Eligibility Calculator</a></li>
+								<li> <a href="javascript:void(0);">Business Loan Documents</a></li>
+								<li> <a href="javascript:void(0);">Business Loan EMI Calculator</a></li>
+							</ul>
+						</div>
+						<h3 rel="tab7" class="tab_drawer_heading">Loan Against Property</h3>
+						<div id="tab7" class="tab_content">
+							<ul class="innerTabContent"> 
+								<li> <a href="javascript:void(0);">Loan Against Property</a></li>
+								<li> <a href="javascript:void(0);">Loan Against Property Interest Rates</a></li>
+								<li> <a href="javascript:void(0);">Loan Against Property Eligibility</a></li>
+								<li> <a href="javascript:void(0);">Loan Against Property Documents</a></li>
+								<li> <a href="javascript:void(0);">Loan Against Property EMI Calculator</a></li>
+							</ul>
+						</div>
+						<h3 rel="tab8" class="tab_drawer_heading">Finance for Professionals </h3>
+						<div id="tab8" class="tab_content">
+							<ul class="innerTabContent"> 
+								<li> <a href="javascript:void(0);">Loan for Doctors</a></li>
+								<li> <a href="javascript:void(0);">Loan for Chartered Accountants</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- End Top Footer-->
+				<!-- Middle Footer Start-->
+				<ul class="footer-menu"> 
+					<li class="footer-item">
+						<h2 class="title">Our Companies</h2>
+						<ul class="footer-list">
+							<li class="footer-list-item"><a href="javascript:void(0);">L&amp;T Finance</a></li>
+							<li class="footer-list-item"><a href="javascript:void(0);">L&amp;T Infra Credit</a></li>
+							<li class="footer-list-item"><a href="javascript:void(0);">L&amp;T Investment Management</a></li>
+							<li class="footer-list-item"><a href="javascript:void(0);">L&amp;T Financial Consultants</a></li>
+							<li class="footer-list-item w-230"><a href="/int-investment-management">L&amp;T Financial Consultants</a>   L&amp;T Investment Management Limited 
+								   (L&amp;T Investment Management has been 
+								  sold to HSBC Asset Management Company)
+							</li>
+						</ul>
+					</li>
+					<li class="footer-item">
+						<h2 class="title">About LTFS</h2>
+						<ul class="footer-list">
+							<li class="footer-list-item"><a href="javascript:void(0);">About us</a></li>
+							<li class="footer-list-item"><a href="javascript:void(0);">Careers</a></li>
+							<li class="footer-list-item"><a href="javascript:void(0);">Investors</a></li>
+							<li class="footer-list-item"><a href="javascript:void(0);">Sustainability &amp; CSR</a></li>
+							<li class="footer-list-item"><a href="javascript:void(0);">Media Centre</a></li>
+						</ul>
+					</li>
+					<li class="footer-item">
+						<h2 class="title">Resources</h2>
+						<ul class="footer-list">
+							<li class="footer-list-item"><a href="javascript:void(0);">Quick Pay EMI</a></li>
+							<li class="footer-list-item"><a href="javascript:void(0);">Get your EMI Details</a></li>
+							<li class="footer-list-item"><a href="javascript:void(0);">Download SOA</a></li>
+							<li class="footer-list-item"><a href="javascript:void(0);">Customer Support</a></li>
+							<li class="footer-list-item"><a href="javascript:void(0);">Blogs</a></li>
+						</ul>
+					</li>
+					<li class="footer-item">
+						<h2 class="title">Essentials</h2>
+						<ul class="footer-list">
+							<li class="footer-list-item"><a href="javascript:void(0);">Calculators <span class="icon-arrow-right"></span>
+									<div class="hidden-fcard">
+										<ul class="footer-inside-list">
+											<li class="footer-list-item"><a href="homeLoan.html#eligibility">Home loan Calculator</a></li>
+											<li class="footer-list-item"><a href="javascript:void(0);">Get your EMI Details</a></li>
+											<li class="footer-list-item"><a href="javascript:void(0);">Balance Transfer and Topup loans</a></li>
+											<li class="footer-list-item"><a href="javascript:void(0);">Customer Support</a></li>
+											<li class="footer-list-item"><a href="javascript:void(0);">Blogs</a></li>
+											<li class="footer-list-item"><a href="javascript:void(0);">Quick Pay EMI</a></li>
+											<li class="footer-list-item"><a href="javascript:void(0);">Get your EMI Details</a></li>
+											<li class="footer-list-item"><a href="javascript:void(0);">Download SOA</a></li>
+											<li class="footer-list-item"><a href="javascript:void(0);">Customer Support</a></li>
+											<li class="footer-list-item"><a href="javascript:void(0);">Blogs</a></li>
+										</ul>
+									</div></a></li>
+							<li class="footer-list-item"><a href="javascript:void(0);">Rates &amp; Charges <span class="icon-arrow-right"></span>
+									<div class="hidden-fcard">
+										<ul class="footer-inside-list">
+											<li class="footer-list-item"><a href="twoWheelerLoan.html#feecharge">Fees Charge</a></li>
+											<li class="footer-list-item"><a href="javascript:void(0);">Get your EMI Details</a></li>
+											<li class="footer-list-item"><a href="javascript:void(0);">Download SOA</a></li>
+											<li class="footer-list-item"><a href="javascript:void(0);">Customer Support</a></li>
+											<li class="footer-list-item"><a href="javascript:void(0);">Blogs</a></li>
+										</ul>
+									</div></a></li>
+							<li class="footer-list-item"><a href="javascript:void(0);">Credit Score <span class="icon-arrow-right">
+										<div class="hidden-fcard">
+											<ul class="footer-inside-list">
+												<li class="footer-list-item"><a href="javascript:void(0);">Quick Pay EMI</a></li>
+												<li class="footer-list-item"><a href="javascript:void(0);">Get your EMI Details</a></li>
+												<li class="footer-list-item"><a href="javascript:void(0);">Download SOA</a></li>
+												<li class="footer-list-item"><a href="javascript:void(0);">Customer Support</a></li>
+												<li class="footer-list-item"><a href="javascript:void(0);">Blogs</a></li>
+											</ul>
+										</div></span></a></li>
+						</ul>
+					</li>
+					<li class="footer-item">
+						<h2 class="title">Important Links</h2>
+						<ul class="footer-list">
+							<li class="footer-list-item"><a href="javascript:void(0);">Customer Advisory</a></li>
+							<li class="footer-list-item"><a href="javascript:void(0);">Interest Rate Model</a></li>
+							<li class="footer-list-item"><a href="javascript:void(0);">Schedule of Charges</a></li>
+							<li class="footer-list-item"><a href="javascript:void(0);">Prime Lending Rates (PLR)</a></li>
+							<li class="footer-list-item"><a href="javascript:void(0);">The Ombudsman Scheme</a></li>
+							<li class="footer-list-item"><a href="javascript:void(0);">COVID -19 Fraud Advisory</a></li>
+						</ul>
+					</li>
+					<li class="footer-item">
+						<h2 class="title">Our Parent Company</h2>
+						<ul class="footer-list">
+							<li class="footer-list-item"><a href="javascript:void(0);">Larsen and Toubro Limited </a></li>
+						</ul>
+					</li>
+					<li class="footer-item active-cont">
+						<h2 class="title">Contact Us</h2>
+						<div class="office-add">
+							<div class="comp-name">Corporate Office</div>
+						</div>
+						<div class="location"><span class="icon icon-location2"></span>
+							<div class="off-loc">Brindavan, Plot no. 177,CST Road, Kalina, Santacruz (East), Mumbai - 400 098, Maharashtra, India</div>
+						</div>
+						<div class="contact"><span class="icon icon-call"></span>
+							<div class="off-loc"><a href="tel: +91 22 6212 5000"> +91 22 6212 5000</a></div>
+						</div>
+						<div class="office-add">
+							<div class="comp-name">Registered Office</div>
+						</div>
+						<div class="location"><span class="icon icon-location2"></span>
+							<div class="off-loc">15th Floor, PS SRIJAN Tech Park, Plot No 52, Block DN, Sector-V, Salt Lake City, Kolkata – 700 091, District 24-Parganas North</div>
+						</div>
+						<div class="contact"><span class="icon icon-call"></span>
+							<div class="off-loc"><a href="tel: +91 22 6212 5000"> +91 22 6212 5000</a></div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- Middle Footer Ends-->
+			<!-- Copyright footer Start-->
+			<div class="disclaimer-wrapper">
+				<div class="disclaimer-wrap">
+					<div class="copyright-txt">© L&amp;T Finance Holdings Limited | CIN: U45200MH1994PLC259630        </div>
+					<div class="disclaimer-txt">
+						<ul class="disclaimer-list"> 
+							<li class="disc-item"> <a href="javascript:void(0);">Disclaimer</a></li>
+							<li class="disc-item"> <a href="javascript:void(0);">Privacy Policy</a></li>
+							<li class="disc-item"> <a href="javascript:void(0);">Sitemap</a></li>
+							<li class="disc-item"> <a href="javascript:void(0);">Grievance Redressal</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="downloadWrapRight">
+					<div class="show-mobile-social">
+						<p>Connect with us: </p>
+						<ul class="social-list">
+							<li class="social-list-item"><a href="#" target="_blank"><span class="icon icon-whatsapp"></span></a></li>
+							<li class="icon social-list-item"><a href="#" target="_blank"><span class="icon icon-facebook"></span></a></li>
+							<li class="social-list-item"><a href="#" target="_blank" class="twitter_Mlogo"><img src="assets/images/twitter_x.svg" alt="twitter X logo"/></a></li>
+							<li class="social-list-item"><a href="#" target="_blank"><span class="icon icon-linkedin"></span></a></li>
+							<li class="social-list-item"><a href="#" target="_blank"><span class="icon icon-youtube"></span></a></li>
+							<li class="social-list-item"><a href="#" target="_blank"><span class="icon icon-insta"></span></a></li>
+							<li class="social-list-item"><a href="#" target="_blank"><span class="icon icon-quora"></span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- Copyright Footer Ends-->
+		</footer>
+		<!-- End footer-->
+		<!-- Start footer scripts-->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/header.css">
+		<link rel="stylesheet" href="assets/css/global.css">
+		
+		<link rel="stylesheet" href="assets/css/mergerentities.css">
+		<link rel="stylesheet" href="assets/css/home-DownloadApp.css">
+		<link rel="stylesheet" href="assets/css/home-SidePanel.css">
+		<link rel="stylesheet" href="assets/css/home-chatbot.css">
+		<link rel="stylesheet" href="assets/css/home-BottomTab.css">
+		<link rel="stylesheet" href="assets/css/footer.css">
+		
+		
+		<script src="assets/js/vendor/jquery-3.6.1.min.js"></script>
+		<script src="assets/js/vendor/jquery-ui.js"></script>
+		<script src="assets/js/global.js"></script>
+		<script type="text/javascript">
+			setTimeout(function(){
+			    var script = document.createElement('script');
+			script.src = "https://ltfs.allincall.in/files/deploy/embed_chatbot_1.js";
+			document.getElementsByTagName('body')[0].appendChild(script);
+			}, 10000);
+			
+			
+			jQuery.event.special.touchstart = {
+			    setup: function( _, ns, handle ) {
+			        this.addEventListener("touchstart", handle, { passive: !ns.includes("noPreventDefault") });
+			    }
+			};
+			jQuery.event.special.touchmove = {
+			    setup: function( _, ns, handle ) {
+			        this.addEventListener("touchmove", handle, { passive: !ns.includes("noPreventDefault") });
+			    }
+			};
+			jQuery.event.special.wheel = {
+			    setup: function( _, ns, handle ){
+			        this.addEventListener("wheel", handle, { passive: true });
+			    }
+			};
+			jQuery.event.special.mousewheel = {
+			    setup: function( _, ns, handle ){
+			        this.addEventListener("mousewheel", handle, { passive: true });
+			    }
+			};
+		</script>
+		<!-- End footer scripts-->
+	</body>
+</html>
